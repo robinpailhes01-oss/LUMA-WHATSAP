@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Variables shadcn/ui exprimées en HSL, mappées sur les tokens Luma (DESIGN.md).
+  navy #1B3A5C = 211 55% 23% · gold #C9A84C = 44 54% 54% · cream #F5F0E8 = 37 39% 94%
+  ink #0F1B2D = 216 50% 12% · ink-muted #5B6675 = 215 13% 41% · line #E3DDD2 = 39 23% 86%
+  danger #B4443E = 3 49% 47%
+*/
+@layer base {
+  :root {
+    --background: 37 39% 94%;
+    --foreground: 216 50% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 216 50% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 216 50% 12%;
+    --primary: 211 55% 23%;
+    --primary-foreground: 37 39% 94%;
+    --secondary: 213 33% 92%;
+    --secondary-foreground: 211 55% 23%;
+    --muted: 40 18% 92%;
+    --muted-foreground: 215 13% 41%;
+    --accent: 44 54% 54%;
+    --accent-foreground: 216 50% 12%;
+    --destructive: 3 49% 47%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 39 23% 86%;
+    --input: 39 23% 86%;
+    --ring: 211 55% 23%;
+    --radius: 8px;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-cream text-ink font-sans text-sm antialiased;
+  }
+
+  /* Titres de page uniquement : display serif */
+  h1 {
+    @apply font-display font-medium text-2xl text-navy tracking-tight;
+  }
+
+  /* Focus clavier visible partout (plancher qualité du skill) */
+  :focus-visible {
+    @apply outline-none ring-2 ring-navy ring-offset-2 ring-offset-cream;
+  }
+
+  ::selection {
+    @apply bg-gold-tint text-ink;
+  }
+}
+
+@layer utilities {
+  /* Données : mono + chiffres tabulaires */
+  .font-data {
+    @apply font-mono tabular-nums;
+  }
+  /* Libellé d'en-tête de table / de champ */
+  .text-label {
+    @apply text-xs uppercase tracking-label text-ink-muted font-medium;
+  }
+}
+
+/* prefers-reduced-motion : durées à zéro, aucun déplacement */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
