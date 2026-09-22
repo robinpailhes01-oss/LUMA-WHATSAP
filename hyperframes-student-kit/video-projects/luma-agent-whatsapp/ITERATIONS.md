@@ -41,3 +41,9 @@ Résultat souhaité :
 Priorité : indispensable / amélioration / test
 Après livraison : validé / à reprendre / à comparer
 ```
+
+## Note (22/09/2026, après v001)
+
+La bibliothèque de marque LUMA (`../luma-film/LUMA_Bibliotheque_Marque.md`, 4 planches de Robin) a été déposée après ce rendu.
+Une v002 l'appliquera par défaut : palette officielle (#0B0F2D / #3B82F6 / #7C3AED), hook Barlow Condensed ExtraBold,
+annotations Caveat, bouton CTA « Découvrir Luma → », end card bleu nuit + glow. Voir §8 du document pour les écarts.

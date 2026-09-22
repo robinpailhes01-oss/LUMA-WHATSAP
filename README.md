@@ -48,3 +48,6 @@ son `README.md` (`npm ci`, `npm run setup`, `npm test`).
 de direction évolutif des films LUMA (brief, références, identité, méthode d'itération).
 Le carnet `ITERATIONS.md` et la liste des fichiers de référence attendus (`references/README.md`)
 sont dans le même dossier. Toute session de montage LUMA doit le lire en premier.
+`LUMA_Bibliotheque_Marque.md` (même dossier) transcrit la bibliothèque de marque fournie par Robin
+(4 planches dans `references/LUMA_Bibliotheque_0*.png`) : palette, typographies, éléments, gabarits 9:16,
+principes d'animation. Elle s'applique à tout nouveau montage.

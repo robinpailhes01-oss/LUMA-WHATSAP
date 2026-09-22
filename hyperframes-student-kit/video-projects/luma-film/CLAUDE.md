@@ -1,6 +1,6 @@
 # Projet vidéo LUMA — consignes de reprise
 
-Le fichier `LUMA_References_Video.md` est la référence créative évolutive. Lire aussi `ITERATIONS.md`, `DESIGN.md`, `REFERENCE-ANALYSIS.md` et `REPRISE_TECHNIQUE.md` avant de modifier le projet.
+Le fichier `LUMA_References_Video.md` est la référence créative évolutive et `LUMA_Bibliotheque_Marque.md` la bibliothèque de marque (palette, typographies, éléments, gabarits, animation) à appliquer à tout nouveau montage. Lire aussi `ITERATIONS.md`, `DESIGN.md`, `REFERENCE-ANALYSIS.md` et `REPRISE_TECHNIQUE.md` avant de modifier le projet.
 
 Les nouvelles instructions de Robin priment. Distinguer ses décisions explicites des choix de réalisation encore en discussion. Ne pas prétendre que le dernier rendu a été approuvé.
 
@@ -21,4 +21,5 @@ L'objectif est une progression mesurable vers la référence et la marque LUMA, 
 
 - Ici, les skills du Student Kit **sont** installés : `hyperframes-student-kit/.claude/skills/` (14 skills), dépendances via `npm ci` à la racine du kit, rendu avec `npx hyperframes render` depuis ce dossier.
 - Les fichiers du projet exécutable (`build.mjs`, `motion.js`, `assets/plan.json`, `renders/v001_reference.mp4`, `references/`, polices) ne sont pas encore déposés ; voir `references/README.md`. Tant qu'ils manquent, aucune itération v002 ne peut être comparée à v001.
+- Avant tout nouveau montage : lire `LUMA_Bibliotheque_Marque.md` et ouvrir les 4 planches `references/LUMA_Bibliotheque_0*.png`. Les films v001 de septembre 2026 (`luma-audit-ia`, `luma-audit-gratuit`, `luma-agent-whatsapp`) datent d'avant cette bibliothèque ; leurs écarts sont listés au §8 et ne se corrigent que sur demande de Robin.
 - Les séquences iPhone en HDR (HLG/BT.2020) doivent être converties en SDR BT.709 avant le rendu, sinon HyperFrames bascule en pipeline « HDR layered » et perd les calques superposés à la vidéo (constaté sur `harmonie-reel`, voir son `VERIFY.md`).

@@ -17,6 +17,10 @@ a été produit dans un autre environnement et reste à déposer ici.
 | BASE-001 | `renders/v001_reference.mp4` | non |
 | — | `CLAUDE.md` | **oui** (consignes de reprise, déposées le 22/09/2026) |
 | MARQUE-02 | `references/LUMA_Logo_Mascotte.png` | **oui** (22/09/2026, fourni par Robin : logotype « Luma » bleu nuit + étoile violette + mascotte robot + « AGENTS IA POUR LES ENTREPRISES », 1536×1024, fond blanc opaque — version à fond transparent ou SVG souhaitable pour l'incruster sur vidéo) |
+| MARQUE-03 | `references/LUMA_Bibliotheque_01_Elements_Montage.png` | **oui** (22/09/2026, planche « Bibliothèque d'éléments pour le montage », 1122×1402) |
+| MARQUE-04 | `references/LUMA_Bibliotheque_02_Gabarits_Reels.png` | **oui** (22/09/2026, planche « Gabarits & positions pour les réels ») |
+| MARQUE-05 | `references/LUMA_Bibliotheque_03_Animation_Motion.png` | **oui** (22/09/2026, planche « Principes d'animation & motion ») |
+| MARQUE-06 | `references/LUMA_Bibliotheque_04_Kit_Marque.png` | **oui** (22/09/2026, planche « Kit d'image de marque pour les réels ») — transcription des 4 planches : `../LUMA_Bibliotheque_Marque.md` |
 | — | `build.mjs`, `motion.js`, `index.html`, `DESIGN.md`, `qa/export-verification.json`, `REPRISE_TECHNIQUE.md`, polices Inter | non |
 
 ## Comment les déposer
@@ -33,3 +37,4 @@ Mettre à jour la colonne « Présent ici » à chaque dépôt.
 
 - Effets sonores légers autorisés à l'apparition des éléments (Robin, 22/09). Musique : toujours non décidée.
 - Le logotype officiel remplace le « LUMA » composé en texte dès la prochaine version d'un film.
+- La bibliothèque de marque (MARQUE-03 à 06, Robin, 22/09) s'applique à tout nouveau montage : palette hex, Barlow Condensed pour les hooks, Caveat pour les annotations, durées d'animation. Polices Barlow Condensed et Caveat encore à déposer en woff2 dans les projets.

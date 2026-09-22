@@ -1,12 +1,14 @@
 # LUMA — Références vidéo et carnet d'itérations
 
-Version du document : 1.0 · 22 septembre 2026
+Version du document : 1.1 · 22 septembre 2026
 Responsable créatif : Robin
 Statut : base de travail évolutive. Le dernier montage est une proposition livrée, pas encore une direction définitivement approuvée.
 
 > Emplacement dans ce dépôt : `hyperframes-student-kit/video-projects/luma-film/`.
 > Les fichiers listés au registre (§3) qui ne sont pas encore présents ici sont recensés dans `references/README.md`.
 > Le carnet d'itérations est `ITERATIONS.md` dans le même dossier.
+> **Bibliothèque de marque (v1.1)** : `LUMA_Bibliotheque_Marque.md` transcrit les 4 planches fournies par Robin le 22/09/2026
+> (palette, typographies, éléments, gabarits 9:16, principes d'animation). Elle s'applique à tout nouveau montage.
 
 ## 1. À quoi sert ce document ?
 
@@ -38,6 +40,11 @@ Les chemins ci-dessous fonctionnent dans le dossier décompressé du projet.
 | ANALYSE-01 | `REFERENCE-ANALYSIS.md` | Décomposition de STYLE-01. |
 | CONTACT-01 | `references/REF_01_Sequence.jpg` | Planche de STYLE-01, échantillonnée toutes les 0,5 seconde. |
 | SOURCE-01 | `assets/source.mp4` | Vidéo reçue : `IMG_0212.mp4`, 18,6 s, 910 × 512. Source de l'image et de la voix du montage actuel. |
+| MARQUE-02 | `references/LUMA_Logo_Mascotte.png` | Logotype officiel + mascotte, fourni le 22/09/2026 (fond blanc opaque). |
+| MARQUE-03 | `references/LUMA_Bibliotheque_01_Elements_Montage.png` | Planche « Bibliothèque d'éléments pour le montage » (22/09/2026). Transcrite dans `LUMA_Bibliotheque_Marque.md` §4. |
+| MARQUE-04 | `references/LUMA_Bibliotheque_02_Gabarits_Reels.png` | Planche « Gabarits & positions pour les réels » : 6 gabarits 9:16, zone sûre Instagram, règles de placement. §5. |
+| MARQUE-05 | `references/LUMA_Bibliotheque_03_Animation_Motion.png` | Planche « Principes d'animation & motion » : durées, à faire / à éviter. §6. |
+| MARQUE-06 | `references/LUMA_Bibliotheque_04_Kit_Marque.png` | Planche « Kit d'image de marque pour les réels » : palette hex, typographies, éléments, ton. §1–3. |
 | PRODUIT-01 | `assets/interface.jpeg` | Capture réelle fournie, issue de `IMG_0285.jpeg`. Ses couleurs fonctionnelles ne définissent pas la palette de marque. |
 | BASE-001 | `renders/v001_reference.mp4` | Dernier montage livré, 20 s, 1920 × 1080, 30 i/s. Base de comparaison, en attente du retour détaillé de Robin. |
 
@@ -64,7 +71,7 @@ Consignes de marque établies : bleu nuit, blanc/blanc cassé, bleu électrique,
 
 Signature : « LUMA — Votre partenaire IA de croissance. »
 
-La charte ne fournit ni codes hexadécimaux ni nom de police. Les valeurs suivantes sont les choix du montage actuel et restent ajustables :
+La charte initiale ne fournissait ni codes hexadécimaux ni nom de police. Les valeurs suivantes sont les choix des montages v001 (septembre 2026). **Depuis la v1.1, la bibliothèque de marque (`LUMA_Bibliotheque_Marque.md`) fixe les valeurs officielles : `#0B0F2D` bleu nuit, `#3B82F6` bleu électrique, `#7C3AED` violet, `#F8FAFC` blanc cassé, `#E5E7EB` gris UI, `#25D366` vert WhatsApp (limité) ; titres Barlow Condensed ExtraBold, corps et sous-titres Inter, accents manuscrits Caveat.** Tout nouveau film les applique ; les v001 gardent leurs valeurs jusqu'à une v002 demandée :
 
 | Usage | Valeur actuelle |
 |---|---|
@@ -75,9 +82,11 @@ La charte ne fournit ni codes hexadécimaux ni nom de police. Les valeurs suivan
 | Secondaire | `#68738A`, à assombrir si nécessaire pour le contraste |
 | Typographie | Inter locale, graisses 400, 500, 600, 700 et 800 |
 
-Le doré visible dans la capture de leads reste dans cette capture. Il ne devient pas la couleur de LUMA. Le nom LUMA est actuellement composé en texte ; aucun logotype officiel ni fichier de mascotte n'est inclus. Ne pas inventer un nouveau logo ou une nouvelle mascotte. La charte décrit la mascotte approuvée ; demander son fichier si son utilisation devient nécessaire.
+Le doré visible dans la capture de leads reste dans cette capture. Il ne devient pas la couleur de LUMA. Le nom LUMA était composé en texte dans le premier montage ; le logotype officiel et la mascotte sont désormais fournis (MARQUE-02, fond blanc) et utilisés depuis `luma-audit-gratuit`. Ne pas inventer un nouveau logo ou une nouvelle mascotte.
 
 ## 6. Typographie et composition
+
+Règle v1.1 : hiérarchie de la bibliothèque de marque (§2 de `LUMA_Bibliotheque_Marque.md`) — hook Barlow Condensed ExtraBold, sous-titre Inter Semibold, corps Inter Regular/Medium, sous-titres vidéo Inter Medium à mot actif bleu, accents Caveat, CTA Inter Semibold. Les points ci-dessous décrivent les montages v001.
 
 - Inter est le choix actuel, pas une police prétendument identifiée dans la référence.
 - Titres principaux : graisse 800, environ 100–112 px en 1080p, peu de mots, interlettrage serré sans collisions. La carte « 5 ans » utilise une échelle plus grande.
@@ -89,6 +98,8 @@ Le doré visible dans la capture de leads reste dans cette capture. Il ne devien
 - Pour une future version verticale, recomposer les zones et les corps ; ne pas simplement recadrer le paysage.
 
 ## 7. Grammaire du mouvement
+
+Règle v1.1 : durées de la bibliothèque (§6 de `LUMA_Bibliotheque_Marque.md`) — titre 0,3–0,6 s, soulignement 0,2–0,4 s, mot actif 0,15–0,3 s, cartes outils 0,3–0,6 s, écran qui slide 0,4–0,8 s, lignes de connexion 0,4–0,8 s, données 0,4–1 s, outro 0,6–1 s ; transitions 200–600 ms ; un mouvement principal à la fois ; jamais < 100 ms.
 
 Ces réglages sont un point de départ de production, à affiner au rendu :
 
@@ -190,3 +201,4 @@ Les références et les médias sont locaux dans ce dossier. Les outils de rendu
 | Version | Date | Changement |
 |---|---|---|
 | 1.0 | 22/09/2026 | Base initiale, reprise telle quelle du document rédigé avec ChatGPT/Codex. Déposée dans le dépôt LUMA-WHATSAP. |
+| 1.1 | 22/09/2026 | Bibliothèque de marque (4 planches de Robin) : registre MARQUE-02 à MARQUE-06, palette et typographies officielles (§5–7), document compagnon `LUMA_Bibliotheque_Marque.md`. |
