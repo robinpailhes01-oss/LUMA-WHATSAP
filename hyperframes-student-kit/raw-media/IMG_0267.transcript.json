@@ -1,0 +1,570 @@
+{
+ "source": "IMG_0267.MOV",
+ "model": "faster-whisper small",
+ "words": [
+  {
+   "text": "si",
+   "start": 0.98,
+   "end": 1.46,
+   "p": 0.17
+  },
+  {
+   "text": "aujourd",
+   "start": 1.46,
+   "end": 1.7,
+   "p": 0.98
+  },
+  {
+   "text": "'hui",
+   "start": 1.7,
+   "end": 1.96,
+   "p": 1.0
+  },
+  {
+   "text": "tu",
+   "start": 1.96,
+   "end": 2.12,
+   "p": 0.95
+  },
+  {
+   "text": "es",
+   "start": 2.12,
+   "end": 2.28,
+   "p": 0.95
+  },
+  {
+   "text": "chef",
+   "start": 2.28,
+   "end": 2.46,
+   "p": 0.68
+  },
+  {
+   "text": "d",
+   "start": 2.46,
+   "end": 2.58,
+   "p": 0.95
+  },
+  {
+   "text": "'entreprise",
+   "start": 2.58,
+   "end": 3.06,
+   "p": 0.99
+  },
+  {
+   "text": "et",
+   "start": 3.06,
+   "end": 3.34,
+   "p": 0.96
+  },
+  {
+   "text": "tu",
+   "start": 3.34,
+   "end": 3.5,
+   "p": 0.97
+  },
+  {
+   "text": "as",
+   "start": 3.5,
+   "end": 3.68,
+   "p": 0.99
+  },
+  {
+   "text": "beaucoup",
+   "start": 3.68,
+   "end": 4.04,
+   "p": 1.0
+  },
+  {
+   "text": "de",
+   "start": 4.04,
+   "end": 4.22,
+   "p": 1.0
+  },
+  {
+   "text": "demandes",
+   "start": 4.22,
+   "end": 4.6,
+   "p": 0.94
+  },
+  {
+   "text": "tous",
+   "start": 4.6,
+   "end": 4.74,
+   "p": 0.99
+  },
+  {
+   "text": "les",
+   "start": 4.74,
+   "end": 4.92,
+   "p": 1.0
+  },
+  {
+   "text": "jours",
+   "start": 4.92,
+   "end": 5.16,
+   "p": 1.0
+  },
+  {
+   "text": "et",
+   "start": 9.7,
+   "end": 10.18,
+   "p": 0.85
+  },
+  {
+   "text": "surtout",
+   "start": 10.18,
+   "end": 10.4,
+   "p": 1.0
+  },
+  {
+   "text": "que",
+   "start": 10.4,
+   "end": 10.68,
+   "p": 0.98
+  },
+  {
+   "text": "tu",
+   "start": 10.68,
+   "end": 10.82,
+   "p": 1.0
+  },
+  {
+   "text": "as",
+   "start": 10.82,
+   "end": 10.96,
+   "p": 0.86
+  },
+  {
+   "text": "interrompu",
+   "start": 10.96,
+   "end": 11.52,
+   "p": 0.98
+  },
+  {
+   "text": "à",
+   "start": 11.52,
+   "end": 11.68,
+   "p": 0.56
+  },
+  {
+   "text": "n",
+   "start": 11.68,
+   "end": 11.76,
+   "p": 0.98
+  },
+  {
+   "text": "'importe",
+   "start": 11.76,
+   "end": 12.0,
+   "p": 1.0
+  },
+  {
+   "text": "quel",
+   "start": 12.0,
+   "end": 12.16,
+   "p": 0.99
+  },
+  {
+   "text": "moment",
+   "start": 12.16,
+   "end": 12.4,
+   "p": 1.0
+  },
+  {
+   "text": "de",
+   "start": 12.4,
+   "end": 12.58,
+   "p": 1.0
+  },
+  {
+   "text": "la",
+   "start": 12.58,
+   "end": 12.72,
+   "p": 1.0
+  },
+  {
+   "text": "journée",
+   "start": 12.72,
+   "end": 13.06,
+   "p": 1.0
+  },
+  {
+   "text": "alors",
+   "start": 13.06,
+   "end": 13.66,
+   "p": 0.72
+  },
+  {
+   "text": "on",
+   "start": 13.66,
+   "end": 13.78,
+   "p": 0.99
+  },
+  {
+   "text": "a",
+   "start": 13.78,
+   "end": 13.86,
+   "p": 0.98
+  },
+  {
+   "text": "la",
+   "start": 13.86,
+   "end": 13.98,
+   "p": 1.0
+  },
+  {
+   "text": "solution",
+   "start": 13.98,
+   "end": 14.28,
+   "p": 1.0
+  },
+  {
+   "text": "pour",
+   "start": 14.28,
+   "end": 14.54,
+   "p": 1.0
+  },
+  {
+   "text": "toi",
+   "start": 14.54,
+   "end": 14.74,
+   "p": 1.0
+  },
+  {
+   "text": "c",
+   "start": 14.74,
+   "end": 16.54,
+   "p": 0.59
+  },
+  {
+   "text": "'est",
+   "start": 16.54,
+   "end": 17.62,
+   "p": 1.0
+  },
+  {
+   "text": "un",
+   "start": 17.62,
+   "end": 17.76,
+   "p": 1.0
+  },
+  {
+   "text": "agent",
+   "start": 17.76,
+   "end": 18.0,
+   "p": 0.99
+  },
+  {
+   "text": "whatsapp",
+   "start": 18.0,
+   "end": 18.56,
+   "p": 0.79
+  },
+  {
+   "text": "qui",
+   "start": 18.56,
+   "end": 19.18,
+   "p": 0.97
+  },
+  {
+   "text": "répond",
+   "start": 19.18,
+   "end": 19.88,
+   "p": 0.86
+  },
+  {
+   "text": "c",
+   "start": 19.88,
+   "end": 21.3,
+   "p": 0.88
+  },
+  {
+   "text": "'est",
+   "start": 21.3,
+   "end": 22.04,
+   "p": 1.0
+  },
+  {
+   "text": "un",
+   "start": 22.04,
+   "end": 22.16,
+   "p": 1.0
+  },
+  {
+   "text": "agent",
+   "start": 22.16,
+   "end": 22.4,
+   "p": 0.99
+  },
+  {
+   "text": "whatsapp",
+   "start": 22.4,
+   "end": 22.94,
+   "p": 0.96
+  },
+  {
+   "text": "qui",
+   "start": 22.94,
+   "end": 23.34,
+   "p": 0.99
+  },
+  {
+   "text": "parle",
+   "start": 23.34,
+   "end": 23.58,
+   "p": 1.0
+  },
+  {
+   "text": "exactement",
+   "start": 23.58,
+   "end": 24.22,
+   "p": 1.0
+  },
+  {
+   "text": "comme",
+   "start": 24.22,
+   "end": 25.04,
+   "p": 1.0
+  },
+  {
+   "text": "votre",
+   "start": 25.04,
+   "end": 25.32,
+   "p": 0.99
+  },
+  {
+   "text": "entreprise",
+   "start": 25.32,
+   "end": 25.86,
+   "p": 0.94
+  },
+  {
+   "text": "comme",
+   "start": 25.86,
+   "end": 26.26,
+   "p": 0.83
+  },
+  {
+   "text": "votre",
+   "start": 26.26,
+   "end": 26.5,
+   "p": 0.97
+  },
+  {
+   "text": "manière",
+   "start": 26.5,
+   "end": 26.84,
+   "p": 0.99
+  },
+  {
+   "text": "de",
+   "start": 26.84,
+   "end": 27.04,
+   "p": 1.0
+  },
+  {
+   "text": "parler",
+   "start": 27.04,
+   "end": 27.28,
+   "p": 1.0
+  },
+  {
+   "text": "il",
+   "start": 27.28,
+   "end": 28.08,
+   "p": 0.4
+  },
+  {
+   "text": "est",
+   "start": 28.08,
+   "end": 28.22,
+   "p": 0.99
+  },
+  {
+   "text": "connecté",
+   "start": 28.22,
+   "end": 28.78,
+   "p": 0.83
+  },
+  {
+   "text": "à",
+   "start": 28.78,
+   "end": 28.92,
+   "p": 0.55
+  },
+  {
+   "text": "absolument",
+   "start": 28.92,
+   "end": 29.16,
+   "p": 0.89
+  },
+  {
+   "text": "tous",
+   "start": 29.16,
+   "end": 29.48,
+   "p": 0.98
+  },
+  {
+   "text": "vos",
+   "start": 29.48,
+   "end": 29.66,
+   "p": 0.99
+  },
+  {
+   "text": "outils",
+   "start": 29.66,
+   "end": 30.02,
+   "p": 1.0
+  },
+  {
+   "text": "et",
+   "start": 32.98,
+   "end": 33.62,
+   "p": 0.87
+  },
+  {
+   "text": "surtout",
+   "start": 33.62,
+   "end": 34.04,
+   "p": 1.0
+  },
+  {
+   "text": "il",
+   "start": 34.04,
+   "end": 34.3,
+   "p": 0.98
+  },
+  {
+   "text": "est",
+   "start": 34.3,
+   "end": 34.4,
+   "p": 1.0
+  },
+  {
+   "text": "disponible",
+   "start": 34.4,
+   "end": 34.88,
+   "p": 0.99
+  },
+  {
+   "text": "24",
+   "start": 34.88,
+   "end": 35.26,
+   "p": 1.0
+  },
+  {
+   "text": "sur",
+   "start": 35.26,
+   "end": 35.48,
+   "p": 0.21
+  },
+  {
+   "text": "24",
+   "start": 35.48,
+   "end": 35.86,
+   "p": 1.0
+  },
+  {
+   "text": "et",
+   "start": 35.86,
+   "end": 36.18,
+   "p": 0.96
+  },
+  {
+   "text": "7",
+   "start": 36.18,
+   "end": 36.4,
+   "p": 0.98
+  },
+  {
+   "text": "sur",
+   "start": 36.4,
+   "end": 36.56,
+   "p": 0.98
+  },
+  {
+   "text": "7",
+   "start": 36.56,
+   "end": 37.1,
+   "p": 0.99
+  },
+  {
+   "text": "ça",
+   "start": 39.04,
+   "end": 39.68,
+   "p": 0.69
+  },
+  {
+   "text": "veut",
+   "start": 39.68,
+   "end": 39.9,
+   "p": 0.99
+  },
+  {
+   "text": "dire",
+   "start": 39.9,
+   "end": 41.22,
+   "p": 1.0
+  },
+  {
+   "text": "qu",
+   "start": 41.22,
+   "end": 41.36,
+   "p": 0.95
+  },
+  {
+   "text": "'aujourd",
+   "start": 41.36,
+   "end": 41.56,
+   "p": 1.0
+  },
+  {
+   "text": "'hui",
+   "start": 41.56,
+   "end": 41.8,
+   "p": 1.0
+  },
+  {
+   "text": "les",
+   "start": 41.8,
+   "end": 42.0,
+   "p": 0.99
+  },
+  {
+   "text": "clients",
+   "start": 42.0,
+   "end": 42.34,
+   "p": 1.0
+  },
+  {
+   "text": "ne",
+   "start": 42.34,
+   "end": 43.24,
+   "p": 0.99
+  },
+  {
+   "text": "vont",
+   "start": 43.24,
+   "end": 43.7,
+   "p": 1.0
+  },
+  {
+   "text": "plus",
+   "start": 43.7,
+   "end": 43.96,
+   "p": 1.0
+  },
+  {
+   "text": "vous",
+   "start": 43.96,
+   "end": 44.14,
+   "p": 0.98
+  },
+  {
+   "text": "interrompre",
+   "start": 44.14,
+   "end": 44.76,
+   "p": 0.99
+  }
+ ]
+}

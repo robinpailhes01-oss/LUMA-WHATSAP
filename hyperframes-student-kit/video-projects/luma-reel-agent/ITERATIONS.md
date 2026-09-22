@@ -1,0 +1,43 @@
+# luma-reel-agent — Carnet d'itérations
+
+Réel LUMA 9:16 « l'agent WhatsApp qui répond » (IMG_0267.MOV). Règles : `../luma-film/LUMA_Bibliotheque_Marque.md`,
+`../luma-film/LUMA_References_Video.md`, `../luma-film/CLAUDE.md`. Convention : `renders/v00N_<objectif>.mp4`.
+
+## Avant v001 — analyse et consignes (22/09/2026)
+
+- Consigne de Robin : « Avec toutes les mises à jour que tu viens de faire, fais ce montage pour ce réel-là. »
+  → bibliothèque de marque appliquée intégralement ; format vertical déduit de « réel » + gabarits 9:16 + rush 4K.
+- Analyse du rush : `../../raw-media/IMG_0267.ANALYSE.md`.
+
+## v001 — luma-reel-agent (22/09/2026)
+
+- Rendu : `renders/v001_luma-reel-agent.mp4` — 32.0 s, 1080 × 1920, 30 i/s, sha256 `d692a036…`.
+- Mise en œuvre : `DESIGN.md` ; contrôles : `VERIFY.md`.
+- Statut : **livré, en attente du retour de Robin**.
+
+| # | Point | Statut |
+|---|---|---|
+| 1 | Format vertical 9:16 (gabarits de la bibliothèque) | à valider (16:9 possible : recomposer, pas recadrer) |
+| 2 | Palette, Barlow Condensed, Inter, Caveat, durées d'animation de la bibliothèque | conforme |
+| 3 | Captures WhatsApp réelles réutilisées (sans nom) | à valider (passages montrés) |
+| 4 | Notifications et pilules clients : textes illustratifs | à valider ou remplacer par de vrais messages |
+| 5 | Logo en haut à gauche pendant tout le film (règle « logo en haut ») | à valider (Robin avait demandé « moins de logo » sur le film précédent) |
+| 6 | Sous-titre « tu as interrompu » (Whisper) vs « tu es interrompu » | à corriger en v002 |
+| 7 | Pas de musique, SFX légers | conforme aux consignes précédentes |
+
+## v002 — à définir
+
+| # | Demande (temps) | Résultat souhaité | Mise en œuvre | Statut |
+|---|---|---|---|---|
+| 1 | | | | demandée |
+
+### Fiche de retour
+
+```
+Version regardée : v001
+Ce que je veux garder :
+À changer à [00:00–00:00] :
+Résultat souhaité :
+Priorité : indispensable / amélioration / test
+Après livraison : validé / à reprendre / à comparer
+```

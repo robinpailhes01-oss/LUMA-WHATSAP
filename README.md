@@ -51,3 +51,4 @@ sont dans le même dossier. Toute session de montage LUMA doit le lire en premie
 `LUMA_Bibliotheque_Marque.md` (même dossier) transcrit la bibliothèque de marque fournie par Robin
 (4 planches dans `references/LUMA_Bibliotheque_0*.png`) : palette, typographies, éléments, gabarits 9:16,
 principes d'animation. Elle s'applique à tout nouveau montage.
+Premier montage réalisé avec elle : `hyperframes-student-kit/video-projects/luma-reel-agent/` (réel 9:16).

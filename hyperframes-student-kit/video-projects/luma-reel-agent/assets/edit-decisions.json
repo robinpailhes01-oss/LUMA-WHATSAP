@@ -1,0 +1,82 @@
+{
+ "duration": 32.0,
+ "fps": 30,
+ "source": "assets/source.mov (IMG_0267.MOV, 45.91 s, HLG 4K paysage)",
+ "footage": "assets/footage.mp4 (1440×1920, recadrage 3:4 centré sur le visage, 30 i/s, 6 segments)",
+ "keeps": [
+  {
+   "sourceStart": 1.05,
+   "sourceEnd": 5.4,
+   "start": 0,
+   "end": 4.35
+  },
+  {
+   "sourceStart": 9.85,
+   "sourceEnd": 15.0,
+   "start": 4.35,
+   "end": 9.5
+  },
+  {
+   "sourceStart": 17.25,
+   "sourceEnd": 20.3,
+   "start": 9.5,
+   "end": 12.55
+  },
+  {
+   "sourceStart": 21.7,
+   "sourceEnd": 30.35,
+   "start": 12.55,
+   "end": 21.2
+  },
+  {
+   "sourceStart": 33.25,
+   "sourceEnd": 37.1,
+   "start": 21.2,
+   "end": 25.05
+  },
+  {
+   "sourceStart": 40.7,
+   "sourceEnd": 44.9167,
+   "start": 25.05,
+   "end": 29.2667
+  }
+ ],
+ "removals": [
+  {
+   "sourceStart": 0,
+   "sourceEnd": 1.05,
+   "reason": "Amorce silencieuse avant « Si aujourd'hui »."
+  },
+  {
+   "sourceStart": 5.4,
+   "sourceEnd": 9.85,
+   "reason": "Blanc de 5.0 s après « tous les jours » ramené à ≈ 0.55 s."
+  },
+  {
+   "sourceStart": 15.0,
+   "sourceEnd": 17.25,
+   "reason": "Blanc de 2.8 s après « pour toi » ramené à ≈ 0.5 s."
+  },
+  {
+   "sourceStart": 20.3,
+   "sourceEnd": 21.7,
+   "reason": "Blanc de 2.0 s après « qui répond » ramené à ≈ 0.55 s (la reprise « c'est un agent WhatsApp qui parle… » est gardée : anaphore)."
+  },
+  {
+   "sourceStart": 30.35,
+   "sourceEnd": 33.25,
+   "reason": "Blanc de 3.5 s après « tous vos outils » ramené à ≈ 0.6 s."
+  },
+  {
+   "sourceStart": 37.1,
+   "sourceEnd": 40.7,
+   "reason": "Blanc de 4.1 s après « 7 sur 7 » ramené à ≈ 0.55 s."
+  },
+  {
+   "sourceStart": 44.9167,
+   "sourceEnd": 45.91,
+   "reason": "Silence de fin."
+  }
+ ],
+ "notes": "Aucun mot retiré. La pause de 0.57 s entre « ne » et « vont » (source 42.42–42.99) est conservée : hésitation naturelle en milieu de phrase."
+}

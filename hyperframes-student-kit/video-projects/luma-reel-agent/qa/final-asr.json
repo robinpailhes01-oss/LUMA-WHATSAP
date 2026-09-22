@@ -1,0 +1,472 @@
+[
+ {
+  "text": "Si",
+  "start": 0.0,
+  "end": 0.42
+ },
+ {
+  "text": "aujourd",
+  "start": 0.42,
+  "end": 0.7
+ },
+ {
+  "text": "'hui",
+  "start": 0.7,
+  "end": 0.9
+ },
+ {
+  "text": "tu",
+  "start": 0.9,
+  "end": 1.08
+ },
+ {
+  "text": "es",
+  "start": 1.08,
+  "end": 1.22
+ },
+ {
+  "text": "chef",
+  "start": 1.22,
+  "end": 1.4
+ },
+ {
+  "text": "d",
+  "start": 1.4,
+  "end": 1.56
+ },
+ {
+  "text": "'entreprise",
+  "start": 1.56,
+  "end": 2.0
+ },
+ {
+  "text": "et",
+  "start": 2.0,
+  "end": 2.28
+ },
+ {
+  "text": "tu",
+  "start": 2.28,
+  "end": 2.46
+ },
+ {
+  "text": "as",
+  "start": 2.46,
+  "end": 2.64
+ },
+ {
+  "text": "beaucoup",
+  "start": 2.64,
+  "end": 2.98
+ },
+ {
+  "text": "de",
+  "start": 2.98,
+  "end": 3.16
+ },
+ {
+  "text": "demandes",
+  "start": 3.16,
+  "end": 3.56
+ },
+ {
+  "text": "tous",
+  "start": 3.56,
+  "end": 3.7
+ },
+ {
+  "text": "les",
+  "start": 3.7,
+  "end": 3.86
+ },
+ {
+  "text": "jours",
+  "start": 3.86,
+  "end": 4.1
+ },
+ {
+  "text": "et",
+  "start": 4.1,
+  "end": 4.68
+ },
+ {
+  "text": "surtout",
+  "start": 4.68,
+  "end": 4.9
+ },
+ {
+  "text": "que",
+  "start": 4.9,
+  "end": 5.18
+ },
+ {
+  "text": "tu",
+  "start": 5.18,
+  "end": 5.32
+ },
+ {
+  "text": "as",
+  "start": 5.32,
+  "end": 5.44
+ },
+ {
+  "text": "interrompu",
+  "start": 5.44,
+  "end": 6.0
+ },
+ {
+  "text": "à",
+  "start": 6.0,
+  "end": 6.16
+ },
+ {
+  "text": "n",
+  "start": 6.16,
+  "end": 6.28
+ },
+ {
+  "text": "'importe",
+  "start": 6.28,
+  "end": 6.48
+ },
+ {
+  "text": "quel",
+  "start": 6.48,
+  "end": 6.66
+ },
+ {
+  "text": "moment",
+  "start": 6.66,
+  "end": 6.9
+ },
+ {
+  "text": "de",
+  "start": 6.9,
+  "end": 7.08
+ },
+ {
+  "text": "la",
+  "start": 7.08,
+  "end": 7.22
+ },
+ {
+  "text": "journée,",
+  "start": 7.22,
+  "end": 7.56
+ },
+ {
+  "text": "alors",
+  "start": 8.06,
+  "end": 8.16
+ },
+ {
+  "text": "on",
+  "start": 8.16,
+  "end": 8.28
+ },
+ {
+  "text": "a",
+  "start": 8.28,
+  "end": 8.34
+ },
+ {
+  "text": "la",
+  "start": 8.34,
+  "end": 8.48
+ },
+ {
+  "text": "solution",
+  "start": 8.48,
+  "end": 8.76
+ },
+ {
+  "text": "pour",
+  "start": 8.76,
+  "end": 9.04
+ },
+ {
+  "text": "toi.",
+  "start": 9.04,
+  "end": 9.22
+ },
+ {
+  "text": "C",
+  "start": 9.64,
+  "end": 9.86
+ },
+ {
+  "text": "'est",
+  "start": 9.86,
+  "end": 9.86
+ },
+ {
+  "text": "un",
+  "start": 9.86,
+  "end": 10.02
+ },
+ {
+  "text": "agent",
+  "start": 10.02,
+  "end": 10.26
+ },
+ {
+  "text": "WhatsApp",
+  "start": 10.26,
+  "end": 10.8
+ },
+ {
+  "text": "qui",
+  "start": 10.8,
+  "end": 11.42
+ },
+ {
+  "text": "répond,",
+  "start": 11.42,
+  "end": 12.1
+ },
+ {
+  "text": "c",
+  "start": 12.68,
+  "end": 12.9
+ },
+ {
+  "text": "'est",
+  "start": 12.9,
+  "end": 12.9
+ },
+ {
+  "text": "un",
+  "start": 12.9,
+  "end": 13.02
+ },
+ {
+  "text": "agent",
+  "start": 13.02,
+  "end": 13.26
+ },
+ {
+  "text": "WhatsApp",
+  "start": 13.26,
+  "end": 13.78
+ },
+ {
+  "text": "qui",
+  "start": 13.78,
+  "end": 14.18
+ },
+ {
+  "text": "parle",
+  "start": 14.18,
+  "end": 14.44
+ },
+ {
+  "text": "exactement",
+  "start": 14.44,
+  "end": 15.14
+ },
+ {
+  "text": "comme",
+  "start": 15.14,
+  "end": 15.88
+ },
+ {
+  "text": "votre",
+  "start": 15.88,
+  "end": 16.16
+ },
+ {
+  "text": "entreprise,",
+  "start": 16.16,
+  "end": 16.72
+ },
+ {
+  "text": "comme",
+  "start": 16.96,
+  "end": 17.1
+ },
+ {
+  "text": "votre",
+  "start": 17.1,
+  "end": 17.38
+ },
+ {
+  "text": "manière",
+  "start": 17.38,
+  "end": 17.7
+ },
+ {
+  "text": "de",
+  "start": 17.7,
+  "end": 17.88
+ },
+ {
+  "text": "parler.",
+  "start": 17.88,
+  "end": 18.16
+ },
+ {
+  "text": "Il",
+  "start": 18.72,
+  "end": 18.92
+ },
+ {
+  "text": "est",
+  "start": 18.92,
+  "end": 19.1
+ },
+ {
+  "text": "connecté",
+  "start": 19.1,
+  "end": 19.62
+ },
+ {
+  "text": "à",
+  "start": 19.62,
+  "end": 19.76
+ },
+ {
+  "text": "absolument",
+  "start": 19.76,
+  "end": 20.02
+ },
+ {
+  "text": "tous",
+  "start": 20.02,
+  "end": 20.32
+ },
+ {
+  "text": "vos",
+  "start": 20.32,
+  "end": 20.5
+ },
+ {
+  "text": "outils",
+  "start": 20.5,
+  "end": 20.84
+ },
+ {
+  "text": "et",
+  "start": 20.84,
+  "end": 21.56
+ },
+ {
+  "text": "surtout",
+  "start": 21.56,
+  "end": 21.98
+ },
+ {
+  "text": "il",
+  "start": 21.98,
+  "end": 22.26
+ },
+ {
+  "text": "est",
+  "start": 22.26,
+  "end": 22.34
+ },
+ {
+  "text": "disponible",
+  "start": 22.34,
+  "end": 22.84
+ },
+ {
+  "text": "24",
+  "start": 22.84,
+  "end": 23.2
+ },
+ {
+  "text": "sur",
+  "start": 23.2,
+  "end": 23.44
+ },
+ {
+  "text": "24",
+  "start": 23.44,
+  "end": 23.82
+ },
+ {
+  "text": "et",
+  "start": 23.82,
+  "end": 24.12
+ },
+ {
+  "text": "7",
+  "start": 24.12,
+  "end": 24.34
+ },
+ {
+  "text": "sur",
+  "start": 24.34,
+  "end": 24.52
+ },
+ {
+  "text": "7.",
+  "start": 24.52,
+  "end": 24.82
+ },
+ {
+  "text": "Ça",
+  "start": 25.16,
+  "end": 25.34
+ },
+ {
+  "text": "veut",
+  "start": 25.34,
+  "end": 25.44
+ },
+ {
+  "text": "dire",
+  "start": 25.44,
+  "end": 25.58
+ },
+ {
+  "text": "qu",
+  "start": 25.58,
+  "end": 25.7
+ },
+ {
+  "text": "'aujourd",
+  "start": 25.7,
+  "end": 25.92
+ },
+ {
+  "text": "'hui",
+  "start": 25.92,
+  "end": 26.14
+ },
+ {
+  "text": "les",
+  "start": 26.14,
+  "end": 26.34
+ },
+ {
+  "text": "clients",
+  "start": 26.34,
+  "end": 26.68
+ },
+ {
+  "text": "ne",
+  "start": 26.68,
+  "end": 27.6
+ },
+ {
+  "text": "vont",
+  "start": 27.6,
+  "end": 28.04
+ },
+ {
+  "text": "plus",
+  "start": 28.04,
+  "end": 28.32
+ },
+ {
+  "text": "vous",
+  "start": 28.32,
+  "end": 28.48
+ },
+ {
+  "text": "interrompre.",
+  "start": 28.48,
+  "end": 29.08
+ }
+]
