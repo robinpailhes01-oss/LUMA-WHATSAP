@@ -40,3 +40,11 @@ Il contient les 14 skills dans `hyperframes-student-kit/.claude/skills/` :
 Les skills s'appuient sur les scripts, docs et bibliothèques du kit (chemins relatifs
 à sa racine) : ouvrir `hyperframes-student-kit/` dans Claude Code ou Codex et suivre
 son `README.md` (`npm ci`, `npm run setup`, `npm test`).
+
+
+### Références LUMA (films HyperFrames)
+
+`hyperframes-student-kit/video-projects/luma-film/LUMA_References_Video.md` est le document
+de direction évolutif des films LUMA (brief, références, identité, méthode d'itération).
+Le carnet `ITERATIONS.md` et la liste des fichiers de référence attendus (`references/README.md`)
+sont dans le même dossier. Toute session de montage LUMA doit le lire en premier.
