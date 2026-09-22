@@ -1,6 +1,6 @@
 # LUMA — Bibliothèque de marque pour les montages vidéo
 
-Version 1.0 · 22 septembre 2026 · fournie par Robin (4 planches PNG), transcrite pour être appliquée par Claude Code.
+Version 1.1 · 22 septembre 2026 · fournie par Robin (4 planches PNG), transcrite pour être appliquée par Claude Code.
 Statut : **règle de marque pour tous les futurs montages**. Consigne de Robin : « tout ce que tu peux prendre en compte
 pour les futurs montages afin que cela colle parfaitement à notre image de marque ».
 
@@ -44,8 +44,13 @@ Aucune autre couleur (le doré des captures reste dans les captures ; « couleur
 | Accent manuscrit | **Caveat** (ou équivalent) | annotations bleues/violettes : « Par ici ! », « Du concret. Pas du blabla. », « On avance ensemble. », « Toujours à vos côtés. » |
 | CTA (bouton) | Inter Semibold | « Découvrir Luma → » |
 
-Interdits : polices fantaisistes ou illisibles. Polices à embarquer localement (`assets/fonts/*.woff2`) : Inter (déjà
-présente), Barlow Condensed ExtraBold (800), Caveat (à ajouter au prochain film).
+Interdits : polices fantaisistes ou illisibles.
+
+**Polices disponibles dans le dépôt** (`luma-film/assets/fonts/`, sous-ensembles latin + latin-ext de Google Fonts, licence SIL OFL 1.1) :
+Barlow Condensed 700 et 800, Caveat variable 400–700, avec `fonts.css` prêt à coller dans `build.mjs` ; Inter est déjà
+dans chaque projet de film. Couverture vérifiée : accents français, œ, €, guillemets ; la flèche « → » n'est pas dans ces
+sous-ensembles (la composer en Inter ou en SVG). Rendu de contrôle Chrome : `references/LUMA_Polices_Specimen.png`.
+Pour un nouveau film : copier le dossier `assets/fonts/` du projet `luma-film` dans `<projet>/assets/fonts/`.
 
 ## 3. Ton & sensation (MARQUE-06 §4)
 
@@ -175,3 +180,4 @@ Les films livrés ne sont **pas** modifiés sans demande. Toute nouvelle version
 | Version | Date | Changement |
 |---|---|---|
 | 1.0 | 22/09/2026 | Transcription des 4 planches fournies par Robin ; écarts avec les v001 listés. |
+| 1.1 | 22/09/2026 | Polices Barlow Condensed (700, 800) et Caveat (400–700) déposées dans `assets/fonts/` avec `fonts.css` et spécimen de contrôle. |

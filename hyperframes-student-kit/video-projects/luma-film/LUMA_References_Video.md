@@ -1,6 +1,6 @@
 # LUMA — Références vidéo et carnet d'itérations
 
-Version du document : 1.1 · 22 septembre 2026
+Version du document : 1.2 · 22 septembre 2026
 Responsable créatif : Robin
 Statut : base de travail évolutive. Le dernier montage est une proposition livrée, pas encore une direction définitivement approuvée.
 
@@ -45,6 +45,7 @@ Les chemins ci-dessous fonctionnent dans le dossier décompressé du projet.
 | MARQUE-04 | `references/LUMA_Bibliotheque_02_Gabarits_Reels.png` | Planche « Gabarits & positions pour les réels » : 6 gabarits 9:16, zone sûre Instagram, règles de placement. §5. |
 | MARQUE-05 | `references/LUMA_Bibliotheque_03_Animation_Motion.png` | Planche « Principes d'animation & motion » : durées, à faire / à éviter. §6. |
 | MARQUE-06 | `references/LUMA_Bibliotheque_04_Kit_Marque.png` | Planche « Kit d'image de marque pour les réels » : palette hex, typographies, éléments, ton. §1–3. |
+| POLICES-01 | `assets/fonts/` (`fonts.css`, Barlow Condensed 700/800, Caveat 400–700, licences OFL) | Polices de la charte, woff2 locaux à copier dans chaque projet de film. Spécimen : `references/LUMA_Polices_Specimen.png`. |
 | PRODUIT-01 | `assets/interface.jpeg` | Capture réelle fournie, issue de `IMG_0285.jpeg`. Ses couleurs fonctionnelles ne définissent pas la palette de marque. |
 | BASE-001 | `renders/v001_reference.mp4` | Dernier montage livré, 20 s, 1920 × 1080, 30 i/s. Base de comparaison, en attente du retour détaillé de Robin. |
 
@@ -202,3 +203,4 @@ Les références et les médias sont locaux dans ce dossier. Les outils de rendu
 |---|---|---|
 | 1.0 | 22/09/2026 | Base initiale, reprise telle quelle du document rédigé avec ChatGPT/Codex. Déposée dans le dépôt LUMA-WHATSAP. |
 | 1.1 | 22/09/2026 | Bibliothèque de marque (4 planches de Robin) : registre MARQUE-02 à MARQUE-06, palette et typographies officielles (§5–7), document compagnon `LUMA_Bibliotheque_Marque.md`. |
+| 1.2 | 22/09/2026 | Polices de la charte (Barlow Condensed, Caveat) déposées dans `assets/fonts/` avec `fonts.css` ; registre POLICES-01. |

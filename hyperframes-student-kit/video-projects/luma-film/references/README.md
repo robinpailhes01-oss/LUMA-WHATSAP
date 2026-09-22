@@ -21,6 +21,8 @@ a été produit dans un autre environnement et reste à déposer ici.
 | MARQUE-04 | `references/LUMA_Bibliotheque_02_Gabarits_Reels.png` | **oui** (22/09/2026, planche « Gabarits & positions pour les réels ») |
 | MARQUE-05 | `references/LUMA_Bibliotheque_03_Animation_Motion.png` | **oui** (22/09/2026, planche « Principes d'animation & motion ») |
 | MARQUE-06 | `references/LUMA_Bibliotheque_04_Kit_Marque.png` | **oui** (22/09/2026, planche « Kit d'image de marque pour les réels ») — transcription des 4 planches : `../LUMA_Bibliotheque_Marque.md` |
+| POLICES-01 | `assets/fonts/{BarlowCondensed-700,BarlowCondensed-800,Caveat-400-700}-{latin,latin-ext}.woff2`, `fonts.css`, `OFL-*.txt` | **oui** (22/09/2026, récupérées sur Google Fonts) |
+| — | `references/LUMA_Polices_Specimen.png` | **oui** (rendu Chrome headless des polices, contrôle des accents) |
 | — | `build.mjs`, `motion.js`, `index.html`, `DESIGN.md`, `qa/export-verification.json`, `REPRISE_TECHNIQUE.md`, polices Inter | non |
 
 ## Comment les déposer
@@ -37,4 +39,4 @@ Mettre à jour la colonne « Présent ici » à chaque dépôt.
 
 - Effets sonores légers autorisés à l'apparition des éléments (Robin, 22/09). Musique : toujours non décidée.
 - Le logotype officiel remplace le « LUMA » composé en texte dès la prochaine version d'un film.
-- La bibliothèque de marque (MARQUE-03 à 06, Robin, 22/09) s'applique à tout nouveau montage : palette hex, Barlow Condensed pour les hooks, Caveat pour les annotations, durées d'animation. Polices Barlow Condensed et Caveat encore à déposer en woff2 dans les projets.
+- La bibliothèque de marque (MARQUE-03 à 06, Robin, 22/09) s'applique à tout nouveau montage : palette hex, Barlow Condensed pour les hooks, Caveat pour les annotations, durées d'animation. Polices Barlow Condensed (700, 800) et Caveat (400–700) déposées le 22/09 dans `../assets/fonts/` (woff2 Google Fonts, OFL) avec `fonts.css` ; spécimen de rendu : `LUMA_Polices_Specimen.png`.
