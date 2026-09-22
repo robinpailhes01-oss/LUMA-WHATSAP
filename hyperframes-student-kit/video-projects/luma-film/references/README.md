@@ -16,6 +16,7 @@ a été produit dans un autre environnement et reste à déposer ici.
 | PRODUIT-01 | `assets/interface.jpeg` | non |
 | BASE-001 | `renders/v001_reference.mp4` | non |
 | — | `CLAUDE.md` | **oui** (consignes de reprise, déposées le 22/09/2026) |
+| MARQUE-02 | `references/LUMA_Logo_Mascotte.png` | **oui** (22/09/2026, fourni par Robin : logotype « Luma » bleu nuit + étoile violette + mascotte robot + « AGENTS IA POUR LES ENTREPRISES », 1536×1024, fond blanc opaque — version à fond transparent ou SVG souhaitable pour l'incruster sur vidéo) |
 | — | `build.mjs`, `motion.js`, `index.html`, `DESIGN.md`, `qa/export-verification.json`, `REPRISE_TECHNIQUE.md`, polices Inter | non |
 
 ## Comment les déposer
@@ -27,3 +28,8 @@ a été produit dans un autre environnement et reste à déposer ici.
 - Une archive zip du projet complet peut aussi être déposée à la racine de ce dossier ; elle sera décompressée en place.
 
 Mettre à jour la colonne « Présent ici » à chaque dépôt.
+
+## Décisions notées (22/09/2026)
+
+- Effets sonores légers autorisés à l'apparition des éléments (Robin, 22/09). Musique : toujours non décidée.
+- Le logotype officiel remplace le « LUMA » composé en texte dès la prochaine version d'un film.
