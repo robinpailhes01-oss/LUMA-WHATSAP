@@ -1,0 +1,55 @@
+{
+ "duration": 45.0,
+ "fps": 30,
+ "source": "assets/source.mov (IMG_0230.MOV, 45.98 s, HLG)",
+ "footage": "assets/footage.mp4 (SDR BT.709, 43.0333 s, 3 segments concaténés)",
+ "keeps": [
+  {
+   "sourceStart": 1.1,
+   "sourceEnd": 35.1,
+   "start": 0,
+   "end": 34.0
+  },
+  {
+   "sourceStart": 35.5333,
+   "sourceEnd": 41.2667,
+   "start": 34.0,
+   "end": 39.7333
+  },
+  {
+   "sourceStart": 41.6,
+   "sourceEnd": 44.9,
+   "start": 39.7333,
+   "end": 43.0333
+  }
+ ],
+ "removals": [
+  {
+   "sourceStart": 0,
+   "sourceEnd": 1.1,
+   "reason": "Amorce silencieuse avant « Qui a fait qu'aujourd'hui »."
+  },
+  {
+   "sourceStart": 35.1,
+   "sourceEnd": 35.5333,
+   "reason": "Blanc de 0.72 s après « et » raccourci à ≈ 0.32 s (consigne : couper les blancs, rythme dynamique)."
+  },
+  {
+   "sourceStart": 41.2667,
+   "sourceEnd": 41.6,
+   "reason": "Blanc de 0.60 s après « et » raccourci à ≈ 0.27 s."
+  },
+  {
+   "sourceStart": 44.9,
+   "sourceEnd": 45.98,
+   "reason": "Silence de fin après « si besoin » (0.34 s de respiration gardés)."
+  }
+ ],
+ "notKept": "Toute la parole est conservée, y compris l'ouverture en cours de phrase « Qui a fait qu'aujourd'hui… » (consigne : garder toute la vidéo). Alternative disponible : ouvrir à 2.08 s source sur « aujourd'hui ».",
+ "extension": {
+  "start": 43.0333,
+  "end": 45.0,
+  "reason": "Vignette + petit écran de fin LUMA (logo réduit, consigne « moins de logo »)."
+ },
+ "audio": "Voix réelle, vitesse et timbre inchangés ; gain statique +4.8 dB (-22.8 → -18.1 LUFS, pic -1.8 dBFS) + fondu 42.4-43.0 s. Non identique octet à octet (coupes + gain)."
+}
