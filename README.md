@@ -19,3 +19,19 @@ Elle n'est pas appliquée automatiquement : à exécuter dans le SQL Editor Supa
 ## Design
 
 Voir `DESIGN.md` — spec de tokens et règles d'interface (skill `premium-web-design`, type Dashboard / admin).
+
+## Kit vidéo HyperFrames
+
+Le dossier `hyperframes-student-kit/` est une copie du dépôt
+[nateherkai/hyperframes-student-kit](https://github.com/nateherkai/hyperframes-student-kit)
+(montage vidéo, reels, motion graphics avec HyperFrames et GSAP), sans les vidéos
+d'exemple ni les projets `video-projects/` (≈ 390 Mo de médias exclus).
+
+Il contient les 14 skills dans `hyperframes-student-kit/.claude/skills/` :
+`edit-video`, `cut-silences`, `cut-mistakes`, `short-form-edit`, `short-form-video`,
+`make-a-video`, `video-storytelling`, `style-library`, `hyperframes`, `hyperframes-cli`,
+`hyperframes-registry`, `hyperframes-video-beats`, `gsap`, `website-to-hyperframes`.
+
+Les skills s'appuient sur les scripts, docs et bibliothèques du kit (chemins relatifs
+à sa racine) : ouvrir `hyperframes-student-kit/` dans Claude Code ou Codex et suivre
+son `README.md` (`npm ci`, `npm run setup`, `npm test`).
