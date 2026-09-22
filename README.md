@@ -24,8 +24,13 @@ Voir `DESIGN.md` — spec de tokens et règles d'interface (skill `premium-web-d
 
 Le dossier `hyperframes-student-kit/` est une copie du dépôt
 [nateherkai/hyperframes-student-kit](https://github.com/nateherkai/hyperframes-student-kit)
-(montage vidéo, reels, motion graphics avec HyperFrames et GSAP), sans les vidéos
-d'exemple ni les projets `video-projects/` (≈ 390 Mo de médias exclus).
+(montage vidéo, reels, motion graphics avec HyperFrames et GSAP), copie complète :
+vidéos d'exemple (`examples/showcase/`), les 12 projets `video-projects/` et leurs
+médias, assets de marque, scripts, docs et bibliothèque de styles.
+
+Note : le `.gitignore` du kit ignore par défaut les médias (`*.mp4`, `**/assets/`,
+`video-projects/`). Les fichiers d'origine sont suivis quand même ; pour en ajouter
+de nouveaux, utiliser `git add -f`.
 
 Il contient les 14 skills dans `hyperframes-student-kit/.claude/skills/` :
 `edit-video`, `cut-silences`, `cut-mistakes`, `short-form-edit`, `short-form-video`,
