@@ -1,7 +1,7 @@
 # Références LUMA — fichiers attendus
 
-`LUMA_References_Video.md` (§3) référence les fichiers ci-dessous. Au 22/09/2026, seul le
-document lui-même et le carnet sont dans ce dépôt : le projet complet (code, médias, rendu v001)
+`LUMA_References_Video.md` (§3) référence les fichiers ci-dessous. Au 22/09/2026, seuls le
+document lui-même, `CLAUDE.md` et le carnet sont dans ce dépôt : le projet complet (code, médias, rendu v001)
 a été produit dans un autre environnement et reste à déposer ici.
 
 | ID | Chemin attendu | Présent ici |
@@ -15,7 +15,8 @@ a été produit dans un autre environnement et reste à déposer ici.
 | SOURCE-01 | `assets/source.mp4` | non |
 | PRODUIT-01 | `assets/interface.jpeg` | non |
 | BASE-001 | `renders/v001_reference.mp4` | non |
-| — | `CLAUDE.md`, `motion.js`, `index.html`, `qa/export-verification.json`, `REPRISE_TECHNIQUE.md` | non |
+| — | `CLAUDE.md` | **oui** (consignes de reprise, déposées le 22/09/2026) |
+| — | `build.mjs`, `motion.js`, `index.html`, `DESIGN.md`, `qa/export-verification.json`, `REPRISE_TECHNIQUE.md`, polices Inter | non |
 
 ## Comment les déposer
 
