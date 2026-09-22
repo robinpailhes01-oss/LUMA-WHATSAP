@@ -1,0 +1,32 @@
+{
+ "duration": 17.0,
+ "fps": 30,
+ "source": "assets/source.mov (IMG_0241.mov, 17.34 s, HLG)",
+ "footage": "assets/footage.mp4 (SDR BT.709 tone-mapped, 15.2 s)",
+ "keeps": [
+  {
+   "sourceStart": 2.0667,
+   "sourceEnd": 17.2667,
+   "start": 0,
+   "end": 15.2
+  }
+ ],
+ "removals": [
+  {
+   "sourceStart": 0,
+   "sourceEnd": 2.0667,
+   "reason": "Reprise en cours de phrase « Et ensuite moi vraiment » : pas une pensée complète ; le film ouvre sur « Le but de l'audit »."
+  },
+  {
+   "sourceStart": 17.2667,
+   "sourceEnd": 17.3367,
+   "reason": "2 dernières images du fichier."
+  }
+ ],
+ "extension": {
+  "start": 15.2,
+  "end": 17.0,
+  "reason": "Signature LUMA sur fond de marque ; la vignette affiche la dernière image (assets/last-frame.jpg), la piste voix est fondue de 14.5 à 15.2 s puis silencieuse."
+ },
+ "audio": "Voix réelle, vitesse et timbre inchangés. Gain statique +7.4 dB (de -23.4 à -16.0 LUFS) + fondu de sortie ; aucun traitement dynamique, aucun nettoyage. Non identique octet à octet à la source (coupe + gain)."
+}
