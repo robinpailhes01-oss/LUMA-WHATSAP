@@ -119,6 +119,10 @@ ton) ; rythme court, clair, percutant. **Les 3 premières secondes sont décisiv
 Adaptation 16:9 (films actuels) : mêmes familles d'éléments, visage sur un côté, colonne libre pour les cartes ;
 sous-titres en bas ; CTA/logo à l'end card. Ne pas recadrer un 9:16 en 16:9 ni l'inverse : recomposer.
 
+**Décision de Robin (22/09/2026)** : les films LUMA restent en **paysage 16:9** « comme à la base ». Les gabarits 9:16
+ci-dessus servent de référence d'éléments et de placement ; ne produire une version verticale que sur demande explicite
+(exemple : `luma-reel-agent` v001 verticale refusée, v002 paysage livrée).
+
 ## 6. Principes d'animation (MARQUE-05)
 
 | # | Mouvement | Durée | Caractère | Mise en œuvre GSAP |

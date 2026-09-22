@@ -1,4 +1,4 @@
-/* motion.js — animations for luma-reel-agent (9:16). Timing from window.__PLAN (assets/plan.json).
+/* motion.js — animations for luma-reel-agent (v002 paysage 16:9 ; v001 9:16 conservé dans qa/motion-9x16.js). Timing from window.__PLAN (assets/plan.json).
    Durations follow the LUMA brand library §6: title 0.3–0.6, underline 0.2–0.4, active word 0.15–0.3,
    tiles 0.3–0.6, screen slide 0.4–0.8, connection lines 0.4–0.8, data 0.4–1, outro 0.6–1. One main move at a time.
    One paused GSAP timeline, registered synchronously. Deterministic. */
@@ -9,14 +9,15 @@
   window.__timelines = window.__timelines || {};
   var tl = gsap.timeline({ paused: true });
 
-  // camera: 1440-wide footage inside a 1080 frame. Face centre at x≈720 of the footage.
-  var CENTER = { x: -180, y: 0, scale: 1 };
-  var RIGHT = { x: 0, y: 0, scale: 1 };          // face on the right, free column x 0–440
-  var LEFT = { x: -360, y: 0, scale: 1 };        // face on the left, free column x 640–1080
+  // camera (paysage 1920×1080, origine 0 0, visage source à x≈960) — même grammaire que les films LUMA précédents
+  var CENTER = { x: -38, y: -22, scale: 1.04 };    // FULL : visage au centre
+  var LEFT = { x: 0, y: -40, scale: 1.26 };        // visage à droite (x≈1210) ; colonne gauche 90–840 libre
+  var RIGHT = { x: -560, y: -70, scale: 1.32 };    // visage à gauche (x≈707) ; zone droite 1150–1900 libre
+  var PUSH = { x: -77, y: -45, scale: 1.08 };      // FULL + push-in
   var CAM = { duration: 0.7, ease: "power2.inOut" };
 
   // ---- initial states ----
-  gsap.set("#cam", CENTER);
+  gsap.set("#cam", LEFT);
   gsap.set("#frame", { scale: 1, borderRadius: 0 });
   gsap.set(["#logo", "#lt", "#hook", ".notif", ".tb", "#parIci", "#phone", "#repond", ".pill", ".tile", "#stat", ".cl", "#endcard", "#logoCard", "#sign", "#cta", "#base"], { autoAlpha: 0 });
   gsap.set(["#s24", "#s7", "#sSub"], { autoAlpha: 0 });
@@ -44,36 +45,36 @@
   tl.to("#hook", { autoAlpha: 0, y: 40, duration: 0.3, ease: "power2.in" }, T.hookOut);
 
   // ---- s02: camera right, three incoming client messages, time badges ----
-  tl.to("#cam", Object.assign({}, RIGHT, CAM), T.camRight);
+  // T.camRight: pas de mouvement en paysage (la colonne gauche sert déjà à l'accroche)
   pop("#n1", T.n1, { x: -40, y: 0 });
   pop("#n2", T.n2, { x: -40, y: 0 });
   pop("#n3", T.n3, { x: -40, y: 0 });
-  tl.to("#cam", { scale: 1.04, duration: 0.8, ease: "power2.out" }, T.cutPush); // hides the jump cut at 4.35
+  tl.to("#cam", { scale: 1.30, y: -58, duration: 0.8, ease: "power2.out" }, T.cutPush); // hides the jump cut at 4.35
   ["#t1", "#t2", "#t3"].forEach(function (s, i) {
     var el = document.querySelector(s); if (el) el.textContent = ["07:48", "13:15", "23:40"][i];
     pop(s, T["t" + (i + 1)]);
   });
 
   // ---- s03: camera left, notifications out, « Par ici ! », phone slides in, « Il répond tout seul. » ----
-  tl.to("#cam", Object.assign({}, LEFT, CAM), T.camLeft);
+  tl.to("#cam", Object.assign({}, RIGHT, CAM), T.camLeft);
   tl.to(".notif", { autoAlpha: 0, x: -90, duration: 0.45, ease: "power2.in", stagger: 0.05 }, T.notifOut);
   pop("#parIci", T.parIci, { x: 0, y: -10 });
   draw("#parIciArrow", T.parIci + 0.2, 0.4);
   draw("#parIciHead", T.parIci + 0.55, 0.2);
-  slideIn("#phone", T.phone, 260, 0, 0.6);               // screen slides in from the right (0.6 s)
+  slideIn("#phone", T.phone, 240, 0, 0.6);               // screen slides in from the right (0.6 s)
   tl.to("#parIci", { autoAlpha: 0, duration: 0.3 }, T.repond);
   pop("#repond", T.repond, { x: 0, y: 14 });
 
   // ---- s04: conversation scrolls, pills « Votre ton » / « Vos expressions » ----
-  tl.to("#chat", { y: -150, duration: 0.7, ease: "power2.inOut" }, T.scroll1);
-  tl.to("#chat", { y: -360, duration: 0.8, ease: "power2.inOut" }, T.scroll2);
+  tl.to("#chat", { y: -140, duration: 0.7, ease: "power2.inOut" }, T.scroll1);
+  tl.to("#chat", { y: -340, duration: 0.8, ease: "power2.inOut" }, T.scroll2);
   tl.to("#repond", { autoAlpha: 0, y: 10, duration: 0.3, ease: "power2.in" }, T.p1 - 0.3);
   pop("#p1", T.p1, { x: 30, y: 0 });
   pop("#p2", T.p2, { x: 30, y: 0 });
 
   // ---- s05: phone shrinks, tool tiles pop with connection lines, « Tous vos outils. Une seule IA. » ----
   tl.to([".pill", "#p1", "#p2"], { autoAlpha: 0, x: 40, duration: 0.3, ease: "power2.in" }, T.toolsIn);
-  tl.to("#phone", { scale: 0.82, duration: 0.6, ease: "power3.inOut" }, T.toolsIn);
+  tl.to("#phone", { scale: 0.8, duration: 0.6, ease: "power3.inOut" }, T.toolsIn);
   ["#tile1", "#tile2", "#tile3", "#tile4"].forEach(function (s, i) {
     var t = T["tile" + (i + 1)];
     pop(s, t, { y: 26 });
@@ -82,7 +83,7 @@
   pop("#tousOutils", T.tousOutils, { y: 16 });
 
   // ---- s06: camera right, phone/tiles out, stat card 24/24 · 7/7 ----
-  tl.to("#cam", Object.assign({}, RIGHT, CAM), T.camRight2);
+  tl.to("#cam", Object.assign({}, LEFT, CAM), T.camRight2);
   tl.to(["#phone", ".tile", "#tousOutils"], { autoAlpha: 0, x: 120, duration: 0.45, ease: "power2.in", stagger: 0.03 }, T.camRight2);
   tl.to("#links path", { opacity: 0, duration: 0.25 }, T.camRight2);
   slideIn("#stat", T.statIn, -50, 0, 0.55);
@@ -91,7 +92,7 @@
   slideIn("#sSub", T.stat7 + 0.35, 0, 10, 0.4);
 
   // ---- s07: camera centre + push-in, stat out, three clients answered ----
-  tl.to("#cam", Object.assign({}, CENTER, { scale: 1.06, duration: 0.9, ease: "power2.inOut" }), T.camCenter);
+  tl.to("#cam", Object.assign({}, PUSH, { duration: 0.9, ease: "power2.inOut" }), T.camCenter);
   tl.to("#stat", { autoAlpha: 0, x: -80, duration: 0.4, ease: "power2.in" }, T.camCenter);
   tl.fromTo(".cl", { autoAlpha: 0, y: 30, scale: 0.9 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.45, ease: "back.out(1.4)", stagger: 0.12 }, T.clients);
   ["#d1", "#d2", "#d3"].forEach(function (s, i) {

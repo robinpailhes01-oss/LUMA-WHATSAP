@@ -1,7 +1,7 @@
 {
  "duration": 32.0,
  "fps": 30,
- "aspect": "1080x1920",
+ "aspect": "1920x1080",
  "composition": "luma-reel-agent",
  "footageDuration": 29.2667,
  "scenes": [
@@ -13,7 +13,7 @@
    "kind": "hook",
    "anchor": "Si",
    "anchorTime": 0.0,
-   "camera": "CENTER",
+   "camera": "LEFT",
    "holdReason": "Lower-third puis titre-accroche « Chef d'entreprise ? » sur « chef » (1.22)."
   },
   {
@@ -24,7 +24,7 @@
    "kind": "interruptions",
    "anchor": "tu",
    "anchorTime": 2.28,
-   "camera": "RIGHT"
+   "camera": "LEFT"
   },
   {
    "id": "s03",
@@ -34,7 +34,7 @@
    "kind": "solution",
    "anchor": "alors",
    "anchorTime": 7.98,
-   "camera": "LEFT"
+   "camera": "RIGHT"
   },
   {
    "id": "s04",
@@ -44,7 +44,7 @@
    "kind": "comme-vous",
    "anchor": "c'est",
    "anchorTime": 12.7,
-   "camera": "LEFT"
+   "camera": "RIGHT"
   },
   {
    "id": "s05",
@@ -54,7 +54,7 @@
    "kind": "outils",
    "anchor": "Il",
    "anchorTime": 18.72,
-   "camera": "LEFT"
+   "camera": "RIGHT"
   },
   {
    "id": "s06",
@@ -64,7 +64,7 @@
    "kind": "disponible",
    "anchor": "Et",
    "anchorTime": 21.22,
-   "camera": "RIGHT"
+   "camera": "LEFT"
   },
   {
    "id": "s07",
@@ -74,7 +74,7 @@
    "kind": "plus-d-interruption",
    "anchor": "Ça",
    "anchorTime": 25.16,
-   "camera": "CENTER-PUSH"
+   "camera": "FULL-PUSH"
   },
   {
    "id": "s08",
@@ -116,7 +116,7 @@
   {
    "id": "camRight",
    "time": 2.2667,
-   "type": "camera-right",
+   "type": "camera-hold-left",
    "visual": "s02",
    "anchor": "tu"
   },
@@ -186,7 +186,7 @@
   {
    "id": "camLeft",
    "time": 8.0,
-   "type": "camera-left",
+   "type": "camera-right",
    "visual": "s03",
    "anchor": "alors",
    "sfx": "whoosh"
@@ -319,7 +319,7 @@
   {
    "id": "camRight2",
    "time": 21.2333,
-   "type": "camera-right",
+   "type": "camera-left",
    "visual": "s06",
    "anchor": "Et",
    "sfx": "whoosh"
@@ -351,7 +351,7 @@
   {
    "id": "camCenter",
    "time": 25.1667,
-   "type": "camera-center-push",
+   "type": "camera-full-push",
    "visual": "s07",
    "anchor": "Ça",
    "sfx": "whoosh"

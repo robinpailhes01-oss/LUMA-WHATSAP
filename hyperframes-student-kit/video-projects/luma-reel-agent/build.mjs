@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Builds index.html from assets/plan.json + structure/style below. Animations: motion.js (inlined). Usage: node build.mjs
-// Brand rules: ../luma-film/LUMA_Bibliotheque_Marque.md (palette, Barlow Condensed hooks, Inter, Caveat, 9:16 templates).
+// Brand rules: ../luma-film/LUMA_Bibliotheque_Marque.md. v002: paysage 1920×1080 (consigne Robin), recomposé — pas recadré — depuis la v001 verticale (qa/build-9x16.mjs).
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -9,7 +9,7 @@ const root = dirname(fileURLToPath(import.meta.url));
 const plan = JSON.parse(readFileSync(resolve(root, "assets/plan.json"), "utf8"));
 const motion = readFileSync(resolve(root, "motion.js"), "utf8");
 const ID = plan.composition, DUR = plan.duration, FOOTAGE_DUR = plan.footageDuration;
-const W = 1080, H = 1920;
+const W = 1920, H = 1080;
 
 // LUMA brand tokens (bibliothèque §1)
 const B = { night: "#0B0F2D", blue: "#3B82F6", violet: "#7C3AED", offwhite: "#F8FAFC", grayUI: "#E5E7EB", wa: "#25D366", ink: "#0B0F2D", muted: "#5B6478" };
@@ -47,30 +47,30 @@ ${fonts}
 html, body { width: ${W}px; height: ${H}px; overflow: hidden; background: ${B.night}; font-family: "Inter", sans-serif; color: ${B.offwhite}; }
 #root { position: relative; width: ${W}px; height: ${H}px; overflow: hidden; background: ${B.night}; }
 #frame { position: absolute; left: 0; top: 0; width: ${W}px; height: ${H}px; overflow: hidden; transform-origin: 50% 50%; z-index: 1; background: ${B.night}; }
-#cam { position: absolute; left: 0; top: 0; width: 1440px; height: ${H}px; transform-origin: 720px 700px; will-change: transform; }
-#poster, #footage { position: absolute; left: 0; top: 0; width: 1440px; height: ${H}px; display: block; object-fit: cover; }
+#cam { position: absolute; left: 0; top: 0; width: ${W}px; height: ${H}px; transform-origin: 0 0; will-change: transform; }
+#poster, #footage { position: absolute; left: 0; top: 0; width: ${W}px; height: ${H}px; display: block; object-fit: cover; }
 #footage { filter: contrast(1.02) saturate(1.04); }
 
 /* logo top-left (gabarit : logo en haut) */
-#logo { position: absolute; left: 40px; top: 64px; z-index: 5; width: 214px; height: 74px; border-radius: 18px; ${whiteCard} display: flex; align-items: center; justify-content: center; }
+#logo { position: absolute; left: 50px; top: 50px; z-index: 5; width: 214px; height: 74px; border-radius: 18px; ${whiteCard} display: flex; align-items: center; justify-content: center; }
 #logo img { width: 172px; height: auto; display: block; }
 
 /* lower-third (élément 10) */
-#lt { position: absolute; left: 40px; top: 1180px; z-index: 5; border-radius: 22px; ${whiteCard} padding: 18px 26px 18px 22px; display: flex; align-items: center; gap: 16px; color: ${B.ink}; }
+#lt { position: absolute; left: 90px; top: 770px; z-index: 5; border-radius: 22px; ${whiteCard} padding: 18px 26px 18px 22px; display: flex; align-items: center; gap: 16px; color: ${B.ink}; }
 #lt .av { width: 54px; height: 54px; border-radius: 50%; background: linear-gradient(135deg, ${B.blue}, ${B.violet}); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 24px; color: #fff; }
 #lt .n { font-weight: 600; font-size: 34px; letter-spacing: -0.01em; line-height: 1.1; display: flex; align-items: center; gap: 8px; }
 #lt .r { font-weight: 400; font-size: 23px; color: ${B.muted}; margin-top: 4px; }
 
 /* hook band (titre style « sur fond coloré ») */
-#hook { position: absolute; left: 0; top: 1060px; width: ${W}px; z-index: 5; padding: 36px 60px 40px; background: linear-gradient(120deg, rgba(11,15,45,0.96) 0%, rgba(19,26,69,0.94) 100%); border-top: 1px solid rgba(255,255,255,0.12); border-bottom: 1px solid rgba(255,255,255,0.12); box-shadow: 0 24px 60px rgba(11,15,45,0.45); }
-#hook .t { font-family: "Barlow Condensed", "Inter", sans-serif; font-weight: 800; font-size: 118px; line-height: 0.92; letter-spacing: -0.005em; text-transform: uppercase; color: #fff; }
+#hook { position: absolute; left: 90px; top: 250px; width: 790px; z-index: 5; border-radius: 30px; padding: 34px 44px 40px; background: linear-gradient(120deg, rgba(11,15,45,0.96) 0%, rgba(19,26,69,0.94) 100%); border-top: 1px solid rgba(255,255,255,0.12); border-bottom: 1px solid rgba(255,255,255,0.12); box-shadow: 0 24px 60px rgba(11,15,45,0.45); }
+#hook .t { font-family: "Barlow Condensed", "Inter", sans-serif; font-weight: 800; font-size: 108px; line-height: 0.92; letter-spacing: -0.005em; text-transform: uppercase; color: #fff; }
 #hook .t .g { ${gradText} }
-#hook .s { font-weight: 600; font-size: 30px; color: rgba(248,250,252,0.85); margin-top: 18px; }
-#hook .ul { position: absolute; left: 60px; bottom: 30px; width: 300px; height: 8px; }
+#hook .s { font-weight: 600; font-size: 27px; color: rgba(248,250,252,0.85); margin-top: 18px; }
+#hook .ul { position: absolute; left: 44px; bottom: 24px; width: 300px; height: 8px; }
 
 /* notifications (pack overlays : notification) */
-.notif { position: absolute; left: 30px; width: 410px; z-index: 5; border-radius: 22px; ${whiteCard} padding: 16px 18px 16px 16px; display: flex; align-items: center; gap: 14px; color: ${B.ink}; }
-#n1 { top: 300px; } #n2 { top: 444px; } #n3 { top: 588px; }
+.notif { position: absolute; left: 90px; width: 620px; z-index: 5; border-radius: 22px; ${whiteCard} padding: 16px 18px 16px 16px; display: flex; align-items: center; gap: 14px; color: ${B.ink}; }
+#n1 { top: 250px; } #n2 { top: 372px; } #n3 { top: 494px; }
 .notif .b { font-weight: 600; font-size: 22px; line-height: 1.15; }
 .notif .m { font-weight: 400; font-size: 21px; line-height: 1.25; color: ${B.muted}; margin-top: 3px; }
 .wab { border-radius: 50%; background: ${B.wa}; display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; }
@@ -78,46 +78,46 @@ html, body { width: ${W}px; height: ${H}px; overflow: hidden; background: ${B.ni
 
 /* handwritten annotations (Caveat, élément 8) */
 .hand { position: absolute; z-index: 6; font-family: "Caveat", cursive; font-weight: 600; color: ${B.blue}; text-shadow: 0 2px 10px rgba(11,15,45,0.35), 0 0 2px rgba(11,15,45,0.5); white-space: nowrap; }
-#parIci { left: 690px; top: 132px; font-size: 62px; }
-#parIci svg { position: absolute; left: 48px; top: 66px; width: 90px; height: 70px; }
-#repond { left: 636px; top: 1008px; font-size: 52px; }
+#parIci { left: 1170px; top: 80px; font-size: 60px; }
+#parIci svg { position: absolute; left: 200px; top: 30px; width: 90px; height: 70px; }
+#repond { left: 1400px; top: 852px; font-size: 50px; }
 
 /* phone with the real WhatsApp conversation (gabarit 3) */
-#phone { position: absolute; left: 626px; top: 250px; width: 434px; height: 770px; z-index: 5; border-radius: 46px; background: #0B0F2D; padding: 10px; box-shadow: 0 30px 70px rgba(11,15,45,0.55), 0 0 0 1px rgba(255,255,255,0.12); transform-origin: 50% 0; }
-#screen { position: relative; width: 414px; height: 750px; border-radius: 38px; overflow: hidden; background: #0e1a14; }
-#chat { position: absolute; left: 0; top: 0; width: 414px; }
-#chat img { display: block; width: 414px; height: auto; }
+#phone { position: absolute; left: 1420px; top: 80px; width: 420px; height: 760px; z-index: 5; border-radius: 46px; background: #0B0F2D; padding: 10px; box-shadow: 0 30px 70px rgba(11,15,45,0.55), 0 0 0 1px rgba(255,255,255,0.12); transform-origin: 50% 0; }
+#screen { position: relative; width: 400px; height: 740px; border-radius: 38px; overflow: hidden; background: #0e1a14; }
+#chat { position: absolute; left: 0; top: 0; width: 400px; }
+#chat img { display: block; width: 400px; height: auto; }
 #chat .sep { height: 12px; background: #0e1a14; }
 #screen::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 90px; background: linear-gradient(180deg, rgba(14,26,20,0) 0%, rgba(14,26,20,0.85) 100%); pointer-events: none; }
 
 /* pills (élément 4) */
 .pill { position: absolute; z-index: 5; display: inline-flex; align-items: center; gap: 10px; padding: 12px 24px; border-radius: 999px; font-weight: 600; font-size: 27px; color: #fff; white-space: nowrap; box-shadow: 0 12px 28px rgba(11,15,45,0.35); }
-#p1 { left: 660px; top: 1026px; background: ${B.blue}; }
-#p2 { left: 660px; top: 1098px; background: ${B.violet}; }
-#tousOutils { left: 656px; top: 1012px; background: rgba(11,15,45,0.92); border: 1px solid rgba(255,255,255,0.16); font-size: 24px; padding: 12px 20px; }
+#p1 { left: 1430px; top: 856px; background: ${B.blue}; }
+#p2 { left: 1430px; top: 926px; background: ${B.violet}; }
+#tousOutils { left: 1426px; top: 832px; background: rgba(11,15,45,0.92); border: 1px solid rgba(255,255,255,0.16); font-size: 24px; padding: 12px 20px; }
 
 /* tool tiles + connection lines (gabarit 4) */
-.tile { position: absolute; top: 900px; width: 84px; height: 84px; z-index: 5; border-radius: 22px; ${whiteCard} display: flex; align-items: center; justify-content: center; }
-#tile1 { left: 668px; } #tile2 { left: 768px; } #tile3 { left: 868px; } #tile4 { left: 968px; }
+.tile { position: absolute; top: 720px; width: 84px; height: 84px; z-index: 5; border-radius: 22px; ${whiteCard} display: flex; align-items: center; justify-content: center; }
+#tile1 { left: 1430px; } #tile2 { left: 1530px; } #tile3 { left: 1630px; } #tile4 { left: 1730px; }
 #links { position: absolute; left: 0; top: 0; width: ${W}px; height: ${H}px; z-index: 4; pointer-events: none; }
 #links path { fill: none; stroke: ${B.blue}; stroke-width: 4; stroke-linecap: round; opacity: 0.95; filter: drop-shadow(0 0 6px rgba(59,130,246,0.6)); }
 
 /* stat card (élément 12) */
-#stat { position: absolute; left: 30px; top: 430px; width: 410px; z-index: 5; border-radius: 30px; ${navyCard} padding: 28px 30px 30px; }
+#stat { position: absolute; left: 90px; top: 280px; width: 440px; z-index: 5; border-radius: 30px; ${navyCard} padding: 28px 30px 30px; }
 #stat .lbl { font-weight: 600; font-size: 22px; letter-spacing: 0.14em; color: ${B.blue}; text-transform: uppercase; }
 #stat .big { font-family: "Barlow Condensed", "Inter", sans-serif; font-weight: 800; font-size: 132px; line-height: 0.95; letter-spacing: -0.01em; ${gradText} margin-top: 8px; }
 #stat .big.sec { margin-top: 2px; }
 #stat .sub { font-weight: 500; font-size: 22px; color: rgba(248,250,252,0.7); margin-top: 12px; }
 
 /* client pills at the end (élément 9 / 13) */
-.cl { position: absolute; top: 1196px; height: 62px; z-index: 5; border-radius: 999px; ${whiteCard} display: flex; align-items: center; gap: 8px; padding: 0 12px 0 8px; color: ${B.ink}; font-weight: 500; font-size: 21px; white-space: nowrap; }
-#c1 { left: 24px; } #c2 { left: 356px; } #c3 { left: 646px; }
+.cl { position: absolute; top: 800px; height: 62px; z-index: 5; border-radius: 999px; ${whiteCard} display: flex; align-items: center; gap: 8px; padding: 0 12px 0 8px; color: ${B.ink}; font-weight: 500; font-size: 21px; white-space: nowrap; }
+#c1 { left: 120px; } #c2 { left: 760px; } #c3 { left: 1380px; }
 .cl .ok { width: 30px; height: 30px; border-radius: 50%; background: ${B.wa}; display: inline-flex; align-items: center; justify-content: center; margin-left: 2px; }
 
 /* captions (Inter Medium, mot actif bleu électrique ; sélection de mot avec poignées) */
-#caps { position: absolute; left: 0; right: 0; top: 1440px; z-index: 7; pointer-events: none; }
-.cg { position: absolute; left: 60px; right: 60px; top: 0; display: flex; justify-content: center; opacity: 0; visibility: hidden; }
-.cg .line { display: inline-flex; align-items: center; gap: 0.26em; font-weight: 500; font-size: 46px; line-height: 1.2; color: #fff; text-shadow: 0 2px 10px rgba(11,15,45,0.75), 0 0 2px rgba(11,15,45,0.9); white-space: nowrap; }
+#caps { position: absolute; left: 0; right: 0; top: 924px; z-index: 7; pointer-events: none; }
+.cg { position: absolute; left: 160px; right: 160px; top: 0; display: flex; justify-content: center; opacity: 0; visibility: hidden; }
+.cg .line { display: inline-flex; align-items: center; gap: 0.26em; font-weight: 500; font-size: 43px; line-height: 1.2; color: #fff; text-shadow: 0 2px 10px rgba(11,15,45,0.75), 0 0 2px rgba(11,15,45,0.9); white-space: nowrap; }
 .cg .w { position: relative; display: inline-block; padding: 6px 13px; border-radius: 10px; }
 .cg .w .fr { position: absolute; left: -4px; top: -4px; right: -4px; bottom: -4px; border: 3px solid ${B.blue}; border-radius: 6px; opacity: 0; visibility: hidden; }
 .cg .w .fr i { position: absolute; width: 12px; height: 12px; background: #fff; border: 2.5px solid ${B.blue}; border-radius: 3px; }
@@ -126,15 +126,15 @@ html, body { width: ${W}px; height: ${H}px; overflow: hidden; background: ${B.ni
 /* end card (gabarit 6) */
 #endcard { position: absolute; inset: 0; z-index: 8; background: ${B.night}; overflow: hidden; }
 #endcard .g1, #endcard .g2 { position: absolute; border-radius: 50%; }
-#endcard .g1 { left: -420px; top: 120px; width: 1300px; height: 1300px; background: radial-gradient(circle, rgba(59,130,246,0.55) 0%, rgba(59,130,246,0.16) 42%, rgba(59,130,246,0) 68%); }
-#endcard .g2 { left: 180px; top: 700px; width: 1400px; height: 1400px; background: radial-gradient(circle, rgba(124,58,237,0.55) 0%, rgba(124,58,237,0.16) 42%, rgba(124,58,237,0) 68%); }
+#endcard .g1 { left: -300px; top: -400px; width: 1300px; height: 1300px; background: radial-gradient(circle, rgba(59,130,246,0.55) 0%, rgba(59,130,246,0.16) 42%, rgba(59,130,246,0) 68%); }
+#endcard .g2 { left: 900px; top: -100px; width: 1400px; height: 1400px; background: radial-gradient(circle, rgba(124,58,237,0.55) 0%, rgba(124,58,237,0.16) 42%, rgba(124,58,237,0) 68%); }
 #endcard .grid { position: absolute; inset: 0; opacity: 0.10; background-image: linear-gradient(rgba(248,250,252,0.35) 1px, transparent 1px), linear-gradient(90deg, rgba(248,250,252,0.35) 1px, transparent 1px); background-size: 90px 90px; }
-#logoCard { position: absolute; left: 130px; top: 560px; width: 820px; height: 420px; border-radius: 40px; background: #fff; box-shadow: 0 40px 90px rgba(0,0,0,0.45), 0 0 80px rgba(124,58,237,0.35); display: flex; align-items: center; justify-content: center; overflow: hidden; }
-#logoCard img { width: 780px; height: auto; display: block; }
-#sign { position: absolute; left: 0; width: ${W}px; top: 1040px; text-align: center; font-family: "Caveat", cursive; font-weight: 600; font-size: 74px; color: #C4B5FD; }
-#sign svg { position: absolute; left: 350px; top: 84px; width: 380px; height: 22px; }
-#cta { position: absolute; left: 50%; top: 1200px; display: inline-flex; align-items: center; gap: 16px; padding: 26px 48px; border-radius: 999px; background: ${B.blue}; color: #fff; font-weight: 600; font-size: 38px; white-space: nowrap; box-shadow: 0 18px 44px rgba(59,130,246,0.5); }
-#base { position: absolute; left: 0; width: ${W}px; top: 1330px; text-align: center; font-weight: 500; font-size: 22px; letter-spacing: 0.22em; color: rgba(248,250,252,0.6); text-transform: uppercase; }
+#logoCard { position: absolute; left: 510px; top: 130px; width: 900px; height: 440px; border-radius: 40px; background: #fff; box-shadow: 0 40px 90px rgba(0,0,0,0.45), 0 0 80px rgba(124,58,237,0.35); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+#logoCard img { width: 840px; height: auto; display: block; }
+#sign { position: absolute; left: 0; width: ${W}px; top: 630px; text-align: center; font-family: "Caveat", cursive; font-weight: 600; font-size: 70px; color: #C4B5FD; }
+#sign svg { position: absolute; left: 770px; top: 80px; width: 380px; height: 22px; }
+#cta { position: absolute; left: 50%; top: 770px; display: inline-flex; align-items: center; gap: 16px; padding: 26px 48px; border-radius: 999px; background: ${B.blue}; color: #fff; font-weight: 600; font-size: 38px; white-space: nowrap; box-shadow: 0 18px 44px rgba(59,130,246,0.5); }
+#base { position: absolute; left: 0; width: ${W}px; top: 900px; text-align: center; font-weight: 500; font-size: 22px; letter-spacing: 0.22em; color: rgba(248,250,252,0.6); text-transform: uppercase; }
 
 #grain { position: absolute; inset: 0; z-index: 9; pointer-events: none; opacity: 0.045; background-image: ${noise}; background-size: 300px 300px; mix-blend-mode: overlay; }
 `;
@@ -166,17 +166,17 @@ const body = `
   ${notif("n2", "C'est quoi vos tarifs ?")}
   ${notif("n3", "Est-ce que vous êtes ouverts dimanche ?")}
 
-  <div class="hand" id="parIci">Par ici !<svg viewBox="0 0 90 70"><path id="parIciArrow" d="M8 6 C30 10, 60 20, 62 60" fill="none" stroke="${B.blue}" stroke-width="5" stroke-linecap="round" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/><path id="parIciHead" d="M44 48 L62 62 L72 44" fill="none" stroke="${B.blue}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/></svg></div>
+  <div class="hand" id="parIci">Par ici !<svg viewBox="0 0 90 70"><path id="parIciArrow" d="M6 10 C30 4, 62 18, 80 56" fill="none" stroke="${B.blue}" stroke-width="5" stroke-linecap="round" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/><path id="parIciHead" d="M62 52 L80 60 L86 40" fill="none" stroke="${B.blue}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/></svg></div>
   <div id="phone"><div id="screen"><div id="chat"><img src="assets/shots/wa1.png" alt="" /><div class="sep"></div><img src="assets/shots/wa2.png" alt="" /></div></div></div>
   <div class="hand" id="repond">Il répond tout seul.</div>
   <div class="pill" id="p1">Votre ton</div>
   <div class="pill" id="p2">Vos expressions</div>
 
   <svg id="links" viewBox="0 0 ${W} ${H}">
-    <path id="lk1" d="M843 878 C843 890, 710 888, 710 898" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/>
-    <path id="lk2" d="M843 878 C843 890, 810 888, 810 898" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/>
-    <path id="lk3" d="M843 878 C843 890, 910 888, 910 898" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/>
-    <path id="lk4" d="M843 878 C843 890, 1010 888, 1010 898" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/>
+    <path id="lk1" d="M1630 690 C1630 704, 1462 704, 1462 718" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/>
+    <path id="lk2" d="M1630 690 C1630 704, 1562 704, 1562 718" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/>
+    <path id="lk3" d="M1630 690 C1630 704, 1662 704, 1662 718" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/>
+    <path id="lk4" d="M1630 690 C1630 704, 1762 704, 1762 718" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/>
   </svg>
   ${tile("tile1", "notion", "#000000")}${tile("tile2", "slack", "#4A154B")}${tile("tile3", "googlecalendar", "#4285F4")}${tile("tile4", "hubspot", "#FF7A59")}
   <div class="pill" id="tousOutils">Tous vos outils. Une seule IA.</div>
@@ -202,7 +202,7 @@ const html = `<!doctype html>
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=${W}, height=${H}" />
-<title>LUMA — L'agent WhatsApp (réel)</title>
+<title>LUMA — L'agent WhatsApp (réel, paysage)</title>
 <!-- GENERATED by build.mjs — edit build.mjs / motion.js / assets/plan.json, then run: node build.mjs -->
 <script src="assets/gsap.min.js"></script>
 <style>${css}</style>

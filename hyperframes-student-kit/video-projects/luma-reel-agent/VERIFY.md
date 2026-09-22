@@ -1,8 +1,25 @@
-# VERIFY — luma-reel-agent v001
+# VERIFY — luma-reel-agent
 
-**Rendu livré : `renders/v001_luma-reel-agent.mp4`**
-SHA-256 : `d692a036a3eb941b…`
-Statut : proposition livrée, **non validée** par Robin.
+## v002 — paysage (22/09/2026) — **rendu livré : `renders/v002_paysage.mp4`**
+
+SHA-256 : `44f2d79b61b2dd08…` · Statut : proposition livrée, **non validée** par Robin.
+
+| Mesure | Valeur | Attendu |
+|---|---|---|
+| Conteneur | MP4 H.264 yuv420p BT.709 + AAC 48 kHz, faststart | ✓ |
+| Dimensions / cadence | **1920 × 1080**, 30 i/s, 960 images, 32.000 s | ✓ paysage (consigne) |
+| Loudness | -18.1 LUFS intégrée, pic -2.1 dBTP | ≤ -1 dBFS |
+| Taille | 58 Mo (qualité `high`) ; copie `_web.mp4` 15 Mo | < 100 Mo |
+
+- Séquence `assets/footage.mp4` réencodée plein cadre 1920 × 1080 depuis le 4K, même EDL (878 images / 29.267 s, 30 i/s vérifiés), HLG décodé sans tone-mapping.
+- Plan, transcription, EDL, voix et SFX **inchangés** depuis la v001 (validateurs ✓, lint 0/0) ; seuls `build.mjs`, `motion.js` (positions, caméra) et `plan.json` (`aspect`, noms de caméra) changent. L'ASR de contrôle de la v001 reste valable (piste audio identique : même `voice.m4a`, mêmes cues).
+- Planche 64 images (`qa/v002-sheet.jpg`) : aucune image noire ; visage jamais couvert ; haut de tête visible en cadrage LEFT après correction (y -40, push -58).
+- Images pleines à 1.9, 5.6, 11.8, 17.6, 20.7, 24.6 s : accroche sur 2 lignes (largeur 790 px), notifications sur une ligne, téléphone 420 px lisible, pilules « Votre ton / Vos expressions » sous le téléphone, tuiles reliées, carte 24/24 · 7/7, écran de fin centré.
+- Draft 2 → v002 : « ? » de l'accroche passait à la ligne (carte élargie, corps 108 px) ; haut de tête coupé en LEFT (y corrigé) ; téléphone agrandi 380 → 420 px.
+
+## v001 — vertical 9:16 (22/09/2026)
+
+Rendu : `renders/v001_luma-reel-agent.mp4` — SHA-256 `d692a036a3eb941b…` — remplacé par v002 (format).
 
 ## Fichier
 
