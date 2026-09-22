@@ -1,0 +1,27 @@
+{
+ "duration": 15.2,
+ "fps": 30,
+ "source": "assets/source-h264.mp4",
+ "originalSource": "assets/raw.mov (iPhone HEVC, 1920x1080 after rotation, 17.34 s)",
+ "keeps": [
+  {
+   "sourceStart": 2.0667,
+   "sourceEnd": 17.2667,
+   "start": 0,
+   "end": 15.2
+  }
+ ],
+ "removals": [
+  {
+   "sourceStart": 0,
+   "sourceEnd": 2.0667,
+   "reason": "Lead-in fragment 'Et ensuite moi vraiment' — mid-sentence pickup from a longer recording, not a complete thought. Reel opens on 'Le but de l'audit'."
+  },
+  {
+   "sourceStart": 17.2667,
+   "sourceEnd": 17.3367,
+   "reason": "Last 2 frames of the file."
+  }
+ ],
+ "reviewed": "Silence tool: only lead-in (0.44-1.09 s) and tail (16.02-17.34 s) flagged. No retakes, no false starts. Pause 'à ... l'avenir' (7.96-8.72 edited) kept as natural emphasis. The 1.27 s of smiling silence after 'avec vous' is kept on purpose for the closing lockup."
+}

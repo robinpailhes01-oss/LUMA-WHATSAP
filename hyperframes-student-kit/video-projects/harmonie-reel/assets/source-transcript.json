@@ -1,0 +1,318 @@
+{
+ "language": "fr",
+ "text": "et ensuite moi vraiment le but de l'audit c'est de pouvoir vous montrer vraiment tout ce que l'IA est capable de faire dans votre entreprise et même se projeter à l'avenir si jamais votre entreprise grandit comment est ce que l'IA va pouvoir grandir également avec vous",
+ "words": [
+  {
+   "text": "et",
+   "start": 0.64,
+   "end": 1.16,
+   "prob": 0.19
+  },
+  {
+   "text": "ensuite",
+   "start": 1.16,
+   "end": 1.46,
+   "prob": 0.99
+  },
+  {
+   "text": "moi",
+   "start": 1.46,
+   "end": 1.76,
+   "prob": 0.78
+  },
+  {
+   "text": "vraiment",
+   "start": 1.76,
+   "end": 2.06,
+   "prob": 0.84
+  },
+  {
+   "text": "le",
+   "start": 2.06,
+   "end": 2.28,
+   "prob": 0.97
+  },
+  {
+   "text": "but",
+   "start": 2.28,
+   "end": 2.44,
+   "prob": 1.0
+  },
+  {
+   "text": "de",
+   "start": 2.44,
+   "end": 2.62,
+   "prob": 1.0
+  },
+  {
+   "text": "l",
+   "start": 2.62,
+   "end": 2.74,
+   "prob": 0.99
+  },
+  {
+   "text": "'audit",
+   "start": 2.74,
+   "end": 2.98,
+   "prob": 0.88
+  },
+  {
+   "text": "c",
+   "start": 2.98,
+   "end": 3.32,
+   "prob": 0.86
+  },
+  {
+   "text": "'est",
+   "start": 3.32,
+   "end": 3.54,
+   "prob": 1.0
+  },
+  {
+   "text": "de",
+   "start": 3.54,
+   "end": 3.82,
+   "prob": 0.99
+  },
+  {
+   "text": "pouvoir",
+   "start": 3.82,
+   "end": 4.44,
+   "prob": 1.0
+  },
+  {
+   "text": "vous",
+   "start": 4.44,
+   "end": 4.66,
+   "prob": 1.0
+  },
+  {
+   "text": "montrer",
+   "start": 4.66,
+   "end": 5.06,
+   "prob": 0.99
+  },
+  {
+   "text": "vraiment",
+   "start": 5.06,
+   "end": 5.4,
+   "prob": 0.98
+  },
+  {
+   "text": "tout",
+   "start": 5.4,
+   "end": 5.78,
+   "prob": 0.99
+  },
+  {
+   "text": "ce",
+   "start": 5.78,
+   "end": 5.94,
+   "prob": 1.0
+  },
+  {
+   "text": "que",
+   "start": 5.94,
+   "end": 6.06,
+   "prob": 0.48
+  },
+  {
+   "text": "l",
+   "start": 6.06,
+   "end": 6.2,
+   "prob": 0.68
+  },
+  {
+   "text": "'IA",
+   "start": 6.2,
+   "end": 6.28,
+   "prob": 0.94
+  },
+  {
+   "text": "est",
+   "start": 6.28,
+   "end": 6.56,
+   "prob": 0.95
+  },
+  {
+   "text": "capable",
+   "start": 6.56,
+   "end": 6.84,
+   "prob": 1.0
+  },
+  {
+   "text": "de",
+   "start": 6.84,
+   "end": 7.14,
+   "prob": 1.0
+  },
+  {
+   "text": "faire",
+   "start": 7.14,
+   "end": 7.34,
+   "prob": 1.0
+  },
+  {
+   "text": "dans",
+   "start": 7.34,
+   "end": 7.5,
+   "prob": 1.0
+  },
+  {
+   "text": "votre",
+   "start": 7.5,
+   "end": 7.72,
+   "prob": 0.99
+  },
+  {
+   "text": "entreprise",
+   "start": 7.72,
+   "end": 8.34,
+   "prob": 1.0
+  },
+  {
+   "text": "et",
+   "start": 8.34,
+   "end": 8.84,
+   "prob": 0.93
+  },
+  {
+   "text": "même",
+   "start": 8.84,
+   "end": 9.1,
+   "prob": 0.99
+  },
+  {
+   "text": "se",
+   "start": 9.1,
+   "end": 9.5,
+   "prob": 0.98
+  },
+  {
+   "text": "projeter",
+   "start": 9.5,
+   "end": 10.02,
+   "prob": 0.97
+  },
+  {
+   "text": "à",
+   "start": 10.02,
+   "end": 10.78,
+   "prob": 0.97
+  },
+  {
+   "text": "l",
+   "start": 10.78,
+   "end": 10.88,
+   "prob": 0.99
+  },
+  {
+   "text": "'avenir",
+   "start": 10.88,
+   "end": 11.22,
+   "prob": 1.0
+  },
+  {
+   "text": "si",
+   "start": 11.22,
+   "end": 11.32,
+   "prob": 0.98
+  },
+  {
+   "text": "jamais",
+   "start": 11.32,
+   "end": 11.52,
+   "prob": 1.0
+  },
+  {
+   "text": "votre",
+   "start": 11.52,
+   "end": 11.72,
+   "prob": 1.0
+  },
+  {
+   "text": "entreprise",
+   "start": 11.72,
+   "end": 12.26,
+   "prob": 1.0
+  },
+  {
+   "text": "grandit",
+   "start": 12.26,
+   "end": 12.8,
+   "prob": 0.93
+  },
+  {
+   "text": "comment",
+   "start": 12.8,
+   "end": 13.32,
+   "prob": 0.35
+  },
+  {
+   "text": "est",
+   "start": 13.32,
+   "end": 13.48,
+   "prob": 0.94
+  },
+  {
+   "text": "ce",
+   "start": 13.48,
+   "end": 13.52,
+   "prob": 0.76
+  },
+  {
+   "text": "que",
+   "start": 13.52,
+   "end": 13.62,
+   "prob": 0.92
+  },
+  {
+   "text": "l",
+   "start": 13.62,
+   "end": 13.76,
+   "prob": 0.96
+  },
+  {
+   "text": "'IA",
+   "start": 13.76,
+   "end": 13.82,
+   "prob": 0.99
+  },
+  {
+   "text": "va",
+   "start": 13.82,
+   "end": 14.04,
+   "prob": 0.98
+  },
+  {
+   "text": "pouvoir",
+   "start": 14.04,
+   "end": 14.36,
+   "prob": 0.99
+  },
+  {
+   "text": "grandir",
+   "start": 14.36,
+   "end": 15.14,
+   "prob": 0.96
+  },
+  {
+   "text": "également",
+   "start": 15.14,
+   "end": 15.4,
+   "prob": 1.0
+  },
+  {
+   "text": "avec",
+   "start": 15.4,
+   "end": 15.74,
+   "prob": 1.0
+  },
+  {
+   "text": "vous",
+   "start": 15.74,
+   "end": 16.0,
+   "prob": 1.0
+  }
+ ]
+}

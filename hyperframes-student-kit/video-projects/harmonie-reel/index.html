@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Audit IA — L'IA grandit avec vous</title>
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      /* Fonts embedded locally (assets/fonts). Instrument Serif = closing voice, Archivo = speech + labels. */
+      @font-face { font-family: "Instrument Serif"; font-style: normal; font-weight: 400; font-display: block;
+        src: url(assets/fonts/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg.woff2) format("woff2"); }
+      @font-face { font-family: "Instrument Serif"; font-style: italic; font-weight: 400; font-display: block;
+        src: url(assets/fonts/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2) format("woff2"); }
+      @font-face { font-family: "Archivo"; font-style: normal; font-weight: 100 900; font-display: block;
+        src: url(assets/fonts/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxI.woff2) format("woff2"); }
+
+      :root {
+        --bg: #0c1b2a;      /* night sea: panel */
+        --card: #14283b;    /* your company */
+        --ink: #f3eee4;     /* speech */
+        --accent: #e0b15c;  /* the AI: what fills and grows */
+        --muted: #8fa0b3;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0c1b2a; color: #f3eee4; font-family: "Archivo", sans-serif; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #0c1b2a; }
+
+      /* ---- footage: 1920x1080 source in a non-timed wrapper; GSAP moves the wrapper between HERO and STAGE ---- */
+      #face-wrapper { position: absolute; top: 0; left: 0; width: 1920px; height: 1080px; transform-origin: 0 0; z-index: 0; will-change: transform; }
+      #face-video { display: block; width: 1920px; height: 1080px; object-fit: cover; transform-origin: 50% 45%; filter: contrast(1.04) saturate(1.06); }
+
+      /* ---- navy panel under the footage ---- */
+      #panel { position: absolute; left: 0; top: 1134px; width: 1080px; height: 900px; background: #0c1b2a; z-index: 1; overflow: visible; }
+      #panel .seam { position: absolute; left: 0; right: 0; top: -150px; height: 150px;
+        background: linear-gradient(to bottom, rgba(12,27,42,0) 0%, rgba(12,27,42,0.45) 55%, rgba(12,27,42,1) 100%); }
+      #glow { position: absolute; left: 90px; top: -90px; width: 900px; height: 900px; border-radius: 50%; transform-origin: center;
+        background: radial-gradient(circle, rgba(224,177,92,0.17) 0%, rgba(224,177,92,0.05) 38%, rgba(224,177,92,0) 64%); }
+      .hair { position: absolute; left: 90px; right: 90px; height: 1px; background-color: rgba(243,238,228,0.07); }
+      #hair1 { top: 466px; } #hair2 { top: 626px; }
+
+      /* ---- kicker ---- */
+      #kicker { position: absolute; left: 90px; top: 230px; z-index: 4; display: inline-flex; align-items: center; gap: 14px;
+        padding: 14px 24px 14px 20px; border-radius: 14px; background: rgba(12,27,42,0.84);
+        font-weight: 500; font-size: 28px; letter-spacing: 0.22em; color: #f3eee4; }
+      #kicker .dot { width: 12px; height: 12px; border-radius: 50%; background: #e0b15c; }
+
+      /* ---- the object: company card + AI chips ---- */
+      #ghost { position: absolute; left: 148px; top: 1159px; width: 784px; height: 196px; z-index: 2; opacity: 0; visibility: hidden; }
+      #ghost svg { display: block; width: 784px; height: 196px; overflow: visible; }
+      #tag { position: absolute; left: 790px; top: 1122px; z-index: 3; opacity: 0; visibility: hidden; padding: 8px 14px; border-radius: 10px; background: #0c1b2a;
+        border: 1px solid rgba(224,177,92,0.6); font-weight: 500; font-size: 22px; letter-spacing: 0.2em; color: #e0b15c; }
+      #card { position: absolute; left: 260px; top: 1215px; width: 560px; height: 140px; z-index: 3; transform-origin: 50% 100%;
+        display: flex; align-items: center; gap: 22px; padding: 0 34px; border-radius: 26px; background: #14283b;
+        border: 1px solid rgba(243,238,228,0.18); box-shadow: 0 24px 60px rgba(0,0,0,0.35); }
+      #card svg { width: 46px; height: 46px; flex: 0 0 46px; }
+      #card .lbl { display: flex; flex-direction: column; gap: 10px; }
+      #card .lbl span { font-weight: 500; font-size: 26px; letter-spacing: 0.18em; color: #f3eee4; white-space: nowrap; }
+      #ul { height: 4px; width: 100%; background-color: #e0b15c; border-radius: 2px; transform-origin: 0 50%; }
+
+      .row { position: absolute; left: 0; width: 1080px; z-index: 3; display: flex; justify-content: center; gap: 18px; }
+      #row1 { top: 1420px; transform-origin: 50% 0; }
+      #row2 { top: 1520px; }
+      #row2 .chip { opacity: 0; visibility: hidden; }
+      .chip { position: relative; display: inline-flex; align-items: center; justify-content: center; height: 70px; padding: 0 28px;
+        border-radius: 999px; border: 2px dashed rgba(224,177,92,0.85); font-weight: 800; font-size: 26px; color: #0c1b2a; letter-spacing: -0.01em; }
+      .chip .fill { position: absolute; inset: -2px; border-radius: 999px; background: #e0b15c; transform: scale(0); }
+      .chip .label { position: relative; z-index: 1; visibility: hidden; opacity: 0; }
+      .chip .q { position: absolute; left: 0; right: 0; top: 0; bottom: 0; display: flex; align-items: center; justify-content: center;
+        font-weight: 800; font-size: 32px; color: #e0b15c; }
+      .chip.filled { border-color: rgba(224,177,92,0); }
+      .chip.filled .fill { transform: scale(1); }
+      .chip.filled .label { visibility: visible; opacity: 1; }
+      .chip.filled .q { display: none; }
+
+      /* ---- captions (speech) ---- */
+      #caps { position: absolute; left: 0; right: 0; top: 935px; z-index: 4; pointer-events: none; }
+      .cg { position: absolute; left: 90px; right: 90px; top: 0; display: flex; justify-content: center; opacity: 0; visibility: hidden; }
+      .pill { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: 0 0.28em; max-width: 900px;
+        padding: 16px 28px; border-radius: 20px; background: rgba(12,27,42,0.84); text-align: center;
+        font-weight: 800; font-size: 52px; line-height: 1.15; letter-spacing: -0.01em; color: #f3eee4; }
+      .w { display: inline-block; opacity: 0.5; transform-origin: 50% 70%; }
+
+      /* ---- closing lockup ---- */
+      #lock { position: absolute; left: 90px; right: 90px; top: 960px; z-index: 4; display: flex; justify-content: center; opacity: 0; visibility: hidden; }
+      #lock .pill2 { display: inline-flex; gap: 0.26em; padding: 22px 40px; border-radius: 24px; background: rgba(12,27,42,0.84);
+        font-family: "Instrument Serif", serif; font-style: italic; font-weight: 400; font-size: 76px; line-height: 1.1; color: #f3eee4; white-space: nowrap; }
+      #lock .lw { display: inline-block; }
+      #lock .lw.ai { color: #e0b15c; }
+
+      /* ---- grain ---- */
+      #grain { position: absolute; inset: 0; z-index: 6; pointer-events: none; opacity: 0.1; mix-blend-mode: overlay;
+        background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1.2px), radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1.2px);
+        background-size: 3px 3px, 5px 5px; background-position: 0 0, 1px 2px; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-width="1080" data-height="1920" data-duration="15.2">
+      <!-- footage -->
+      <div id="face-wrapper">
+        <video id="face-video" data-start="0" data-duration="15.2" data-track-index="0" src="assets/edited-clean.mp4" muted playsinline></video>
+      </div>
+
+      <!-- panel -->
+      <div id="panel">
+        <div class="seam"></div>
+        <div id="glow"></div>
+        <div id="hair1" class="hair"></div>
+        <div id="hair2" class="hair"></div>
+      </div>
+
+      <!-- future outline -->
+      <div id="ghost">
+        <svg viewBox="0 0 784 196" fill="none">
+          <rect id="ghost-rect" x="1" y="1" width="782" height="194" rx="34" stroke="#e0b15c" stroke-width="2.5" stroke-dasharray="14 12" pathLength="2000" style="stroke-dashoffset:2000; stroke-dasharray:2000;" />
+        </svg>
+      </div>
+      <div id="tag">DEMAIN</div>
+
+      <!-- company card -->
+      <div id="card">
+        <svg viewBox="0 0 48 48" fill="none" stroke="#f3eee4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 20 L24 8 L42 20" />
+          <path d="M10 19 V40 H38 V19" />
+          <path d="M20 40 V29 H28 V40" />
+          <path d="M15 24 H18 M30 24 H33" />
+        </svg>
+        <div class="lbl"><span>VOTRE ENTREPRISE</span><div id="ul"></div></div>
+      </div>
+
+      <!-- AI chips -->
+      <div id="row1" class="row">
+        <div class="chip" id="chip0"><div class="fill"></div><span class="label">Réponses 24/7</span><div class="q">?</div></div>
+        <div class="chip" id="chip1"><div class="fill"></div><span class="label">Relances</span><div class="q">?</div></div>
+        <div class="chip" id="chip2"><div class="fill"></div><span class="label">Rendez-vous</span><div class="q">?</div></div>
+      </div>
+      <div id="row2" class="row">
+        <div class="chip filled" id="chip3"><div class="fill"></div><span class="label">Devis</span><div class="q">?</div></div>
+        <div class="chip filled" id="chip4"><div class="fill"></div><span class="label">Suivi client</span><div class="q">?</div></div>
+        <div class="chip filled" id="chip5"><div class="fill"></div><span class="label">Support</span><div class="q">?</div></div>
+      </div>
+
+      <!-- kicker, captions, lockup -->
+      <div id="kicker"><span class="dot"></span><span>AUDIT IA</span></div>
+      <div id="caps"></div>
+      <div id="lock"><div class="pill2"><span class="lw ai">L'IA</span><span class="lw">grandit</span><span class="lw">avec</span><span class="lw">vous.</span></div></div>
+
+      <div id="grain"></div>
+
+      <!-- audio: normalized voice + synthesized SFX (assets/sfx) -->
+      <audio id="voice" data-start="0" data-duration="15.2" data-track-index="5" data-volume="0.9" src="assets/voice.m4a"></audio>
+      <audio id="sfx-whoosh" data-start="2.3" data-duration="0.7" data-track-index="6" data-volume="0.22" src="assets/sfx/whoosh.m4a"></audio>
+      <audio id="sfx-pop0" data-start="3.34" data-duration="0.16" data-track-index="6" data-volume="0.21" src="assets/sfx/pop.m4a"></audio>
+      <audio id="sfx-pop1" data-start="4.5" data-duration="0.16" data-track-index="6" data-volume="0.21" src="assets/sfx/pop.m4a"></audio>
+      <audio id="sfx-pop2" data-start="5.08" data-duration="0.16" data-track-index="6" data-volume="0.21" src="assets/sfx/pop.m4a"></audio>
+      <audio id="sfx-tick1" data-start="7.44" data-duration="0.12" data-track-index="6" data-volume="0.18" src="assets/sfx/tick.m4a"></audio>
+      <audio id="sfx-swell" data-start="10.15" data-duration="1.1" data-track-index="6" data-volume="0.24" src="assets/sfx/swell.m4a"></audio>
+      <audio id="sfx-pop3" data-start="13.08" data-duration="0.16" data-track-index="6" data-volume="0.19" src="assets/sfx/pop.m4a"></audio>
+      <audio id="sfx-pop4" data-start="13.34" data-duration="0.16" data-track-index="6" data-volume="0.19" src="assets/sfx/pop.m4a"></audio>
+      <audio id="sfx-pop5" data-start="13.68" data-duration="0.16" data-track-index="6" data-volume="0.19" src="assets/sfx/pop.m4a"></audio>
+      <audio id="sfx-tick2" data-start="13.95" data-duration="0.12" data-track-index="6" data-volume="0.16" src="assets/sfx/tick.m4a"></audio>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+      var DUR = 15.2;
+      var INK = "#f3eee4", GOLD = "#e0b15c";
+
+      // Footage modes. HERO: face fills the frame (chin ~ y 915). STAGE: full-width footage on top, panel below (bottom = 1134).
+      var HERO = { x: -910, y: -100, scale: 1.45 };
+      var STAGE = { x: -510, y: 0, scale: 1.05 };
+      // Initial states are immediate (outside the timeline) so frame 0 is correct. Hidden states live in CSS.
+      gsap.set("#face-wrapper", HERO);
+      gsap.set("#panel", { y: 332 });             // panel top 1466 in HERO (= footage bottom), 1134 in STAGE
+      gsap.set("#ul", { scaleX: 0 });
+
+      // Ambient: slow push-in on the footage, breathing glow in the panel.
+      tl.fromTo("#face-video", { scale: 1 }, { scale: 1.045, duration: DUR, ease: "none" }, 0);
+      tl.fromTo("#glow", { scale: 1 }, { scale: 1.09, duration: 3, ease: "sine.inOut", yoyo: true, repeat: 4 }, 0.2);
+
+      // --- s01 hook (0-2.4): kicker, then the empty company card with three "?" slots ---
+      tl.fromTo("#kicker", { autoAlpha: 0, x: -36 }, { autoAlpha: 1, x: 0, duration: 0.5, ease: "expo.out" }, 0.15);
+      tl.fromTo("#card", { autoAlpha: 0, y: 44, scale: 0.94 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.55, ease: "back.out(1.5)" }, 0.55);
+      tl.fromTo("#row1 .chip", { autoAlpha: 0, scale: 0.6, y: 12 }, { autoAlpha: 1, scale: 1, y: 0, duration: 0.42, ease: "back.out(2)", stagger: 0.09 }, 0.8);
+
+      // --- s02 (2.4-6.3): zoom out, panel rises to meet the card; slots fill on tout / capable / faire ---
+      tl.to("#face-wrapper", { x: STAGE.x, y: STAGE.y, scale: STAGE.scale, duration: 0.55, ease: "expo.inOut" }, 2.3);
+      tl.to("#panel", { y: 0, duration: 0.55, ease: "expo.inOut" }, 2.3);
+
+      function fill(t, i) {
+        var c = "#chip" + i;
+        tl.fromTo(c + " .fill", { scale: 0 }, { scale: 1, duration: 0.38, ease: "back.out(1.7)" }, t);
+        tl.to(c, { borderColor: "rgba(224,177,92,0)", duration: 0.12, ease: "none" }, t);
+        tl.to(c + " .q", { autoAlpha: 0, scale: 0.4, duration: 0.18, ease: "power2.in" }, t);
+        tl.fromTo(c + " .label", { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: 0.3, ease: "power2.out" }, t + 0.08);
+      }
+      fill(3.34, 0);   // "tout"
+      fill(4.5, 1);    // "capable"
+      fill(5.08, 2);   // "faire"
+      tl.fromTo("#ul", { scaleX: 0 }, { scaleX: 1, duration: 0.45, ease: "power3.out" }, 5.66);   // "entreprise"
+
+      // --- s03 (6.3-10.73): the future outline draws on "projeter", DEMAIN on "l'avenir", card grows on "grandit" ---
+      tl.set("#ghost", { autoAlpha: 1 }, 7.44);
+      tl.to("#ghost-rect", { strokeDashoffset: 0, duration: 0.85, ease: "power2.out" }, 7.44);
+      tl.fromTo("#tag", { autoAlpha: 0, x: 24 }, { autoAlpha: 1, x: 0, duration: 0.35, ease: "power3.out" }, 8.72);
+      tl.to("#card", { scale: 1.4, duration: 0.6, ease: "back.out(1.3)" }, 10.2);
+      tl.to("#ghost", { autoAlpha: 0, duration: 0.3, ease: "power2.in" }, 10.38);
+
+      // --- s04 (10.73-13.8): chips grow on "grandir", three more AI chips on également / avec / vous ---
+      tl.to("#row1", { scale: 1.15, duration: 0.5, ease: "back.out(1.4)" }, 12.3);
+      [[13.08, 3], [13.34, 4], [13.68, 5]].forEach(function (p) {
+        tl.fromTo("#chip" + p[1], { autoAlpha: 0, scale: 0.5, y: 10 }, { autoAlpha: 1, scale: 1, y: 0, duration: 0.4, ease: "back.out(2)" }, p[0]);
+      });
+
+      // --- s05 (13.8-15.2): closing lockup in the speaker's words ---
+      tl.set("#lock", { autoAlpha: 1 }, 13.95);
+      tl.fromTo("#lock .lw", { autoAlpha: 0, y: 26 }, { autoAlpha: 1, y: 0, duration: 0.55, ease: "power3.out", stagger: 0.09 }, 13.95);
+
+      // --- captions: exact retained words, one group at a time, active word in accent, hard kill at group end ---
+      var GROUPS = [{"start": 0, "end": 0.913, "words": [{"text": "Le", "start": 0, "end": 0.213}, {"text": "but", "start": 0.213, "end": 0.373}, {"text": "de", "start": 0.373, "end": 0.553}, {"text": "l'audit", "start": 0.553, "end": 0.913}]}, {"start": 0.913, "end": 2.993, "words": [{"text": "c'est", "start": 0.913, "end": 1.473}, {"text": "de", "start": 1.473, "end": 1.753}, {"text": "pouvoir", "start": 1.753, "end": 2.373}, {"text": "vous", "start": 2.373, "end": 2.593}, {"text": "montrer", "start": 2.593, "end": 2.993}]}, {"start": 2.993, "end": 4.213, "words": [{"text": "vraiment", "start": 2.993, "end": 3.333}, {"text": "tout", "start": 3.333, "end": 3.713}, {"text": "ce", "start": 3.713, "end": 3.873}, {"text": "que", "start": 3.873, "end": 3.993}, {"text": "l'IA", "start": 3.993, "end": 4.213}]}, {"start": 4.213, "end": 5.273, "words": [{"text": "est", "start": 4.213, "end": 4.493}, {"text": "capable", "start": 4.493, "end": 4.773}, {"text": "de", "start": 4.773, "end": 5.073}, {"text": "faire", "start": 5.073, "end": 5.273}]}, {"start": 5.273, "end": 6.273, "words": [{"text": "dans", "start": 5.273, "end": 5.433}, {"text": "votre", "start": 5.433, "end": 5.653}, {"text": "entreprise", "start": 5.653, "end": 6.273}]}, {"start": 6.273, "end": 7.953, "words": [{"text": "et", "start": 6.273, "end": 6.773}, {"text": "même", "start": 6.773, "end": 7.033}, {"text": "se", "start": 7.033, "end": 7.433}, {"text": "projeter", "start": 7.433, "end": 7.953}]}, {"start": 7.953, "end": 9.153, "words": [{"text": "à", "start": 7.953, "end": 8.713}, {"text": "l'avenir", "start": 8.713, "end": 9.153}]}, {"start": 9.153, "end": 10.733, "words": [{"text": "si", "start": 9.153, "end": 9.253}, {"text": "jamais", "start": 9.253, "end": 9.453}, {"text": "votre", "start": 9.453, "end": 9.653}, {"text": "entreprise", "start": 9.653, "end": 10.193}, {"text": "grandit", "start": 10.193, "end": 10.733}]}, {"start": 10.733, "end": 11.753, "words": [{"text": "comment", "start": 10.733, "end": 11.253}, {"text": "est-ce", "start": 11.253, "end": 11.453}, {"text": "que", "start": 11.453, "end": 11.553}, {"text": "l'IA", "start": 11.553, "end": 11.753}]}, {"start": 11.753, "end": 13.073, "words": [{"text": "va", "start": 11.753, "end": 11.973}, {"text": "pouvoir", "start": 11.973, "end": 12.293}, {"text": "grandir", "start": 12.293, "end": 13.073}]}, {"start": 13.073, "end": 13.933, "words": [{"text": "également", "start": 13.073, "end": 13.333}, {"text": "avec", "start": 13.333, "end": 13.673}, {"text": "vous.", "start": 13.673, "end": 13.933}]}];
+      var caps = document.getElementById("caps");
+      GROUPS.forEach(function (g, gi) {
+        var el = document.createElement("div"); el.className = "cg"; el.id = "cg-" + gi;
+        var pill = document.createElement("div"); pill.className = "pill";
+        g.words.forEach(function (w, wi) {
+          var s = document.createElement("span"); s.className = "w"; s.id = "cg-" + gi + "-w" + wi; s.textContent = w.text; pill.appendChild(s);
+        });
+        el.appendChild(pill); caps.appendChild(el);
+        tl.fromTo(el, { autoAlpha: 0, y: 16, scale: 0.97 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.2, ease: "power3.out" }, g.start);
+        g.words.forEach(function (w, wi) {
+          var s = "#cg-" + gi + "-w" + wi;
+          tl.to(s, { color: GOLD, opacity: 1, scale: 1.06, duration: 0.09, ease: "power2.out" }, w.start);
+          tl.to(s, { color: INK, scale: 1, duration: 0.14, ease: "power2.out" }, Math.max(w.end - 0.02, w.start + 0.1));
+        });
+        tl.to(el, { autoAlpha: 0, y: -8, duration: 0.1, ease: "power2.in" }, g.end - 0.1);
+        tl.set(el, { autoAlpha: 0 }, g.end);
+      });
+
+      // caption self-lint: every group must be gone right after its end
+      GROUPS.forEach(function (g, gi) {
+        var el = document.getElementById("cg-" + gi); if (!el) return;
+        tl.seek(g.end + 0.01);
+        var cs = window.getComputedStyle(el);
+        if (cs.opacity !== "0" && cs.visibility !== "hidden") console.warn("[caption-lint] group " + gi + " still visible at " + (g.end + 0.01).toFixed(2));
+      });
+      tl.seek(0);
+
+      tl.set({}, {}, DUR);   // pad to exact slot
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

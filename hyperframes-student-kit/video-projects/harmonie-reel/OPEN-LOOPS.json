@@ -1,0 +1,38 @@
+{
+  "opening": {
+    "benefit": "Understand what an AI audit shows you: everything AI can take on in your company, and how it scales with you.",
+    "evidenceBy3": "Empty 'VOTRE ENTREPRISE' card with three dashed '?' slots planted at 0.55 s; zoom-out at 2.3 s gives it a stage; first slot fills at 3.34 s (just after the 3 s mark, on the word 'tout').",
+    "payoffTime": 10.2,
+    "muted": "Face on the sea + kicker AUDIT IA + empty card with three '?' slots: topic and the missing information are readable without sound."
+  },
+  "loops": [
+    {
+      "id": "main",
+      "question": "What would AI actually fill in my company?",
+      "object": "Company card with three empty dashed slots",
+      "setup": 0.55,
+      "updates": [
+        { "time": 3.34, "state": "Slot 1 fills: Réponses 24/7 (on 'tout')" },
+        { "time": 4.5, "state": "Slot 2 fills: Relances (on 'capable')" },
+        { "time": 5.08, "state": "Slot 3 fills: Rendez-vous (on 'faire')" }
+      ],
+      "closure": 5.66,
+      "resolution": "All three slots are filled and the company label is underlined on 'entreprise'.",
+      "supportingSpeech": "vous montrer vraiment tout ce que l'IA est capable de faire dans votre entreprise"
+    },
+    {
+      "id": "secondary",
+      "question": "And if the company grows — does the AI keep up?",
+      "object": "Dashed larger outline (future state) drawn around the card, tagged DEMAIN",
+      "setup": 7.44,
+      "updates": [
+        { "time": 8.72, "state": "DEMAIN tag appears on 'l'avenir'" },
+        { "time": 10.2, "state": "Card grows to fill the outline on 'grandit'" }
+      ],
+      "closure": 13.68,
+      "resolution": "Chips scale up on 'grandir' and three more AI chips appear on 'également / avec / vous' — the AI layer grew with the company. Closing line 'L'IA grandit avec vous.' at 13.95 s.",
+      "supportingSpeech": "comment est-ce que l'IA va pouvoir grandir également avec vous"
+    }
+  ],
+  "notes": "Only one loop open at a time: main closes at 5.66 s before secondary opens at 7.44 s. No CTA is spoken, so none is added; the closing line reuses the speaker's words."
+}
