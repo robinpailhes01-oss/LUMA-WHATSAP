@@ -1,0 +1,894 @@
+{
+ "text": "qui a fait qu'aujourd'hui j'ai absolument tous mes outils. J'ai créé tous mes outils. Je ne dépends absolument plus de rien donc j'ai économisé à peu près 2000 euros par an que ce soit d'abonnement de CRM etc et surtout la chose la plus dont je suis le plus fier que j'ai créé c'est vraiment l'agent WhatsApp qui parle en fait vraiment comme moi donc c'est pour ça qu'on garde vraiment cette relation humaine puisque voilà il parle comme moi il est connecté à mes outils il est même connecté à la météo si jamais une personne demande s'il va faire beau etc et en fait du coup il va qualifier toutes ces personnes là il va les mettre dans un tableau de bord et c'est moi même qui vais faire le relance si besoin",
+ "words": [
+  {
+   "text": "qui",
+   "start": 1.18,
+   "end": 1.66,
+   "prob": 0.2
+  },
+  {
+   "text": "a",
+   "start": 1.66,
+   "end": 1.78,
+   "prob": 0.88
+  },
+  {
+   "text": "fait",
+   "start": 1.78,
+   "end": 1.9,
+   "prob": 0.99
+  },
+  {
+   "text": "qu",
+   "start": 1.9,
+   "end": 2.08,
+   "prob": 0.52
+  },
+  {
+   "text": "'aujourd",
+   "start": 2.08,
+   "end": 2.44,
+   "prob": 0.99
+  },
+  {
+   "text": "'hui",
+   "start": 2.44,
+   "end": 2.72,
+   "prob": 1.0
+  },
+  {
+   "text": "j",
+   "start": 2.72,
+   "end": 3.04,
+   "prob": 0.63
+  },
+  {
+   "text": "'ai",
+   "start": 3.04,
+   "end": 3.14,
+   "prob": 1.0
+  },
+  {
+   "text": "absolument",
+   "start": 3.14,
+   "end": 3.56,
+   "prob": 0.97
+  },
+  {
+   "text": "tous",
+   "start": 3.56,
+   "end": 3.9,
+   "prob": 0.81
+  },
+  {
+   "text": "mes",
+   "start": 3.9,
+   "end": 4.08,
+   "prob": 0.98
+  },
+  {
+   "text": "outils.",
+   "start": 4.08,
+   "end": 4.48,
+   "prob": 1.0
+  },
+  {
+   "text": "J",
+   "start": 4.66,
+   "end": 4.7,
+   "prob": 0.93
+  },
+  {
+   "text": "'ai",
+   "start": 4.7,
+   "end": 4.74,
+   "prob": 1.0
+  },
+  {
+   "text": "créé",
+   "start": 4.74,
+   "end": 5.02,
+   "prob": 0.96
+  },
+  {
+   "text": "tous",
+   "start": 5.02,
+   "end": 5.16,
+   "prob": 0.89
+  },
+  {
+   "text": "mes",
+   "start": 5.16,
+   "end": 5.32,
+   "prob": 0.99
+  },
+  {
+   "text": "outils.",
+   "start": 5.32,
+   "end": 5.62,
+   "prob": 1.0
+  },
+  {
+   "text": "Je",
+   "start": 5.74,
+   "end": 5.76,
+   "prob": 0.97
+  },
+  {
+   "text": "ne",
+   "start": 5.76,
+   "end": 5.88,
+   "prob": 0.98
+  },
+  {
+   "text": "dépends",
+   "start": 5.88,
+   "end": 6.2,
+   "prob": 0.87
+  },
+  {
+   "text": "absolument",
+   "start": 6.2,
+   "end": 6.82,
+   "prob": 0.98
+  },
+  {
+   "text": "plus",
+   "start": 6.82,
+   "end": 7.2,
+   "prob": 0.99
+  },
+  {
+   "text": "de",
+   "start": 7.2,
+   "end": 7.4,
+   "prob": 1.0
+  },
+  {
+   "text": "rien",
+   "start": 7.4,
+   "end": 7.62,
+   "prob": 0.97
+  },
+  {
+   "text": "donc",
+   "start": 7.62,
+   "end": 7.94,
+   "prob": 0.42
+  },
+  {
+   "text": "j",
+   "start": 7.94,
+   "end": 8.1,
+   "prob": 0.97
+  },
+  {
+   "text": "'ai",
+   "start": 8.1,
+   "end": 8.16,
+   "prob": 0.98
+  },
+  {
+   "text": "économisé",
+   "start": 8.16,
+   "end": 8.8,
+   "prob": 0.96
+  },
+  {
+   "text": "à",
+   "start": 8.8,
+   "end": 9.06,
+   "prob": 1.0
+  },
+  {
+   "text": "peu",
+   "start": 9.06,
+   "end": 9.16,
+   "prob": 0.99
+  },
+  {
+   "text": "près",
+   "start": 9.16,
+   "end": 9.34,
+   "prob": 1.0
+  },
+  {
+   "text": "2000",
+   "start": 9.34,
+   "end": 9.66,
+   "prob": 0.54
+  },
+  {
+   "text": "euros",
+   "start": 9.66,
+   "end": 9.96,
+   "prob": 0.75
+  },
+  {
+   "text": "par",
+   "start": 9.96,
+   "end": 10.38,
+   "prob": 0.96
+  },
+  {
+   "text": "an",
+   "start": 10.38,
+   "end": 10.7,
+   "prob": 0.99
+  },
+  {
+   "text": "que",
+   "start": 10.7,
+   "end": 11.52,
+   "prob": 0.7
+  },
+  {
+   "text": "ce",
+   "start": 11.52,
+   "end": 11.66,
+   "prob": 1.0
+  },
+  {
+   "text": "soit",
+   "start": 11.66,
+   "end": 11.88,
+   "prob": 1.0
+  },
+  {
+   "text": "d",
+   "start": 11.88,
+   "end": 12.02,
+   "prob": 0.99
+  },
+  {
+   "text": "'abonnement",
+   "start": 12.02,
+   "end": 12.5,
+   "prob": 0.9
+  },
+  {
+   "text": "de",
+   "start": 12.5,
+   "end": 13.02,
+   "prob": 0.75
+  },
+  {
+   "text": "CRM",
+   "start": 13.02,
+   "end": 13.8,
+   "prob": 0.91
+  },
+  {
+   "text": "etc",
+   "start": 13.8,
+   "end": 14.1,
+   "prob": 0.49
+  },
+  {
+   "text": "et",
+   "start": 14.1,
+   "end": 15.02,
+   "prob": 0.28
+  },
+  {
+   "text": "surtout",
+   "start": 15.02,
+   "end": 15.4,
+   "prob": 1.0
+  },
+  {
+   "text": "la",
+   "start": 15.4,
+   "end": 15.68,
+   "prob": 0.94
+  },
+  {
+   "text": "chose",
+   "start": 15.68,
+   "end": 15.9,
+   "prob": 0.99
+  },
+  {
+   "text": "la",
+   "start": 15.9,
+   "end": 16.14,
+   "prob": 0.68
+  },
+  {
+   "text": "plus",
+   "start": 16.14,
+   "end": 16.42,
+   "prob": 1.0
+  },
+  {
+   "text": "dont",
+   "start": 16.42,
+   "end": 16.9,
+   "prob": 0.56
+  },
+  {
+   "text": "je",
+   "start": 16.9,
+   "end": 17.06,
+   "prob": 1.0
+  },
+  {
+   "text": "suis",
+   "start": 17.06,
+   "end": 17.2,
+   "prob": 0.99
+  },
+  {
+   "text": "le",
+   "start": 17.2,
+   "end": 17.32,
+   "prob": 1.0
+  },
+  {
+   "text": "plus",
+   "start": 17.32,
+   "end": 17.5,
+   "prob": 1.0
+  },
+  {
+   "text": "fier",
+   "start": 17.5,
+   "end": 17.72,
+   "prob": 0.86
+  },
+  {
+   "text": "que",
+   "start": 17.72,
+   "end": 17.92,
+   "prob": 0.99
+  },
+  {
+   "text": "j",
+   "start": 17.92,
+   "end": 18.04,
+   "prob": 1.0
+  },
+  {
+   "text": "'ai",
+   "start": 18.04,
+   "end": 18.1,
+   "prob": 1.0
+  },
+  {
+   "text": "créé",
+   "start": 18.1,
+   "end": 18.38,
+   "prob": 0.98
+  },
+  {
+   "text": "c",
+   "start": 18.38,
+   "end": 18.46,
+   "prob": 0.72
+  },
+  {
+   "text": "'est",
+   "start": 18.46,
+   "end": 18.52,
+   "prob": 1.0
+  },
+  {
+   "text": "vraiment",
+   "start": 18.52,
+   "end": 18.8,
+   "prob": 1.0
+  },
+  {
+   "text": "l",
+   "start": 18.8,
+   "end": 19.0,
+   "prob": 0.92
+  },
+  {
+   "text": "'agent",
+   "start": 19.0,
+   "end": 19.18,
+   "prob": 0.93
+  },
+  {
+   "text": "WhatsApp",
+   "start": 19.18,
+   "end": 19.6,
+   "prob": 0.46
+  },
+  {
+   "text": "qui",
+   "start": 19.6,
+   "end": 21.0,
+   "prob": 0.91
+  },
+  {
+   "text": "parle",
+   "start": 21.0,
+   "end": 21.28,
+   "prob": 0.98
+  },
+  {
+   "text": "en",
+   "start": 21.28,
+   "end": 21.4,
+   "prob": 0.97
+  },
+  {
+   "text": "fait",
+   "start": 21.4,
+   "end": 21.52,
+   "prob": 1.0
+  },
+  {
+   "text": "vraiment",
+   "start": 21.52,
+   "end": 21.92,
+   "prob": 0.99
+  },
+  {
+   "text": "comme",
+   "start": 21.92,
+   "end": 22.18,
+   "prob": 0.99
+  },
+  {
+   "text": "moi",
+   "start": 22.18,
+   "end": 22.5,
+   "prob": 1.0
+  },
+  {
+   "text": "donc",
+   "start": 22.5,
+   "end": 22.86,
+   "prob": 0.71
+  },
+  {
+   "text": "c",
+   "start": 22.86,
+   "end": 23.4,
+   "prob": 1.0
+  },
+  {
+   "text": "'est",
+   "start": 23.4,
+   "end": 23.44,
+   "prob": 1.0
+  },
+  {
+   "text": "pour",
+   "start": 23.44,
+   "end": 23.58,
+   "prob": 1.0
+  },
+  {
+   "text": "ça",
+   "start": 23.58,
+   "end": 23.72,
+   "prob": 0.99
+  },
+  {
+   "text": "qu",
+   "start": 23.72,
+   "end": 23.9,
+   "prob": 0.54
+  },
+  {
+   "text": "'on",
+   "start": 23.9,
+   "end": 24.26,
+   "prob": 1.0
+  },
+  {
+   "text": "garde",
+   "start": 24.26,
+   "end": 24.54,
+   "prob": 0.99
+  },
+  {
+   "text": "vraiment",
+   "start": 24.54,
+   "end": 25.24,
+   "prob": 0.24
+  },
+  {
+   "text": "cette",
+   "start": 25.24,
+   "end": 25.5,
+   "prob": 0.97
+  },
+  {
+   "text": "relation",
+   "start": 25.5,
+   "end": 25.96,
+   "prob": 0.99
+  },
+  {
+   "text": "humaine",
+   "start": 25.96,
+   "end": 26.56,
+   "prob": 0.99
+  },
+  {
+   "text": "puisque",
+   "start": 26.56,
+   "end": 27.14,
+   "prob": 0.42
+  },
+  {
+   "text": "voilà",
+   "start": 27.14,
+   "end": 27.72,
+   "prob": 0.76
+  },
+  {
+   "text": "il",
+   "start": 27.72,
+   "end": 27.88,
+   "prob": 0.83
+  },
+  {
+   "text": "parle",
+   "start": 27.88,
+   "end": 28.04,
+   "prob": 0.96
+  },
+  {
+   "text": "comme",
+   "start": 28.04,
+   "end": 28.3,
+   "prob": 1.0
+  },
+  {
+   "text": "moi",
+   "start": 28.3,
+   "end": 28.56,
+   "prob": 0.99
+  },
+  {
+   "text": "il",
+   "start": 28.56,
+   "end": 28.82,
+   "prob": 0.53
+  },
+  {
+   "text": "est",
+   "start": 28.82,
+   "end": 28.94,
+   "prob": 0.99
+  },
+  {
+   "text": "connecté",
+   "start": 28.94,
+   "end": 29.34,
+   "prob": 0.99
+  },
+  {
+   "text": "à",
+   "start": 29.34,
+   "end": 29.42,
+   "prob": 0.97
+  },
+  {
+   "text": "mes",
+   "start": 29.42,
+   "end": 29.56,
+   "prob": 0.99
+  },
+  {
+   "text": "outils",
+   "start": 29.56,
+   "end": 29.9,
+   "prob": 0.99
+  },
+  {
+   "text": "il",
+   "start": 29.9,
+   "end": 30.06,
+   "prob": 0.56
+  },
+  {
+   "text": "est",
+   "start": 30.06,
+   "end": 30.1,
+   "prob": 0.98
+  },
+  {
+   "text": "même",
+   "start": 30.1,
+   "end": 30.26,
+   "prob": 0.98
+  },
+  {
+   "text": "connecté",
+   "start": 30.26,
+   "end": 30.7,
+   "prob": 0.99
+  },
+  {
+   "text": "à",
+   "start": 30.7,
+   "end": 30.74,
+   "prob": 0.99
+  },
+  {
+   "text": "la",
+   "start": 30.74,
+   "end": 30.88,
+   "prob": 0.97
+  },
+  {
+   "text": "météo",
+   "start": 30.88,
+   "end": 31.18,
+   "prob": 0.66
+  },
+  {
+   "text": "si",
+   "start": 31.18,
+   "end": 31.38,
+   "prob": 0.94
+  },
+  {
+   "text": "jamais",
+   "start": 31.38,
+   "end": 31.64,
+   "prob": 1.0
+  },
+  {
+   "text": "une",
+   "start": 31.64,
+   "end": 31.86,
+   "prob": 0.99
+  },
+  {
+   "text": "personne",
+   "start": 31.86,
+   "end": 32.2,
+   "prob": 1.0
+  },
+  {
+   "text": "demande",
+   "start": 32.2,
+   "end": 32.82,
+   "prob": 0.99
+  },
+  {
+   "text": "s",
+   "start": 32.82,
+   "end": 32.98,
+   "prob": 0.94
+  },
+  {
+   "text": "'il",
+   "start": 32.98,
+   "end": 33.02,
+   "prob": 0.99
+  },
+  {
+   "text": "va",
+   "start": 33.02,
+   "end": 33.14,
+   "prob": 1.0
+  },
+  {
+   "text": "faire",
+   "start": 33.14,
+   "end": 33.36,
+   "prob": 1.0
+  },
+  {
+   "text": "beau",
+   "start": 33.36,
+   "end": 33.54,
+   "prob": 0.98
+  },
+  {
+   "text": "etc",
+   "start": 33.54,
+   "end": 33.82,
+   "prob": 0.92
+  },
+  {
+   "text": "et",
+   "start": 33.82,
+   "end": 34.94,
+   "prob": 0.54
+  },
+  {
+   "text": "en",
+   "start": 35.66,
+   "end": 36.1,
+   "prob": 0.83
+  },
+  {
+   "text": "fait",
+   "start": 36.1,
+   "end": 36.26,
+   "prob": 1.0
+  },
+  {
+   "text": "du",
+   "start": 36.26,
+   "end": 36.42,
+   "prob": 0.99
+  },
+  {
+   "text": "coup",
+   "start": 36.42,
+   "end": 36.62,
+   "prob": 1.0
+  },
+  {
+   "text": "il",
+   "start": 36.62,
+   "end": 36.94,
+   "prob": 0.96
+  },
+  {
+   "text": "va",
+   "start": 36.94,
+   "end": 37.06,
+   "prob": 1.0
+  },
+  {
+   "text": "qualifier",
+   "start": 37.06,
+   "end": 37.52,
+   "prob": 0.99
+  },
+  {
+   "text": "toutes",
+   "start": 37.52,
+   "end": 37.82,
+   "prob": 0.96
+  },
+  {
+   "text": "ces",
+   "start": 37.82,
+   "end": 38.0,
+   "prob": 0.99
+  },
+  {
+   "text": "personnes",
+   "start": 38.0,
+   "end": 38.32,
+   "prob": 1.0
+  },
+  {
+   "text": "là",
+   "start": 38.32,
+   "end": 38.54,
+   "prob": 0.87
+  },
+  {
+   "text": "il",
+   "start": 38.54,
+   "end": 38.82,
+   "prob": 0.92
+  },
+  {
+   "text": "va",
+   "start": 38.82,
+   "end": 39.04,
+   "prob": 0.99
+  },
+  {
+   "text": "les",
+   "start": 39.04,
+   "end": 39.28,
+   "prob": 0.96
+  },
+  {
+   "text": "mettre",
+   "start": 39.28,
+   "end": 39.4,
+   "prob": 0.99
+  },
+  {
+   "text": "dans",
+   "start": 39.4,
+   "end": 39.58,
+   "prob": 1.0
+  },
+  {
+   "text": "un",
+   "start": 39.58,
+   "end": 39.72,
+   "prob": 1.0
+  },
+  {
+   "text": "tableau",
+   "start": 39.72,
+   "end": 40.02,
+   "prob": 1.0
+  },
+  {
+   "text": "de",
+   "start": 40.02,
+   "end": 40.1,
+   "prob": 0.95
+  },
+  {
+   "text": "bord",
+   "start": 40.1,
+   "end": 40.34,
+   "prob": 0.96
+  },
+  {
+   "text": "et",
+   "start": 40.34,
+   "end": 41.12,
+   "prob": 0.95
+  },
+  {
+   "text": "c",
+   "start": 41.72,
+   "end": 42.16,
+   "prob": 0.95
+  },
+  {
+   "text": "'est",
+   "start": 42.16,
+   "end": 42.26,
+   "prob": 1.0
+  },
+  {
+   "text": "moi",
+   "start": 42.26,
+   "end": 42.44,
+   "prob": 1.0
+  },
+  {
+   "text": "même",
+   "start": 42.44,
+   "end": 42.76,
+   "prob": 0.78
+  },
+  {
+   "text": "qui",
+   "start": 42.76,
+   "end": 42.94,
+   "prob": 0.98
+  },
+  {
+   "text": "vais",
+   "start": 42.94,
+   "end": 43.06,
+   "prob": 0.99
+  },
+  {
+   "text": "faire",
+   "start": 43.06,
+   "end": 43.24,
+   "prob": 1.0
+  },
+  {
+   "text": "le",
+   "start": 43.24,
+   "end": 43.38,
+   "prob": 0.98
+  },
+  {
+   "text": "relance",
+   "start": 43.38,
+   "end": 43.82,
+   "prob": 0.97
+  },
+  {
+   "text": "si",
+   "start": 43.82,
+   "end": 44.2,
+   "prob": 0.98
+  },
+  {
+   "text": "besoin",
+   "start": 44.2,
+   "end": 44.56,
+   "prob": 0.99
+  }
+ ],
+ "language": "fr"
+}
