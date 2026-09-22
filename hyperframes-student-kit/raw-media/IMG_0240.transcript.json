@@ -1,0 +1,510 @@
+{
+ "text": "Et donc voilà pour cette petite présentation, j'aimerais juste finir sur comment je travaille avec mes clients avec l'agence Loma. Pour vous expliquer, tout d'abord je fais toujours un audit avec le chef d'entreprise qui est complètement gratuit, moi c'est juste pour comprendre un petit peu comment vous fonctionnez, tous vos outils, déjà aussi vos objectifs, votre situation actuelle etc. Et puis ensuite, premièrement on va vraiment voir déjà où est-ce qu'on va pouvoir gagner du temps.",
+ "words": [
+  {
+   "text": "Et",
+   "start": 1.28,
+   "end": 1.76,
+   "prob": 0.6
+  },
+  {
+   "text": "donc",
+   "start": 1.76,
+   "end": 1.94,
+   "prob": 0.9
+  },
+  {
+   "text": "voilà",
+   "start": 1.94,
+   "end": 2.18,
+   "prob": 0.93
+  },
+  {
+   "text": "pour",
+   "start": 2.18,
+   "end": 2.42,
+   "prob": 0.97
+  },
+  {
+   "text": "cette",
+   "start": 2.42,
+   "end": 2.58,
+   "prob": 1.0
+  },
+  {
+   "text": "petite",
+   "start": 2.58,
+   "end": 2.78,
+   "prob": 0.99
+  },
+  {
+   "text": "présentation,",
+   "start": 2.78,
+   "end": 3.5,
+   "prob": 1.0
+  },
+  {
+   "text": "j",
+   "start": 3.66,
+   "end": 3.82,
+   "prob": 0.98
+  },
+  {
+   "text": "'aimerais",
+   "start": 3.82,
+   "end": 4.08,
+   "prob": 0.98
+  },
+  {
+   "text": "juste",
+   "start": 4.08,
+   "end": 4.24,
+   "prob": 0.95
+  },
+  {
+   "text": "finir",
+   "start": 4.24,
+   "end": 4.72,
+   "prob": 1.0
+  },
+  {
+   "text": "sur",
+   "start": 4.72,
+   "end": 5.04,
+   "prob": 0.99
+  },
+  {
+   "text": "comment",
+   "start": 5.04,
+   "end": 6.3,
+   "prob": 0.87
+  },
+  {
+   "text": "je",
+   "start": 6.3,
+   "end": 6.46,
+   "prob": 0.99
+  },
+  {
+   "text": "travaille",
+   "start": 6.46,
+   "end": 6.72,
+   "prob": 0.98
+  },
+  {
+   "text": "avec",
+   "start": 6.72,
+   "end": 6.88,
+   "prob": 0.97
+  },
+  {
+   "text": "mes",
+   "start": 6.88,
+   "end": 7.0,
+   "prob": 0.99
+  },
+  {
+   "text": "clients",
+   "start": 7.0,
+   "end": 7.28,
+   "prob": 0.99
+  },
+  {
+   "text": "avec",
+   "start": 7.28,
+   "end": 7.82,
+   "prob": 0.34
+  },
+  {
+   "text": "l",
+   "start": 7.82,
+   "end": 8.7,
+   "prob": 0.96
+  },
+  {
+   "text": "'agence",
+   "start": 8.7,
+   "end": 8.88,
+   "prob": 0.94
+  },
+  {
+   "text": "Loma.",
+   "start": 8.88,
+   "end": 9.24,
+   "prob": 0.78
+  },
+  {
+   "text": "Pour",
+   "start": 9.94,
+   "end": 10.06,
+   "prob": 0.57
+  },
+  {
+   "text": "vous",
+   "start": 10.06,
+   "end": 10.22,
+   "prob": 1.0
+  },
+  {
+   "text": "expliquer,",
+   "start": 10.22,
+   "end": 10.7,
+   "prob": 0.99
+  },
+  {
+   "text": "tout",
+   "start": 11.04,
+   "end": 11.2,
+   "prob": 0.75
+  },
+  {
+   "text": "d",
+   "start": 11.2,
+   "end": 11.38,
+   "prob": 1.0
+  },
+  {
+   "text": "'abord",
+   "start": 11.38,
+   "end": 11.58,
+   "prob": 1.0
+  },
+  {
+   "text": "je",
+   "start": 11.58,
+   "end": 11.8,
+   "prob": 0.21
+  },
+  {
+   "text": "fais",
+   "start": 11.8,
+   "end": 12.46,
+   "prob": 0.99
+  },
+  {
+   "text": "toujours",
+   "start": 12.46,
+   "end": 12.78,
+   "prob": 0.97
+  },
+  {
+   "text": "un",
+   "start": 12.78,
+   "end": 12.98,
+   "prob": 0.98
+  },
+  {
+   "text": "audit",
+   "start": 12.98,
+   "end": 13.32,
+   "prob": 0.77
+  },
+  {
+   "text": "avec",
+   "start": 13.32,
+   "end": 14.38,
+   "prob": 0.99
+  },
+  {
+   "text": "le",
+   "start": 14.38,
+   "end": 14.56,
+   "prob": 0.99
+  },
+  {
+   "text": "chef",
+   "start": 14.56,
+   "end": 14.68,
+   "prob": 0.98
+  },
+  {
+   "text": "d",
+   "start": 14.68,
+   "end": 14.82,
+   "prob": 0.99
+  },
+  {
+   "text": "'entreprise",
+   "start": 14.82,
+   "end": 15.34,
+   "prob": 1.0
+  },
+  {
+   "text": "qui",
+   "start": 15.34,
+   "end": 15.86,
+   "prob": 0.81
+  },
+  {
+   "text": "est",
+   "start": 15.86,
+   "end": 16.32,
+   "prob": 1.0
+  },
+  {
+   "text": "complètement",
+   "start": 16.32,
+   "end": 16.68,
+   "prob": 0.98
+  },
+  {
+   "text": "gratuit,",
+   "start": 16.68,
+   "end": 17.04,
+   "prob": 0.94
+  },
+  {
+   "text": "moi",
+   "start": 17.24,
+   "end": 17.3,
+   "prob": 0.77
+  },
+  {
+   "text": "c",
+   "start": 17.3,
+   "end": 17.44,
+   "prob": 0.88
+  },
+  {
+   "text": "'est",
+   "start": 17.44,
+   "end": 17.48,
+   "prob": 1.0
+  },
+  {
+   "text": "juste",
+   "start": 17.48,
+   "end": 17.62,
+   "prob": 0.99
+  },
+  {
+   "text": "pour",
+   "start": 17.62,
+   "end": 17.8,
+   "prob": 1.0
+  },
+  {
+   "text": "comprendre",
+   "start": 17.8,
+   "end": 18.26,
+   "prob": 1.0
+  },
+  {
+   "text": "un",
+   "start": 18.26,
+   "end": 18.46,
+   "prob": 0.82
+  },
+  {
+   "text": "petit",
+   "start": 18.46,
+   "end": 18.6,
+   "prob": 0.88
+  },
+  {
+   "text": "peu",
+   "start": 18.6,
+   "end": 18.76,
+   "prob": 1.0
+  },
+  {
+   "text": "comment",
+   "start": 18.76,
+   "end": 19.0,
+   "prob": 1.0
+  },
+  {
+   "text": "vous",
+   "start": 19.0,
+   "end": 19.18,
+   "prob": 0.98
+  },
+  {
+   "text": "fonctionnez,",
+   "start": 19.18,
+   "end": 19.76,
+   "prob": 0.71
+  },
+  {
+   "text": "tous",
+   "start": 20.24,
+   "end": 20.72,
+   "prob": 0.93
+  },
+  {
+   "text": "vos",
+   "start": 20.72,
+   "end": 20.94,
+   "prob": 1.0
+  },
+  {
+   "text": "outils,",
+   "start": 20.94,
+   "end": 21.74,
+   "prob": 1.0
+  },
+  {
+   "text": "déjà",
+   "start": 21.96,
+   "end": 22.5,
+   "prob": 0.97
+  },
+  {
+   "text": "aussi",
+   "start": 22.5,
+   "end": 22.76,
+   "prob": 0.86
+  },
+  {
+   "text": "vos",
+   "start": 22.76,
+   "end": 22.92,
+   "prob": 0.96
+  },
+  {
+   "text": "objectifs,",
+   "start": 22.92,
+   "end": 23.42,
+   "prob": 0.98
+  },
+  {
+   "text": "votre",
+   "start": 23.54,
+   "end": 23.62,
+   "prob": 0.94
+  },
+  {
+   "text": "situation",
+   "start": 23.62,
+   "end": 23.92,
+   "prob": 1.0
+  },
+  {
+   "text": "actuelle",
+   "start": 23.92,
+   "end": 24.66,
+   "prob": 0.99
+  },
+  {
+   "text": "etc.",
+   "start": 24.66,
+   "end": 24.96,
+   "prob": 0.48
+  },
+  {
+   "text": "Et",
+   "start": 25.44,
+   "end": 25.84,
+   "prob": 0.39
+  },
+  {
+   "text": "puis",
+   "start": 25.84,
+   "end": 25.98,
+   "prob": 0.87
+  },
+  {
+   "text": "ensuite,",
+   "start": 25.98,
+   "end": 26.44,
+   "prob": 0.93
+  },
+  {
+   "text": "premièrement",
+   "start": 26.7,
+   "end": 27.1,
+   "prob": 0.95
+  },
+  {
+   "text": "on",
+   "start": 27.1,
+   "end": 27.18,
+   "prob": 0.39
+  },
+  {
+   "text": "va",
+   "start": 27.18,
+   "end": 27.28,
+   "prob": 0.99
+  },
+  {
+   "text": "vraiment",
+   "start": 27.28,
+   "end": 27.5,
+   "prob": 0.93
+  },
+  {
+   "text": "voir",
+   "start": 27.5,
+   "end": 27.82,
+   "prob": 0.98
+  },
+  {
+   "text": "déjà",
+   "start": 27.82,
+   "end": 28.24,
+   "prob": 0.89
+  },
+  {
+   "text": "où",
+   "start": 28.24,
+   "end": 28.44,
+   "prob": 0.91
+  },
+  {
+   "text": "est",
+   "start": 28.44,
+   "end": 28.54,
+   "prob": 0.9
+  },
+  {
+   "text": "-ce",
+   "start": 28.54,
+   "end": 28.62,
+   "prob": 0.78
+  },
+  {
+   "text": "qu",
+   "start": 28.62,
+   "end": 28.64,
+   "prob": 0.91
+  },
+  {
+   "text": "'on",
+   "start": 28.64,
+   "end": 28.68,
+   "prob": 1.0
+  },
+  {
+   "text": "va",
+   "start": 28.68,
+   "end": 28.78,
+   "prob": 1.0
+  },
+  {
+   "text": "pouvoir",
+   "start": 28.78,
+   "end": 29.02,
+   "prob": 1.0
+  },
+  {
+   "text": "gagner",
+   "start": 29.02,
+   "end": 29.36,
+   "prob": 0.99
+  },
+  {
+   "text": "du",
+   "start": 29.36,
+   "end": 29.54,
+   "prob": 0.99
+  },
+  {
+   "text": "temps.",
+   "start": 29.54,
+   "end": 29.74,
+   "prob": 1.0
+  }
+ ],
+ "language": "fr"
+}
