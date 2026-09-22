@@ -1,0 +1,382 @@
+[
+ {
+  "text": "J",
+  "start": 0.0,
+  "end": 0.18
+ },
+ {
+  "text": "'aimerais",
+  "start": 0.18,
+  "end": 0.44
+ },
+ {
+  "text": "juste",
+  "start": 0.44,
+  "end": 0.58
+ },
+ {
+  "text": "finir",
+  "start": 0.58,
+  "end": 1.08
+ },
+ {
+  "text": "sur",
+  "start": 1.08,
+  "end": 1.38
+ },
+ {
+  "text": "comment",
+  "start": 1.38,
+  "end": 2.64
+ },
+ {
+  "text": "je",
+  "start": 2.64,
+  "end": 2.8
+ },
+ {
+  "text": "travaille",
+  "start": 2.8,
+  "end": 3.06
+ },
+ {
+  "text": "avec",
+  "start": 3.06,
+  "end": 3.24
+ },
+ {
+  "text": "mes",
+  "start": 3.24,
+  "end": 3.34
+ },
+ {
+  "text": "clients",
+  "start": 3.34,
+  "end": 3.62
+ },
+ {
+  "text": "avec",
+  "start": 3.62,
+  "end": 4.16
+ },
+ {
+  "text": "l",
+  "start": 4.16,
+  "end": 5.04
+ },
+ {
+  "text": "'agence",
+  "start": 5.04,
+  "end": 5.2
+ },
+ {
+  "text": "Loma.",
+  "start": 5.2,
+  "end": 5.56
+ },
+ {
+  "text": "Pour",
+  "start": 6.28,
+  "end": 6.42
+ },
+ {
+  "text": "vous",
+  "start": 6.42,
+  "end": 6.56
+ },
+ {
+  "text": "expliquer,",
+  "start": 6.56,
+  "end": 7.02
+ },
+ {
+  "text": "tout",
+  "start": 7.38,
+  "end": 7.54
+ },
+ {
+  "text": "d",
+  "start": 7.54,
+  "end": 7.72
+ },
+ {
+  "text": "'abord,",
+  "start": 7.72,
+  "end": 7.92
+ },
+ {
+  "text": "je",
+  "start": 8.08,
+  "end": 8.1
+ },
+ {
+  "text": "fais",
+  "start": 8.1,
+  "end": 8.8
+ },
+ {
+  "text": "toujours",
+  "start": 8.8,
+  "end": 9.1
+ },
+ {
+  "text": "un",
+  "start": 9.1,
+  "end": 9.32
+ },
+ {
+  "text": "audit",
+  "start": 9.32,
+  "end": 9.66
+ },
+ {
+  "text": "avec",
+  "start": 9.66,
+  "end": 10.7
+ },
+ {
+  "text": "le",
+  "start": 10.7,
+  "end": 10.88
+ },
+ {
+  "text": "chef",
+  "start": 10.88,
+  "end": 11.0
+ },
+ {
+  "text": "d",
+  "start": 11.0,
+  "end": 11.16
+ },
+ {
+  "text": "'entreprise",
+  "start": 11.16,
+  "end": 11.68
+ },
+ {
+  "text": "qui",
+  "start": 11.68,
+  "end": 12.2
+ },
+ {
+  "text": "est",
+  "start": 12.2,
+  "end": 12.66
+ },
+ {
+  "text": "complètement",
+  "start": 12.66,
+  "end": 13.0
+ },
+ {
+  "text": "gratuit.",
+  "start": 13.0,
+  "end": 13.4
+ },
+ {
+  "text": "C",
+  "start": 13.58,
+  "end": 13.7
+ },
+ {
+  "text": "'est",
+  "start": 13.7,
+  "end": 13.82
+ },
+ {
+  "text": "juste",
+  "start": 13.82,
+  "end": 13.94
+ },
+ {
+  "text": "pour",
+  "start": 13.94,
+  "end": 14.14
+ },
+ {
+  "text": "comprendre",
+  "start": 14.14,
+  "end": 14.6
+ },
+ {
+  "text": "un",
+  "start": 14.6,
+  "end": 14.8
+ },
+ {
+  "text": "petit",
+  "start": 14.8,
+  "end": 14.94
+ },
+ {
+  "text": "peu",
+  "start": 14.94,
+  "end": 15.1
+ },
+ {
+  "text": "comment",
+  "start": 15.1,
+  "end": 15.34
+ },
+ {
+  "text": "vous",
+  "start": 15.34,
+  "end": 15.52
+ },
+ {
+  "text": "fonctionnez,",
+  "start": 15.52,
+  "end": 16.08
+ },
+ {
+  "text": "tous",
+  "start": 16.58,
+  "end": 17.06
+ },
+ {
+  "text": "vos",
+  "start": 17.06,
+  "end": 17.28
+ },
+ {
+  "text": "outils,",
+  "start": 17.28,
+  "end": 17.76
+ },
+ {
+  "text": "déjà",
+  "start": 18.28,
+  "end": 18.84
+ },
+ {
+  "text": "aussi",
+  "start": 18.84,
+  "end": 19.08
+ },
+ {
+  "text": "vos",
+  "start": 19.08,
+  "end": 19.26
+ },
+ {
+  "text": "objectifs,",
+  "start": 19.26,
+  "end": 19.76
+ },
+ {
+  "text": "votre",
+  "start": 19.88,
+  "end": 19.96
+ },
+ {
+  "text": "situation",
+  "start": 19.96,
+  "end": 20.24
+ },
+ {
+  "text": "actuelle,",
+  "start": 20.24,
+  "end": 21.0
+ },
+ {
+  "text": "etc.",
+  "start": 21.06,
+  "end": 21.32
+ },
+ {
+  "text": "Et",
+  "start": 22.18,
+  "end": 22.18
+ },
+ {
+  "text": "puis",
+  "start": 22.18,
+  "end": 22.34
+ },
+ {
+  "text": "ensuite,",
+  "start": 22.34,
+  "end": 22.74
+ },
+ {
+  "text": "premièrement,",
+  "start": 23.02,
+  "end": 23.46
+ },
+ {
+  "text": "on",
+  "start": 23.52,
+  "end": 23.52
+ },
+ {
+  "text": "va",
+  "start": 23.52,
+  "end": 23.62
+ },
+ {
+  "text": "vraiment",
+  "start": 23.62,
+  "end": 23.86
+ },
+ {
+  "text": "voir",
+  "start": 23.86,
+  "end": 24.18
+ },
+ {
+  "text": "déjà",
+  "start": 24.18,
+  "end": 24.58
+ },
+ {
+  "text": "où",
+  "start": 24.58,
+  "end": 24.8
+ },
+ {
+  "text": "est",
+  "start": 24.8,
+  "end": 24.88
+ },
+ {
+  "text": "-ce",
+  "start": 24.88,
+  "end": 24.94
+ },
+ {
+  "text": "qu",
+  "start": 24.94,
+  "end": 25.0
+ },
+ {
+  "text": "'on",
+  "start": 25.0,
+  "end": 25.02
+ },
+ {
+  "text": "va",
+  "start": 25.02,
+  "end": 25.1
+ },
+ {
+  "text": "pouvoir",
+  "start": 25.1,
+  "end": 25.36
+ },
+ {
+  "text": "gagner",
+  "start": 25.36,
+  "end": 25.7
+ },
+ {
+  "text": "du",
+  "start": 25.7,
+  "end": 25.86
+ },
+ {
+  "text": "temps.",
+  "start": 25.86,
+  "end": 26.08
+ }
+]

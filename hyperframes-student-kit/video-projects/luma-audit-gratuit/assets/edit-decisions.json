@@ -1,0 +1,38 @@
+{
+ "duration": 29.0,
+ "fps": 30,
+ "source": "assets/source.mov (IMG_0240.MOV, 31.41 s, HLG)",
+ "footage": "assets/footage.mp4 (SDR BT.709, 26.6 s)",
+ "keeps": [
+  {
+   "sourceStart": 3.6667,
+   "sourceEnd": 30.2667,
+   "start": 0,
+   "end": 26.6
+  }
+ ],
+ "removals": [
+  {
+   "sourceStart": 0,
+   "sourceEnd": 3.6667,
+   "reason": "« Et donc voilà pour cette petite présentation » renvoie à une vidéo précédente absente ; ouverture sur « J'aimerais juste finir sur comment je travaille… » (décision par défaut validée par « Go »)."
+  },
+  {
+   "sourceStart": 30.2667,
+   "sourceEnd": 31.4067,
+   "reason": "Silence de fin après « gagner du temps » (0.53 s de respiration gardés)."
+  }
+ ],
+ "hesitationsKept": [
+  "un petit peu (14.59-15.09)",
+  "déjà aussi (18.29-19.09)",
+  "etc. (20.99-21.29)",
+  "vraiment / déjà (23.61-23.83, 24.15-24.57)"
+ ],
+ "extension": {
+  "start": 26.6,
+  "end": 29.0,
+  "reason": "Écran de fin LUMA (logo + mascotte) ; la vignette affiche la dernière image (assets/last-frame.jpg)."
+ },
+ "audio": "Voix réelle, vitesse et timbre inchangés ; gain statique +5.6 dB (-23.7 → -18.3 LUFS, pic -1.2 dBFS) + fondu 25.9-26.6 s. Un gain plus fort écrêtait (pic source -6.8 dBFS). Aucun traitement dynamique."
+}

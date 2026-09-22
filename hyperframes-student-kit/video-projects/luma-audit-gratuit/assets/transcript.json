@@ -1,0 +1,500 @@
+{
+ "text": "J'aimerais juste finir sur comment je travaille avec mes clients avec l'agence LUMA. Pour vous expliquer, tout d'abord je fais toujours un audit avec le chef d'entreprise qui est complètement gratuit, moi c'est juste pour comprendre un petit peu comment vous fonctionnez, tous vos outils, déjà aussi vos objectifs, votre situation actuelle etc. Et puis ensuite, premièrement on va vraiment voir déjà où est-ce qu'on va pouvoir gagner du temps.",
+ "words": [
+  {
+   "text": "J'aimerais",
+   "start": 0,
+   "end": 0.413,
+   "sourceStart": 3.6667,
+   "sourceEnd": 4.08
+  },
+  {
+   "text": "juste",
+   "start": 0.413,
+   "end": 0.573,
+   "sourceStart": 4.08,
+   "sourceEnd": 4.24
+  },
+  {
+   "text": "finir",
+   "start": 0.573,
+   "end": 1.053,
+   "sourceStart": 4.24,
+   "sourceEnd": 4.72
+  },
+  {
+   "text": "sur",
+   "start": 1.053,
+   "end": 1.373,
+   "sourceStart": 4.72,
+   "sourceEnd": 5.04
+  },
+  {
+   "text": "comment",
+   "start": 1.373,
+   "end": 2.633,
+   "sourceStart": 5.04,
+   "sourceEnd": 6.3
+  },
+  {
+   "text": "je",
+   "start": 2.633,
+   "end": 2.793,
+   "sourceStart": 6.3,
+   "sourceEnd": 6.46
+  },
+  {
+   "text": "travaille",
+   "start": 2.793,
+   "end": 3.053,
+   "sourceStart": 6.46,
+   "sourceEnd": 6.72
+  },
+  {
+   "text": "avec",
+   "start": 3.053,
+   "end": 3.213,
+   "sourceStart": 6.72,
+   "sourceEnd": 6.88
+  },
+  {
+   "text": "mes",
+   "start": 3.213,
+   "end": 3.333,
+   "sourceStart": 6.88,
+   "sourceEnd": 7.0
+  },
+  {
+   "text": "clients",
+   "start": 3.333,
+   "end": 3.613,
+   "sourceStart": 7.0,
+   "sourceEnd": 7.28
+  },
+  {
+   "text": "avec",
+   "start": 3.613,
+   "end": 4.153,
+   "sourceStart": 7.28,
+   "sourceEnd": 7.82
+  },
+  {
+   "text": "l'agence",
+   "start": 4.153,
+   "end": 5.213,
+   "sourceStart": 7.82,
+   "sourceEnd": 8.88
+  },
+  {
+   "text": "LUMA.",
+   "start": 5.213,
+   "end": 5.573,
+   "sourceStart": 8.88,
+   "sourceEnd": 9.24
+  },
+  {
+   "text": "Pour",
+   "start": 6.273,
+   "end": 6.393,
+   "sourceStart": 9.94,
+   "sourceEnd": 10.06
+  },
+  {
+   "text": "vous",
+   "start": 6.393,
+   "end": 6.553,
+   "sourceStart": 10.06,
+   "sourceEnd": 10.22
+  },
+  {
+   "text": "expliquer,",
+   "start": 6.553,
+   "end": 7.033,
+   "sourceStart": 10.22,
+   "sourceEnd": 10.7
+  },
+  {
+   "text": "tout",
+   "start": 7.373,
+   "end": 7.533,
+   "sourceStart": 11.04,
+   "sourceEnd": 11.2
+  },
+  {
+   "text": "d'abord",
+   "start": 7.533,
+   "end": 7.913,
+   "sourceStart": 11.2,
+   "sourceEnd": 11.58
+  },
+  {
+   "text": "je",
+   "start": 7.913,
+   "end": 8.133,
+   "sourceStart": 11.58,
+   "sourceEnd": 11.8
+  },
+  {
+   "text": "fais",
+   "start": 8.133,
+   "end": 8.793,
+   "sourceStart": 11.8,
+   "sourceEnd": 12.46
+  },
+  {
+   "text": "toujours",
+   "start": 8.793,
+   "end": 9.113,
+   "sourceStart": 12.46,
+   "sourceEnd": 12.78
+  },
+  {
+   "text": "un",
+   "start": 9.113,
+   "end": 9.313,
+   "sourceStart": 12.78,
+   "sourceEnd": 12.98
+  },
+  {
+   "text": "audit",
+   "start": 9.313,
+   "end": 9.653,
+   "sourceStart": 12.98,
+   "sourceEnd": 13.32
+  },
+  {
+   "text": "avec",
+   "start": 9.653,
+   "end": 10.713,
+   "sourceStart": 13.32,
+   "sourceEnd": 14.38
+  },
+  {
+   "text": "le",
+   "start": 10.713,
+   "end": 10.893,
+   "sourceStart": 14.38,
+   "sourceEnd": 14.56
+  },
+  {
+   "text": "chef",
+   "start": 10.893,
+   "end": 11.013,
+   "sourceStart": 14.56,
+   "sourceEnd": 14.68
+  },
+  {
+   "text": "d'entreprise",
+   "start": 11.013,
+   "end": 11.673,
+   "sourceStart": 14.68,
+   "sourceEnd": 15.34
+  },
+  {
+   "text": "qui",
+   "start": 11.673,
+   "end": 12.193,
+   "sourceStart": 15.34,
+   "sourceEnd": 15.86
+  },
+  {
+   "text": "est",
+   "start": 12.193,
+   "end": 12.653,
+   "sourceStart": 15.86,
+   "sourceEnd": 16.32
+  },
+  {
+   "text": "complètement",
+   "start": 12.653,
+   "end": 13.013,
+   "sourceStart": 16.32,
+   "sourceEnd": 16.68
+  },
+  {
+   "text": "gratuit,",
+   "start": 13.013,
+   "end": 13.373,
+   "sourceStart": 16.68,
+   "sourceEnd": 17.04
+  },
+  {
+   "text": "moi",
+   "start": 13.573,
+   "end": 13.633,
+   "sourceStart": 17.24,
+   "sourceEnd": 17.3
+  },
+  {
+   "text": "c'est",
+   "start": 13.633,
+   "end": 13.813,
+   "sourceStart": 17.3,
+   "sourceEnd": 17.48
+  },
+  {
+   "text": "juste",
+   "start": 13.813,
+   "end": 13.953,
+   "sourceStart": 17.48,
+   "sourceEnd": 17.62
+  },
+  {
+   "text": "pour",
+   "start": 13.953,
+   "end": 14.133,
+   "sourceStart": 17.62,
+   "sourceEnd": 17.8
+  },
+  {
+   "text": "comprendre",
+   "start": 14.133,
+   "end": 14.593,
+   "sourceStart": 17.8,
+   "sourceEnd": 18.26
+  },
+  {
+   "text": "un",
+   "start": 14.593,
+   "end": 14.793,
+   "sourceStart": 18.26,
+   "sourceEnd": 18.46
+  },
+  {
+   "text": "petit",
+   "start": 14.793,
+   "end": 14.933,
+   "sourceStart": 18.46,
+   "sourceEnd": 18.6
+  },
+  {
+   "text": "peu",
+   "start": 14.933,
+   "end": 15.093,
+   "sourceStart": 18.6,
+   "sourceEnd": 18.76
+  },
+  {
+   "text": "comment",
+   "start": 15.093,
+   "end": 15.333,
+   "sourceStart": 18.76,
+   "sourceEnd": 19.0
+  },
+  {
+   "text": "vous",
+   "start": 15.333,
+   "end": 15.513,
+   "sourceStart": 19.0,
+   "sourceEnd": 19.18
+  },
+  {
+   "text": "fonctionnez,",
+   "start": 15.513,
+   "end": 16.093,
+   "sourceStart": 19.18,
+   "sourceEnd": 19.76
+  },
+  {
+   "text": "tous",
+   "start": 16.573,
+   "end": 17.053,
+   "sourceStart": 20.24,
+   "sourceEnd": 20.72
+  },
+  {
+   "text": "vos",
+   "start": 17.053,
+   "end": 17.273,
+   "sourceStart": 20.72,
+   "sourceEnd": 20.94
+  },
+  {
+   "text": "outils,",
+   "start": 17.273,
+   "end": 18.073,
+   "sourceStart": 20.94,
+   "sourceEnd": 21.74
+  },
+  {
+   "text": "déjà",
+   "start": 18.293,
+   "end": 18.833,
+   "sourceStart": 21.96,
+   "sourceEnd": 22.5
+  },
+  {
+   "text": "aussi",
+   "start": 18.833,
+   "end": 19.093,
+   "sourceStart": 22.5,
+   "sourceEnd": 22.76
+  },
+  {
+   "text": "vos",
+   "start": 19.093,
+   "end": 19.253,
+   "sourceStart": 22.76,
+   "sourceEnd": 22.92
+  },
+  {
+   "text": "objectifs,",
+   "start": 19.253,
+   "end": 19.753,
+   "sourceStart": 22.92,
+   "sourceEnd": 23.42
+  },
+  {
+   "text": "votre",
+   "start": 19.873,
+   "end": 19.953,
+   "sourceStart": 23.54,
+   "sourceEnd": 23.62
+  },
+  {
+   "text": "situation",
+   "start": 19.953,
+   "end": 20.253,
+   "sourceStart": 23.62,
+   "sourceEnd": 23.92
+  },
+  {
+   "text": "actuelle",
+   "start": 20.253,
+   "end": 20.993,
+   "sourceStart": 23.92,
+   "sourceEnd": 24.66
+  },
+  {
+   "text": "etc.",
+   "start": 20.993,
+   "end": 21.293,
+   "sourceStart": 24.66,
+   "sourceEnd": 24.96
+  },
+  {
+   "text": "Et",
+   "start": 21.773,
+   "end": 22.173,
+   "sourceStart": 25.44,
+   "sourceEnd": 25.84
+  },
+  {
+   "text": "puis",
+   "start": 22.173,
+   "end": 22.313,
+   "sourceStart": 25.84,
+   "sourceEnd": 25.98
+  },
+  {
+   "text": "ensuite,",
+   "start": 22.313,
+   "end": 22.773,
+   "sourceStart": 25.98,
+   "sourceEnd": 26.44
+  },
+  {
+   "text": "premièrement",
+   "start": 23.033,
+   "end": 23.433,
+   "sourceStart": 26.7,
+   "sourceEnd": 27.1
+  },
+  {
+   "text": "on",
+   "start": 23.433,
+   "end": 23.513,
+   "sourceStart": 27.1,
+   "sourceEnd": 27.18
+  },
+  {
+   "text": "va",
+   "start": 23.513,
+   "end": 23.613,
+   "sourceStart": 27.18,
+   "sourceEnd": 27.28
+  },
+  {
+   "text": "vraiment",
+   "start": 23.613,
+   "end": 23.833,
+   "sourceStart": 27.28,
+   "sourceEnd": 27.5
+  },
+  {
+   "text": "voir",
+   "start": 23.833,
+   "end": 24.153,
+   "sourceStart": 27.5,
+   "sourceEnd": 27.82
+  },
+  {
+   "text": "déjà",
+   "start": 24.153,
+   "end": 24.573,
+   "sourceStart": 27.82,
+   "sourceEnd": 28.24
+  },
+  {
+   "text": "où",
+   "start": 24.573,
+   "end": 24.773,
+   "sourceStart": 28.24,
+   "sourceEnd": 28.44
+  },
+  {
+   "text": "est-ce",
+   "start": 24.773,
+   "end": 24.953,
+   "sourceStart": 28.44,
+   "sourceEnd": 28.62
+  },
+  {
+   "text": "qu'on",
+   "start": 24.953,
+   "end": 25.013,
+   "sourceStart": 28.62,
+   "sourceEnd": 28.68
+  },
+  {
+   "text": "va",
+   "start": 25.013,
+   "end": 25.113,
+   "sourceStart": 28.68,
+   "sourceEnd": 28.78
+  },
+  {
+   "text": "pouvoir",
+   "start": 25.113,
+   "end": 25.353,
+   "sourceStart": 28.78,
+   "sourceEnd": 29.02
+  },
+  {
+   "text": "gagner",
+   "start": 25.353,
+   "end": 25.693,
+   "sourceStart": 29.02,
+   "sourceEnd": 29.36
+  },
+  {
+   "text": "du",
+   "start": 25.693,
+   "end": 25.873,
+   "sourceStart": 29.36,
+   "sourceEnd": 29.54
+  },
+  {
+   "text": "temps.",
+   "start": 25.873,
+   "end": 26.073,
+   "sourceStart": 29.54,
+   "sourceEnd": 29.74
+  }
+ ],
+ "language": "fr",
+ "duration": 29.0,
+ "speechEnd": 26.073,
+ "fps": 30,
+ "provider": "faster-whisper small (local CPU) sur raw-media/IMG_0240.MOV ; edited = source - 3.6667 s ; « Loma » corrigé en « LUMA »"
+}
