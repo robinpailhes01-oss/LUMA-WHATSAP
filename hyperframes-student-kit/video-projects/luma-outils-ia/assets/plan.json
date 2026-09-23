@@ -74,14 +74,6 @@
  ],
  "events": [
   {
-   "id": "logo",
-   "time": 0.3,
-   "type": "logo-in",
-   "visual": "s01",
-   "anchor": "Voici",
-   "sfx": "tick"
-  },
-  {
    "id": "hook",
    "time": 0.67,
    "type": "hook-title-in",

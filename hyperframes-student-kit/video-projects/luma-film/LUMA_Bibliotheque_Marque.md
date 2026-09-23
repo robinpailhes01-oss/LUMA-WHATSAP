@@ -1,6 +1,6 @@
 # LUMA — Bibliothèque de marque pour les montages vidéo
 
-Version 1.1 · 22 septembre 2026 · fournie par Robin (4 planches PNG), transcrite pour être appliquée par Claude Code.
+Version 1.2 · 23 septembre 2026 · fournie par Robin (4 planches PNG), transcrite pour être appliquée par Claude Code.
 Statut : **règle de marque pour tous les futurs montages**. Consigne de Robin : « tout ce que tu peux prendre en compte
 pour les futurs montages afin que cela colle parfaitement à notre image de marque ».
 
@@ -179,9 +179,27 @@ Vert `#25D366` réservé aux bulles WhatsApp (déjà appliqué dans `luma-agent-
 
 Les films livrés ne sont **pas** modifiés sans demande. Toute nouvelle version applique cette bibliothèque par défaut.
 
+
+## 9. Retours de Robin sur les montages (règles durables, 23/09/2026)
+
+Retours donnés sur `luma-outils-ia` v001, à appliquer à tous les montages suivants (ils priment sur les gabarits ci-dessus) :
+
+1. **Pas de logo permanent en haut** du film. Le logo n'apparaît qu'à l'écran de fin.
+2. **Sous-titres** : gras italique blanc (Inter 800 italique, ≈ 54 px en 9:16), ombre portée sombre, **mot clé / mot actif
+   en bleu clair `#8FBBFF`** (texte coloré, pas de pilule de fond). Référence : capture d'un Reel tiers fournie par Robin
+   (« directement dans Claude. »).
+3. **Ne jamais couper la tête** avec un graphique. Les cartes, téléphones et pilules restent au-dessus ou à côté du visage ;
+   une superposition n'est acceptable que si elle est réellement translucide et volontaire. Mesurer la position réelle du
+   visage sur la séquence (grille) avant de placer les zones ; sur les rushes verticaux de septembre 2026 le visage occupe
+   y 700–1230 / x 440–800 à l'échelle 1.
+4. **Épuré et classe** : éviter l'empilement de rectangles sur fond de couleur. Titres en Barlow posés directement sur la
+   vidéo avec une ombre, chiffres clés en texte dégradé sans cartouche, cartes réservées aux vrais objets d'interface
+   (téléphone, commentaire) et, au besoin, un verre clair très léger.
+
 ## Historique
 
 | Version | Date | Changement |
 |---|---|---|
 | 1.0 | 22/09/2026 | Transcription des 4 planches fournies par Robin ; écarts avec les v001 listés. |
 | 1.1 | 22/09/2026 | Polices Barlow Condensed (700, 800) et Caveat (400–700) déposées dans `assets/fonts/` avec `fonts.css` et spécimen de contrôle. |
+| 1.2 | 23/09/2026 | §9 : retours durables de Robin (pas de logo permanent, sous-titres gras italique à mot clé bleu clair, jamais sur la tête, moins de cartouches). |

@@ -13,11 +13,11 @@ Réel LUMA « les 3 outils IA que j'ai mis dans mon entreprise » (5 rushes vert
 ## v001 — outils IA (23/09/2026)
 
 - Rendu : `renders/v001_outils-ia.mp4` — 97.2 s, 1080 × 1920, 30 i/s, sha256 `ba4c46aa…` (ré-encodage CRF 20 du master 207 Mo).
-- Statut : **livré, en attente du retour de Robin**.
+- Statut : livré, **remplacé par v002** après retours.
 
 | # | Point | Statut |
 |---|---|---|
-| 1 | Format vertical 9:16 (rushes natifs) | à valider (règle générale « paysage » suspendue pour ce réel) |
+| 1 | Format vertical 9:16 (rushes natifs) | accepté implicitement (retours portent sur le contenu) |
 | 2 | Durée 97 s, aucun mot retiré | à valider ; hésitations coupables listées dans l'analyse (≈ 3 s) |
 | 3 | Captures réelles : tableau de bord ×4 (floutées), ChatGPT, WhatsApp disponibilité (anonymisée) | conforme |
 | 4 | Audit GEO et actions : cartes illustratives (pas de capture) | à remplacer si Robin fournit les captures |
@@ -25,7 +25,22 @@ Réel LUMA « les 3 outils IA que j'ai mis dans mon entreprise » (5 rushes vert
 | 6 | CRM représenté par l'icône HubSpot (bibliothèque) | à confirmer selon l'outil réel |
 | 7 | Écran de fin : « Commente « outil » pour ton audit gratuit » + bouton Découvrir Luma | à valider |
 
-## v002 — à définir
+## v002 — retours (23/09/2026)
+
+- Rendu : `renders/v002_retours.mp4` — 97.2 s, 1080 × 1920, 30 i/s, sha256 `d37973fb…`.
+- Statut : **livré, en attente du retour de Robin**.
+
+| # | Demande de Robin | Mise en œuvre | Statut |
+|---|---|---|---|
+| 1 | Supprimer le logo en haut | Logo retiré du film (reste à l'écran de fin) | mise en œuvre |
+| 2 | Changer la police des sous-titres (capture « directement dans Claude. ») | Inter 800 italique blanc, ombre portée, mot actif et mots clés en bleu clair `#8FBBFF`, plus de pilule | mise en œuvre — à valider (Inter italique synthétique, pas la police exacte du Reel tiers) |
+| 3 | Ne jamais couper la tête par un graphique | Visage mesuré sur la séquence ; cadrages recalculés ; « 3 h / jour » et carte commentaire déplacés ; contrôle sur 98 images | mise en œuvre |
+| 4 | GEO : plus épuré et classe, trop de carrés sur fond de couleur | Titres et « ≈ 20 % » en texte sur la vidéo, cartes Audit / Actions en verre clair, voile dégradé discret en haut | mise en œuvre — à valider |
+| 5 | « là encore tu as coupé la tête » (CTA) | Carte commentaire descendue sur le buste, « juste en dessous » à gauche du visage | mise en œuvre |
+
+Règles durables consignées dans `../luma-film/LUMA_Bibliotheque_Marque.md` §9.
+
+## v003 — à définir
 
 | # | Demande (temps) | Résultat souhaité | Mise en œuvre | Statut |
 |---|---|---|---|---|
@@ -34,7 +49,7 @@ Réel LUMA « les 3 outils IA que j'ai mis dans mon entreprise » (5 rushes vert
 ### Fiche de retour
 
 ```
-Version regardée : v001
+Version regardée : v002
 Ce que je veux garder :
 À changer à [00:00–00:00] :
 Résultat souhaité :

@@ -1,4 +1,29 @@
-# VERIFY — luma-outils-ia v001
+# VERIFY — luma-outils-ia
+
+## v002 — retours (23/09/2026) — **rendu livré : `renders/v002_retours.mp4`**
+
+SHA-256 : `d37973fbb9f34dcc…` (ré-encodage CRF 20 du master HyperFrames 197 Mo, conservé localement en `renders/_v002-master.mp4`).
+Statut : proposition livrée, **non validée**.
+
+| Mesure | Valeur | Attendu |
+|---|---|---|
+| Conteneur | MP4 H.264 yuv420p BT.709 + AAC 48 kHz, faststart | ✓ |
+| Dimensions / cadence | 1080 × 1920, 30 i/s, 2916 images, 97.200 s | ✓ |
+| Loudness | -19.3 LUFS intégrée, pic -2.1 dBTP | ≤ -1 dBFS |
+| Taille | 67.3 Mo (dépôt) ; copie `_web.mp4` 25.1 Mo | < 100 Mo |
+
+- Coupe, voix, plan et sous-titres (mots, temps) **inchangés** depuis la v001 : les validateurs et l'ASR de contrôle v001 restent valables ; lint 0 erreur.
+- Retours appliqués : logo retiré ; sous-titres Inter 800 italique blancs avec ombre, mot actif et mots clés en bleu clair `#8FBBFF` (plus de pilule) ;
+  visage mesuré sur une grille (y 700–1230 / x 440–800 à l'échelle 1) et cadrages recalculés (FACE_LEFT/RIGHT 1.3, y -290 ; PUSH 1.1, y -150) ;
+  « 3 h / jour » déplacé dans la zone haute à la place de l'accroche ; carte commentaire descendue sur le buste (y 1250) ;
+  titres, « 3 h » et « ≈ 20 % » en texte sur la vidéo ; cartes Audit / Actions / Audit gratuit en verre clair ; voile dégradé discret sur les 620 px du haut.
+- **Contrôle « jamais sur la tête »** : planche 98 images (1/s, `qa/v002-sheet.jpg`) + 8 images pleines (2, 6, 21, 31, 45.5, 66, 80, 90 s) :
+  aucun élément ne recouvre le visage ; téléphones et pilules restent à côté, cartes et titres au-dessus.
+- Draft 2 → v002 : ajout du voile haut pour la lisibilité des titres sur le plafond blanc ; premier rendu final refait après un défaut
+  (ombre portée appliquée à un texte dégradé → mots clés des titres sombres) : mots clés des titres passés en bleu clair uni.
+- Aucune écoute perceptive dans cette session ; mesures de signal uniquement.
+
+## v001 — (23/09/2026) — remplacé par v002
 
 **Rendu livré : `renders/v001_outils-ia.mp4`** — SHA-256 `ba4c46aada33745f…` (ré-encodage CRF 20 du master HyperFrames
 de 207 Mo, conservé localement en `renders/_v001-master-207mb.mp4`, sha256 `d88b8f554a91326c…`). Statut : proposition

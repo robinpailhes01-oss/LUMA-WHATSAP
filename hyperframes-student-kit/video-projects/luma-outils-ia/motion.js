@@ -8,16 +8,17 @@
   var tl = gsap.timeline({ paused: true });
 
   // camera (1080×1920 native, face at x 360–720 / y 500–845 at scale 1, origin 0 0)
-  var FULL = { x: 0, y: 0, scale: 1 };
-  var FACE_LEFT = { x: -200, y: -60, scale: 1.2 };   // face x 232–664 ; right column x 690–1060 free
-  var FACE_RIGHT = { x: -40, y: -60, scale: 1.2 };   // face x 392–824 ; left column x 20–370 free
-  var PUSH = { x: -108, y: -100, scale: 1.2 };       // face centred
+  // v002: face measured at x 440–800 / y 700–1230 (scale 1). Nothing is ever placed over the head.
+  var FULL = { x: 0, y: 0, scale: 1 };               // face y 700–1230 ; top zone y 60–640 free
+  var FACE_LEFT = { x: -330, y: -290, scale: 1.3 };  // face x 242–710, y 620–1310 ; right column x 740–1060 free
+  var FACE_RIGHT = { x: -90, y: -290, scale: 1.3 };  // face x 482–950, y 620–1310 ; left column x 30–440 free
+  var PUSH = { x: -54, y: -150, scale: 1.1 };        // face x 430–826, y 620–1203 ; chest from y 1240
   var CAM = { duration: 0.7, ease: "power2.inOut" };
 
   // ---- initial states ----
   gsap.set("#cam", FULL);
   gsap.set("#frame", { scale: 1, borderRadius: 0 });
-  gsap.set(["#logo", "#counter", "#hook", "#hookSub", "#stat3h", "#s3jour", "#s3sub", ".title", "#phone", "#wa", "#gpt", ".pill", ".chip", ".tile", ".hand", ".slot", ".selbox", "#comment", "#auditCard", "#gratuit", "#auditCard .chk", "#endcard", "#logoCard", "#sign", "#cta", "#base"], { autoAlpha: 0 });
+  gsap.set(["#counter", "#hook", "#hookSub", "#stat3h", "#s3jour", "#s3sub", ".title", "#phone", "#wa", "#gpt", ".pill", ".chip", ".tile", ".hand", ".slot", ".selbox", "#comment", "#auditCard", "#gratuit", "#auditCard .chk", "#endcard", "#logoCard", "#sign", "#cta", "#base"], { autoAlpha: 0 });
   gsap.set(["#cn2", "#cn3"], { autoAlpha: 0 });
   gsap.set("#cn1", { autoAlpha: 1 });
   gsap.set("#scrVue", { x: 0, autoAlpha: 1 });
@@ -49,18 +50,18 @@
   }
 
   // ---- s01: hook (FULL) ----
-  slideIn("#logo", T.logo, 0, -16, 0.45);
   slideIn("#hook", T.hook, 0, 70, 0.5);
   draw("#hookUl", T.hook + 0.3, 0.35);
   slideIn("#hookSub", T.hookSub, -20, 0, 0.4);
-  slideIn("#stat3h", T.stat3h - 0.05, 0, 50, 0.5);
+  out("#hook", T.stat3h - 0.35, -40, 0.3);
+  slideIn("#stat3h", T.stat3h - 0.05, 0, 40, 0.5);
   pop("#s3", T.stat3h, { y: 24 }, 0.5);
   slideIn("#s3jour", T.stat3hJour, -20, 0, 0.35);
   slideIn("#s3sub", T.stat3hJour + 0.2, 0, 10, 0.35);
 
   // ---- s02: outil 1 — tableau de bord (FACE_LEFT) ----
   tl.to("#cam", Object.assign({}, FACE_LEFT, CAM), T.cut1);
-  out(["#hook", "#stat3h"], T.cut1, -60, 0.4);
+  out("#stat3h", T.cut1, -60, 0.4);
   slideIn("#t1", T.t1, -40, 0, 0.5);
   slideIn("#counter", T.cnt1, 0, -14, 0.4);
   slideIn("#phone", T.phone, 240, 0, 0.6);
@@ -141,7 +142,7 @@
   pop("#dessous", T.dessous, { y: -10 });
   draw("#dessousArrow", T.dessous + 0.2, 0.35);
   draw("#dessousHead", T.dessous + 0.5, 0.2);
-  out(["#pme", "#ia"], T.auditCard - 0.05, -30, 0.3);
+  out(["#pme", "#ia"], T.auditCard - 0.4, -30, 0.3);
   slideIn("#auditCard", T.auditCard, 0, -40, 0.55);
   pop("#gratuit", T.gratuit, { scale: 0.5 });
   slideIn("#possible", T.possible, -20, 0, 0.4);
@@ -149,7 +150,7 @@
 
   // ---- s06: outro ----
   tl.to("#frame", { scale: 0.92, borderRadius: 60, autoAlpha: 0, duration: 0.6, ease: "power2.inOut" }, T.outro);
-  tl.to(["#comment", "#dessous", "#auditCard", "#logo"], { autoAlpha: 0, duration: 0.3 }, T.outro);
+  tl.to(["#comment", "#dessous", "#auditCard"], { autoAlpha: 0, duration: 0.3 }, T.outro);
   tl.fromTo("#endcard", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.5, ease: "power2.out" }, T.outro + 0.1);
   tl.fromTo("#endcard .g1", { scale: 0.7 }, { scale: 1, duration: 1.6, ease: "power2.out" }, T.outro);
   tl.fromTo("#endcard .g2", { scale: 0.7 }, { scale: 1, duration: 1.8, ease: "power2.out" }, T.outro);
@@ -166,24 +167,16 @@
     var el = document.createElement("div"); el.className = "cg"; el.id = "cg-" + gi;
     var line = document.createElement("div"); line.className = "line";
     g.words.forEach(function (w, wi) {
-      var s = document.createElement("span"); s.className = "w"; s.id = "cg-" + gi + "-w" + wi; s.textContent = w.text;
-      if (w.sel) {
-        var fr = document.createElement("b"); fr.className = "fr"; fr.id = s.id + "-fr";
-        ["a", "b", "c", "d"].forEach(function (k) { var i = document.createElement("i"); i.className = k; fr.appendChild(i); });
-        s.appendChild(fr);
-      }
+      var s = document.createElement("span"); s.className = "w" + (w.sel ? " sel" : ""); s.id = "cg-" + gi + "-w" + wi; s.textContent = w.text;
       line.appendChild(s);
     });
     el.appendChild(line); caps.appendChild(el);
     tl.fromTo(el, { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: 0.12, ease: "power2.out" }, g.start);
     g.words.forEach(function (w, wi) {
       var s = "#cg-" + gi + "-w" + wi;
-      tl.to(s, { backgroundColor: BLUE, duration: 0.15, ease: "none" }, w.start);
-      tl.to(s, { backgroundColor: "rgba(59,130,246,0)", duration: 0.15, ease: "none" }, Math.max(w.end - 0.03, w.start + 0.15));
-      if (w.sel) {
-        tl.fromTo(s + "-fr", { autoAlpha: 0, scale: 1.25 }, { autoAlpha: 1, scale: 1, duration: 0.22, ease: "power3.out" }, w.start);
-        tl.to(s + "-fr", { autoAlpha: 0, duration: 0.15 }, Math.min(g.end - 0.1, w.end + 0.45));
-      }
+      // active word turns light blue while spoken (0.15 s), key words stay blue afterwards
+      tl.to(s, { color: "#8FBBFF", duration: 0.15, ease: "none" }, w.start);
+      if (!w.sel) tl.to(s, { color: "#FFFFFF", duration: 0.15, ease: "none" }, Math.max(w.end - 0.03, w.start + 0.15));
     });
     tl.set(el, { autoAlpha: 0 }, g.end);   // instant switch: contiguous groups never overlap on screen
   });

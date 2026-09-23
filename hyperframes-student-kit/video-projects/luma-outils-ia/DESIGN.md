@@ -1,5 +1,12 @@
 # luma-outils-ia — DESIGN
 
+> **v002 (23/09/2026, retours de Robin)** : plus de logo en haut ; sous-titres Inter 800 italique blancs, mot actif et mots clés
+> en bleu clair `#8FBBFF` (plus de pilule) ; visage mesuré à y 700–1230 / x 440–800 (échelle 1) et cadrages recalculés
+> (FACE_LEFT/RIGHT 1.3 avec y -290, PUSH 1.1) pour que **rien ne passe jamais sur la tête** ; titres et chiffres posés en texte
+> sur la vidéo (Barlow + ombre, mots clés bleu clair) au lieu de cartouches bleu nuit ; cartes Audit / Actions en verre clair ;
+> « 3 h / jour » remplace l'accroche dans la zone haute ; carte commentaire descendue sur le buste ; voile dégradé sombre
+> discret sur les 620 px du haut pour la lisibilité des titres. Le déroulé, la coupe et les événements sont inchangés.
+
 Réel LUMA **vertical 1080×1920, 30 i/s, 97.2 s** « les 3 outils IA que j'ai mis dans mon entreprise », monté à partir de
 cinq rushes verticaux natifs (`raw-media/IMG_0380/0382/0386/0388/0391.MOV`). Analyse : `raw-media/OUTILS-IA.ANALYSE.md`.
 Direction : `../luma-film/LUMA_Bibliotheque_Marque.md` (gabarits 9:16, zone sûre Instagram).

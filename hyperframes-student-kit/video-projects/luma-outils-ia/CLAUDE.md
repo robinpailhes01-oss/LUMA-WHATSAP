@@ -6,7 +6,9 @@ Réel LUMA « les 3 outils IA que j'ai mis dans mon entreprise », vertical 1080
 
 - Sources de vérité : `build.mjs` (structure, style, pistes SFX), `motion.js` (animations, inliné), `assets/plan.json`
   (scènes, événements, sous-titres avec mots « sel »). `node build.mjs` régénère `index.html`.
-- Composition `luma-outils-ia`, 97.2 s (séquence 94.4 s + outro). Caméra FULL / FACE_LEFT / FACE_RIGHT / PUSH.
+- Composition `luma-outils-ia`, 97.2 s (séquence 94.4 s + outro). Caméra FULL / FACE_LEFT / FACE_RIGHT / PUSH ; visage à
+  y 700–1230 / x 440–800 (échelle 1) : **aucun élément sur la tête** (retour Robin v001). v001 : `qa/build-v001.mjs`, `qa/motion-v001.js`.
+- Règles v002 (Robin) : pas de logo dans le film, sous-titres Inter 800 italique à mots clés bleu clair, titres en texte sans cartouche.
 - `assets/transcript.json` et `assets/edit-decisions.json` : `sourceStart/sourceEnd = index du rush × 1000 + temps dans
   le rush` (plages uniques pour le validateur) ; `qa/keeps.json` garde la table des rushes.
 - Captures `assets/shots/` : noms et montants floutés à la source ; ne jamais réutiliser les originaux non floutés.
