@@ -1,6 +1,6 @@
 # LUMA — Références vidéo et carnet d'itérations
 
-Version du document : 1.2 · 22 septembre 2026
+Version du document : 1.3 · 23 septembre 2026
 Responsable créatif : Robin
 Statut : base de travail évolutive. Le dernier montage est une proposition livrée, pas encore une direction définitivement approuvée.
 
@@ -204,3 +204,23 @@ Les références et les médias sont locaux dans ce dossier. Les outils de rendu
 | 1.0 | 22/09/2026 | Base initiale, reprise telle quelle du document rédigé avec ChatGPT/Codex. Déposée dans le dépôt LUMA-WHATSAP. |
 | 1.1 | 22/09/2026 | Bibliothèque de marque (4 planches de Robin) : registre MARQUE-02 à MARQUE-06, palette et typographies officielles (§5–7), document compagnon `LUMA_Bibliotheque_Marque.md`. |
 | 1.2 | 22/09/2026 | Polices de la charte (Barlow Condensed, Caveat) déposées dans `assets/fonts/` avec `fonts.css` ; registre POLICES-01. |
+| 1.3 | 23/09/2026 | Référence de réalisation STYLE-04 : alternance visage / éléments discrets / pages animées plein écran ponctuelles ; retour au visage et mouvement narratif. |
+
+## 14. Référence STYLE-04 — alternance visage et page animée (Robin, 23/09/2026)
+
+**Source** : `ScreenRecording_09-23-2026 17-01-15_1.mp4`, capture d'un Reel tiers envoyée par Robin (44,1 s, 512 × 1112). La vidéo source n'est pas encore copiée dans le présent dépôt ; demander le fichier si une future session doit analyser de nouveaux passages image par image. Ne pas publier ni réutiliser les images, le visage, les logos, les mots ou les couleurs de ce créateur dans un film LUMA. La surcouche d'interface Instagram visible dans l'enregistrement n'appartient pas au motion design à reproduire.
+
+**Ce que Robin valide comme intention, et non comme rendu déjà approuvé** : « parfois l'écran complet se met sous forme de page avec des animations. On ne voit plus le visage pour ensuite le revoir » ; puis « pas tout le temps mettre les images en plein écran ». Cela complète STYLE-01 et la bibliothèque de marque sans les remplacer. Ne pas déduire que les montages v001/v002 sont approuvés.
+
+### Grammaire de mise en scène pour le prochain montage
+
+1. **Visage** : ancrer le propos dans la personne, laisser lire les expressions ; caméra et sous-titres sobres.
+2. **Incrustation légère** : une carte, un petit objet ou un repère près du visage quand l'idée ne mérite pas de rompre sa présence.
+3. **Page plein cadre ponctuelle** : masquer complètement le visage quand une phrase appelle une explication visuelle claire (processus, comparaison, interface ou accumulation). Une page = une idée dominante et un geste visuel utile. Le plein écran ne doit pas devenir le gabarit automatique de chaque phrase.
+4. **Retour au visage** : revenir à Robin après l'explication, souvent par une coupe nette ou un mouvement court et motivé, pour relancer la narration. La voix réelle continue sur ces changements de plan sans synthèse, changement de timbre ni accélération.
+
+Le Reel de référence montre notamment des titres courts sur fond clair, un interrupteur qui s'active, des liens entre outils, une ligne de classement mise en évidence et une courbe qui se dessine. **Retenir le principe causal** : l'animation démontre le mot prononcé et les éléments apparaissent progressivement, au lieu d'ajouter une décoration simultanée. Garder un seul foyer d'attention, une mise en page généreuse, une typographie nette et des détails d'interface lisibles sur téléphone. Les fonds, les polices, les composants et les accents sont ceux de la bibliothèque LUMA ; ne pas importer le rouge du Reel tiers.
+
+**Application candidate à la vidéo de Robin sur les responsabilités à bord**, si elle est retravaillée : accroche sur le visage → responsabilités matérialisées par des éléments discrets → une page plein cadre pour montrer la progression « communication / marketing / comptabilité » → retour au visage → vraie interface clients en page ou cadrage partiel selon la lisibilité → retour au visage pour « capitaine ». Choisir et minuter ces alternances sur les mots de la source avant de modifier `motion.js`. Les exemples sont une piste éditoriale, pas un nouveau script validé ni l'instruction d'afficher systématiquement la capture en plein écran.
+
+**Vérification de la prochaine version** : storyboard à trois états (visage, incrustation, page) avec temps et phrase déclencheuse ; contrôle des entrées/sorties sur le MP4 encodé à 30 i/s, de la lisibilité des pages en réduction, du retour au visage et de la continuité de la voix. Consigner les décisions et le résultat dans `ITERATIONS.md`. Aucun MP4 nouveau n'a été rendu par cette mise à jour documentaire.
