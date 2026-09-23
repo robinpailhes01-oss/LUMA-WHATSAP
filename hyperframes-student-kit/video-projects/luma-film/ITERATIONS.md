@@ -35,3 +35,9 @@ Limites :
 
 - `../luma-reel-agent/` — premier réel 9:16 réalisé avec la bibliothèque de marque (IMG_0267, v001 livré, non validé). Carnet : `../luma-reel-agent/ITERATIONS.md`.
 - `../luma-etude-de-cas/` — étude de cas « mon propre tableau de bord » (IMG_0232, paysage, captures réelles floutées, v001 livré, non validé). Carnet : `../luma-etude-de-cas/ITERATIONS.md`.
+
+## Direction demandée le 23/09/2026 — STYLE-04 (sans nouveau rendu)
+
+- Robin aime, dans `ScreenRecording_09-23-2026 17-01-15_1.mp4`, le passage temporaire du visage à une page animée plein écran, puis le retour au visage. Il précise **ne pas mettre les images en plein écran tout le temps**.
+- Traduction durable et exemples de storyboard : `LUMA_References_Video.md` §14. Les pages complètes servent à expliquer une idée ; les incrustations légères et le visage restent des états à part entière. Respecter la bibliothèque de marque LUMA, sans copier le Reel tiers.
+- Statut : **consigne créative reçue et documentée**, mise en œuvre vidéo **non commencée**, aucun nouveau MP4 rendu ou validé par Robin au titre de cette référence. Laisser les entrées v002 précédentes comme historique ; préciser l'application et les contrôles lors du prochain rendu effectif.
