@@ -1,0 +1,94 @@
+{
+ "duration": 97.2,
+ "fps": 30,
+ "source": "5 rushes IMG_0380/0382/0386/0388/0391 (vertical natif 1080×1920, HLG)",
+ "footage": "assets/footage.mp4 (1080×1920, 5 segments concaténés, 94.4 s)",
+ "keeps": [
+  {
+   "sourceStart": 0.45,
+   "sourceEnd": 6.95,
+   "start": 0.0,
+   "end": 6.5,
+   "rush": "IMG_0380"
+  },
+  {
+   "sourceStart": 1000.25,
+   "sourceEnd": 1022.7,
+   "start": 6.5,
+   "end": 28.95,
+   "rush": "IMG_0382"
+  },
+  {
+   "sourceStart": 2000.0,
+   "sourceEnd": 2021.4,
+   "start": 28.95,
+   "end": 50.35,
+   "rush": "IMG_0386"
+  },
+  {
+   "sourceStart": 3000.0,
+   "sourceEnd": 3027.6,
+   "start": 50.35,
+   "end": 77.95,
+   "rush": "IMG_0388"
+  },
+  {
+   "sourceStart": 4000.25,
+   "sourceEnd": 4016.7,
+   "start": 77.95,
+   "end": 94.4,
+   "rush": "IMG_0391"
+  }
+ ],
+ "removals": [
+  {
+   "rush": "IMG_0380",
+   "sourceStart": 0,
+   "sourceEnd": 0.45,
+   "reason": "amorce"
+  },
+  {
+   "rush": "IMG_0380",
+   "sourceStart": 6.95,
+   "sourceEnd": 7.67,
+   "reason": "fin"
+  },
+  {
+   "rush": "IMG_0382",
+   "sourceStart": 0,
+   "sourceEnd": 0.25,
+   "reason": "amorce"
+  },
+  {
+   "rush": "IMG_0382",
+   "sourceStart": 22.7,
+   "sourceEnd": 23.74,
+   "reason": "fin"
+  },
+  {
+   "rush": "IMG_0386",
+   "sourceStart": 21.4,
+   "sourceEnd": 22.37,
+   "reason": "fin"
+  },
+  {
+   "rush": "IMG_0388",
+   "sourceStart": 27.6,
+   "sourceEnd": 28.57,
+   "reason": "fin"
+  },
+  {
+   "rush": "IMG_0391",
+   "sourceStart": 0,
+   "sourceEnd": 0.25,
+   "reason": "amorce"
+  },
+  {
+   "rush": "IMG_0391",
+   "sourceStart": 16.7,
+   "sourceEnd": 17.5,
+   "reason": "fin"
+  }
+ ],
+ "notes": "Aucun mot retiré (choix par défaut annoncé, Robin : « Ok go »). Hésitations conservées : « qu'il y a que », « Alors du coup », « etc » ×4, « voilà ». Convention : sourceStart/sourceEnd = index du rush × 1000 + temps dans le rush."
+}

@@ -1,0 +1,498 @@
+{
+ "source": "IMG_0382.MOV",
+ "model": "faster-whisper small",
+ "words": [
+  {
+   "text": "Alors",
+   "start": 0.46,
+   "end": 0.82,
+   "p": 0.46
+  },
+  {
+   "text": "du",
+   "start": 0.82,
+   "end": 1.02,
+   "p": 0.92
+  },
+  {
+   "text": "coup,",
+   "start": 1.02,
+   "end": 1.2,
+   "p": 1.0
+  },
+  {
+   "text": "la",
+   "start": 1.32,
+   "end": 1.42,
+   "p": 0.96
+  },
+  {
+   "text": "première",
+   "start": 1.42,
+   "end": 1.74,
+   "p": 0.98
+  },
+  {
+   "text": "c'est",
+   "start": 1.74,
+   "end": 2.0,
+   "p": 0.6
+  },
+  {
+   "text": "un",
+   "start": 2.0,
+   "end": 2.1,
+   "p": 0.98
+  },
+  {
+   "text": "tableau",
+   "start": 2.1,
+   "end": 2.36,
+   "p": 0.99
+  },
+  {
+   "text": "de",
+   "start": 2.36,
+   "end": 2.44,
+   "p": 0.97
+  },
+  {
+   "text": "bord",
+   "start": 2.44,
+   "end": 2.64,
+   "p": 0.97
+  },
+  {
+   "text": "où",
+   "start": 2.64,
+   "end": 2.98,
+   "p": 0.77
+  },
+  {
+   "text": "en",
+   "start": 2.98,
+   "end": 3.14,
+   "p": 0.82
+  },
+  {
+   "text": "fait",
+   "start": 3.14,
+   "end": 3.3,
+   "p": 0.99
+  },
+  {
+   "text": "je",
+   "start": 3.3,
+   "end": 3.4,
+   "p": 0.86
+  },
+  {
+   "text": "vais",
+   "start": 3.4,
+   "end": 3.52,
+   "p": 0.98
+  },
+  {
+   "text": "avoir",
+   "start": 3.52,
+   "end": 3.92,
+   "p": 0.96
+  },
+  {
+   "text": "vraiment",
+   "start": 3.92,
+   "end": 4.4,
+   "p": 0.87
+  },
+  {
+   "text": "une",
+   "start": 4.4,
+   "end": 4.54,
+   "p": 0.99
+  },
+  {
+   "text": "vie",
+   "start": 4.54,
+   "end": 4.68,
+   "p": 0.11
+  },
+  {
+   "text": "d'ensemble",
+   "start": 4.68,
+   "end": 4.94,
+   "p": 0.98
+  },
+  {
+   "text": "sur",
+   "start": 4.94,
+   "end": 5.12,
+   "p": 0.86
+  },
+  {
+   "text": "tout",
+   "start": 5.12,
+   "end": 5.24,
+   "p": 0.36
+  },
+  {
+   "text": "mon",
+   "start": 5.24,
+   "end": 5.42,
+   "p": 0.73
+  },
+  {
+   "text": "entreprise",
+   "start": 5.42,
+   "end": 5.96,
+   "p": 0.99
+  },
+  {
+   "text": "que",
+   "start": 5.96,
+   "end": 6.16,
+   "p": 0.71
+  },
+  {
+   "text": "ce",
+   "start": 6.16,
+   "end": 6.3,
+   "p": 0.99
+  },
+  {
+   "text": "soit",
+   "start": 6.3,
+   "end": 6.48,
+   "p": 1.0
+  },
+  {
+   "text": "sur",
+   "start": 6.48,
+   "end": 6.62,
+   "p": 0.99
+  },
+  {
+   "text": "la",
+   "start": 6.62,
+   "end": 6.74,
+   "p": 0.99
+  },
+  {
+   "text": "partie",
+   "start": 6.74,
+   "end": 7.0,
+   "p": 1.0
+  },
+  {
+   "text": "finance,",
+   "start": 7.0,
+   "end": 7.42,
+   "p": 0.94
+  },
+  {
+   "text": "là",
+   "start": 7.74,
+   "end": 7.82,
+   "p": 0.97
+  },
+  {
+   "text": "je",
+   "start": 7.82,
+   "end": 7.94,
+   "p": 0.98
+  },
+  {
+   "text": "vais",
+   "start": 7.94,
+   "end": 8.06,
+   "p": 1.0
+  },
+  {
+   "text": "voir",
+   "start": 8.06,
+   "end": 8.36,
+   "p": 0.97
+  },
+  {
+   "text": "exactement",
+   "start": 8.36,
+   "end": 8.76,
+   "p": 1.0
+  },
+  {
+   "text": "ma",
+   "start": 8.76,
+   "end": 9.12,
+   "p": 0.76
+  },
+  {
+   "text": "marge",
+   "start": 9.12,
+   "end": 9.5,
+   "p": 0.97
+  },
+  {
+   "text": "où",
+   "start": 9.5,
+   "end": 9.68,
+   "p": 0.84
+  },
+  {
+   "text": "j'en",
+   "start": 9.68,
+   "end": 9.86,
+   "p": 0.98
+  },
+  {
+   "text": "suis,",
+   "start": 9.86,
+   "end": 10.04,
+   "p": 1.0
+  },
+  {
+   "text": "etc.",
+   "start": 10.1,
+   "end": 10.32,
+   "p": 0.93
+  },
+  {
+   "text": "Sur",
+   "start": 11.12,
+   "end": 11.28,
+   "p": 0.66
+  },
+  {
+   "text": "le",
+   "start": 11.28,
+   "end": 11.42,
+   "p": 1.0
+  },
+  {
+   "text": "marketing",
+   "start": 11.42,
+   "end": 11.88,
+   "p": 0.98
+  },
+  {
+   "text": "je",
+   "start": 11.88,
+   "end": 13.02,
+   "p": 0.73
+  },
+  {
+   "text": "vais",
+   "start": 13.02,
+   "end": 13.12,
+   "p": 1.0
+  },
+  {
+   "text": "voir",
+   "start": 13.12,
+   "end": 13.3,
+   "p": 0.98
+  },
+  {
+   "text": "un",
+   "start": 13.3,
+   "end": 13.38,
+   "p": 0.99
+  },
+  {
+   "text": "petit",
+   "start": 13.38,
+   "end": 13.52,
+   "p": 0.97
+  },
+  {
+   "text": "peu",
+   "start": 13.52,
+   "end": 13.68,
+   "p": 1.0
+  },
+  {
+   "text": "d'où",
+   "start": 13.68,
+   "end": 13.88,
+   "p": 0.99
+  },
+  {
+   "text": "viennent",
+   "start": 13.88,
+   "end": 14.06,
+   "p": 0.97
+  },
+  {
+   "text": "mes",
+   "start": 14.06,
+   "end": 14.2,
+   "p": 0.99
+  },
+  {
+   "text": "clients,",
+   "start": 14.2,
+   "end": 14.58,
+   "p": 1.0
+  },
+  {
+   "text": "etc.",
+   "start": 14.94,
+   "end": 15.04,
+   "p": 0.97
+  },
+  {
+   "text": "Et",
+   "start": 16.08,
+   "end": 16.12,
+   "p": 0.63
+  },
+  {
+   "text": "ensuite",
+   "start": 16.12,
+   "end": 16.42,
+   "p": 1.0
+  },
+  {
+   "text": "je",
+   "start": 16.42,
+   "end": 16.7,
+   "p": 0.79
+  },
+  {
+   "text": "vais",
+   "start": 16.7,
+   "end": 16.8,
+   "p": 0.99
+  },
+  {
+   "text": "avoir",
+   "start": 16.8,
+   "end": 17.02,
+   "p": 0.96
+  },
+  {
+   "text": "un",
+   "start": 17.02,
+   "end": 17.54,
+   "p": 0.99
+  },
+  {
+   "text": "endroit",
+   "start": 17.54,
+   "end": 18.24,
+   "p": 0.98
+  },
+  {
+   "text": "où",
+   "start": 18.24,
+   "end": 18.4,
+   "p": 0.99
+  },
+  {
+   "text": "je",
+   "start": 18.4,
+   "end": 18.48,
+   "p": 0.99
+  },
+  {
+   "text": "vais",
+   "start": 18.48,
+   "end": 18.6,
+   "p": 1.0
+  },
+  {
+   "text": "voir",
+   "start": 18.6,
+   "end": 18.82,
+   "p": 0.95
+  },
+  {
+   "text": "absolument",
+   "start": 18.82,
+   "end": 19.08,
+   "p": 0.99
+  },
+  {
+   "text": "toutes",
+   "start": 19.08,
+   "end": 19.3,
+   "p": 1.0
+  },
+  {
+   "text": "mes",
+   "start": 19.3,
+   "end": 19.48,
+   "p": 0.97
+  },
+  {
+   "text": "réservations,",
+   "start": 19.48,
+   "end": 20.1,
+   "p": 0.99
+  },
+  {
+   "text": "celles",
+   "start": 20.22,
+   "end": 20.4,
+   "p": 0.99
+  },
+  {
+   "text": "qui",
+   "start": 20.4,
+   "end": 20.52,
+   "p": 0.99
+  },
+  {
+   "text": "sont",
+   "start": 20.52,
+   "end": 20.64,
+   "p": 1.0
+  },
+  {
+   "text": "à",
+   "start": 20.64,
+   "end": 20.76,
+   "p": 0.99
+  },
+  {
+   "text": "venir,",
+   "start": 20.76,
+   "end": 21.04,
+   "p": 1.0
+  },
+  {
+   "text": "ce",
+   "start": 21.16,
+   "end": 21.24,
+   "p": 0.91
+  },
+  {
+   "text": "qui",
+   "start": 21.24,
+   "end": 21.36,
+   "p": 0.86
+  },
+  {
+   "text": "reste",
+   "start": 21.36,
+   "end": 21.58,
+   "p": 0.93
+  },
+  {
+   "text": "à",
+   "start": 21.58,
+   "end": 21.72,
+   "p": 0.97
+  },
+  {
+   "text": "encaisser,",
+   "start": 21.72,
+   "end": 22.12,
+   "p": 0.96
+  },
+  {
+   "text": "etc.",
+   "start": 22.18,
+   "end": 22.44,
+   "p": 0.99
+  }
+ ]
+}

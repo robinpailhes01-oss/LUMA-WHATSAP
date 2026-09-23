@@ -1,0 +1,540 @@
+{
+ "source": "IMG_0388.MOV",
+ "model": "faster-whisper small",
+ "words": [
+  {
+   "text": "et",
+   "start": 0.0,
+   "end": 0.74,
+   "p": 0.29
+  },
+  {
+   "text": "le",
+   "start": 0.74,
+   "end": 1.0,
+   "p": 0.98
+  },
+  {
+   "text": "troisième",
+   "start": 1.0,
+   "end": 1.38,
+   "p": 0.92
+  },
+  {
+   "text": "qui",
+   "start": 1.38,
+   "end": 1.7,
+   "p": 0.86
+  },
+  {
+   "text": "n'est",
+   "start": 1.7,
+   "end": 1.86,
+   "p": 0.99
+  },
+  {
+   "text": "pas",
+   "start": 1.86,
+   "end": 1.98,
+   "p": 1.0
+  },
+  {
+   "text": "des",
+   "start": 1.98,
+   "end": 2.16,
+   "p": 0.83
+  },
+  {
+   "text": "moindres",
+   "start": 2.16,
+   "end": 2.5,
+   "p": 0.98
+  },
+  {
+   "text": "c'est",
+   "start": 2.5,
+   "end": 2.92,
+   "p": 0.82
+  },
+  {
+   "text": "l'agent",
+   "start": 2.92,
+   "end": 3.56,
+   "p": 0.97
+  },
+  {
+   "text": "whatsapp",
+   "start": 3.56,
+   "end": 4.06,
+   "p": 0.69
+  },
+  {
+   "text": "donc",
+   "start": 4.06,
+   "end": 4.36,
+   "p": 0.75
+  },
+  {
+   "text": "c'est",
+   "start": 4.36,
+   "end": 4.94,
+   "p": 0.94
+  },
+  {
+   "text": "un",
+   "start": 4.94,
+   "end": 5.06,
+   "p": 1.0
+  },
+  {
+   "text": "agent",
+   "start": 5.06,
+   "end": 5.46,
+   "p": 0.97
+  },
+  {
+   "text": "hiya",
+   "start": 5.46,
+   "end": 6.1,
+   "p": 0.38
+  },
+  {
+   "text": "sur",
+   "start": 6.1,
+   "end": 6.38,
+   "p": 0.95
+  },
+  {
+   "text": "whatsapp",
+   "start": 6.38,
+   "end": 6.82,
+   "p": 0.97
+  },
+  {
+   "text": "qui",
+   "start": 6.82,
+   "end": 6.94,
+   "p": 0.95
+  },
+  {
+   "text": "est",
+   "start": 6.94,
+   "end": 7.04,
+   "p": 0.99
+  },
+  {
+   "text": "complètement",
+   "start": 7.04,
+   "end": 7.4,
+   "p": 1.0
+  },
+  {
+   "text": "autonome",
+   "start": 7.4,
+   "end": 8.0,
+   "p": 0.97
+  },
+  {
+   "text": "qui",
+   "start": 8.0,
+   "end": 8.34,
+   "p": 0.7
+  },
+  {
+   "text": "parle",
+   "start": 8.34,
+   "end": 8.84,
+   "p": 0.98
+  },
+  {
+   "text": "exactement",
+   "start": 8.84,
+   "end": 9.38,
+   "p": 1.0
+  },
+  {
+   "text": "comme",
+   "start": 9.38,
+   "end": 9.86,
+   "p": 0.99
+  },
+  {
+   "text": "moi",
+   "start": 9.86,
+   "end": 10.06,
+   "p": 0.99
+  },
+  {
+   "text": "qui",
+   "start": 10.06,
+   "end": 10.22,
+   "p": 0.74
+  },
+  {
+   "text": "a",
+   "start": 10.22,
+   "end": 10.3,
+   "p": 0.65
+  },
+  {
+   "text": "ma",
+   "start": 10.3,
+   "end": 10.38,
+   "p": 1.0
+  },
+  {
+   "text": "façon",
+   "start": 10.38,
+   "end": 10.7,
+   "p": 0.99
+  },
+  {
+   "text": "de",
+   "start": 10.7,
+   "end": 10.82,
+   "p": 0.99
+  },
+  {
+   "text": "parler",
+   "start": 10.82,
+   "end": 11.06,
+   "p": 1.0
+  },
+  {
+   "text": "qui",
+   "start": 11.06,
+   "end": 11.74,
+   "p": 0.83
+  },
+  {
+   "text": "connaît",
+   "start": 11.74,
+   "end": 12.22,
+   "p": 0.83
+  },
+  {
+   "text": "toutes",
+   "start": 12.22,
+   "end": 12.34,
+   "p": 0.99
+  },
+  {
+   "text": "les",
+   "start": 12.34,
+   "end": 12.52,
+   "p": 1.0
+  },
+  {
+   "text": "règles",
+   "start": 12.52,
+   "end": 12.7,
+   "p": 1.0
+  },
+  {
+   "text": "de",
+   "start": 12.7,
+   "end": 12.84,
+   "p": 0.98
+  },
+  {
+   "text": "mon",
+   "start": 12.84,
+   "end": 12.9,
+   "p": 0.94
+  },
+  {
+   "text": "entreprise",
+   "start": 12.9,
+   "end": 13.58,
+   "p": 1.0
+  },
+  {
+   "text": "et",
+   "start": 13.58,
+   "end": 14.04,
+   "p": 0.98
+  },
+  {
+   "text": "surtout",
+   "start": 14.04,
+   "end": 14.32,
+   "p": 1.0
+  },
+  {
+   "text": "il",
+   "start": 14.32,
+   "end": 14.5,
+   "p": 0.96
+  },
+  {
+   "text": "est",
+   "start": 14.5,
+   "end": 14.58,
+   "p": 1.0
+  },
+  {
+   "text": "connecté",
+   "start": 14.58,
+   "end": 14.98,
+   "p": 0.98
+  },
+  {
+   "text": "à",
+   "start": 14.98,
+   "end": 15.06,
+   "p": 0.97
+  },
+  {
+   "text": "mes",
+   "start": 15.06,
+   "end": 15.16,
+   "p": 0.99
+  },
+  {
+   "text": "outils",
+   "start": 15.16,
+   "end": 15.52,
+   "p": 0.86
+  },
+  {
+   "text": "ce",
+   "start": 15.52,
+   "end": 15.64,
+   "p": 0.58
+  },
+  {
+   "text": "qui",
+   "start": 15.64,
+   "end": 15.72,
+   "p": 0.95
+  },
+  {
+   "text": "va",
+   "start": 15.72,
+   "end": 15.84,
+   "p": 1.0
+  },
+  {
+   "text": "faire",
+   "start": 15.84,
+   "end": 16.02,
+   "p": 0.99
+  },
+  {
+   "text": "qu'il",
+   "start": 16.02,
+   "end": 16.18,
+   "p": 0.98
+  },
+  {
+   "text": "est",
+   "start": 16.18,
+   "end": 16.4,
+   "p": 0.99
+  },
+  {
+   "text": "totalement",
+   "start": 16.4,
+   "end": 16.86,
+   "p": 1.0
+  },
+  {
+   "text": "autonome",
+   "start": 16.86,
+   "end": 17.84,
+   "p": 0.99
+  },
+  {
+   "text": "donc",
+   "start": 17.84,
+   "end": 18.4,
+   "p": 0.9
+  },
+  {
+   "text": "il",
+   "start": 18.4,
+   "end": 18.54,
+   "p": 0.97
+  },
+  {
+   "text": "va",
+   "start": 18.54,
+   "end": 18.64,
+   "p": 0.98
+  },
+  {
+   "text": "être",
+   "start": 18.64,
+   "end": 18.74,
+   "p": 0.97
+  },
+  {
+   "text": "connecté",
+   "start": 18.74,
+   "end": 19.32,
+   "p": 0.85
+  },
+  {
+   "text": "aux",
+   "start": 19.32,
+   "end": 19.48,
+   "p": 0.47
+  },
+  {
+   "text": "calendriers",
+   "start": 19.48,
+   "end": 20.08,
+   "p": 0.98
+  },
+  {
+   "text": "au",
+   "start": 20.08,
+   "end": 20.34,
+   "p": 0.21
+  },
+  {
+   "text": "crm",
+   "start": 20.34,
+   "end": 21.1,
+   "p": 0.73
+  },
+  {
+   "text": "il",
+   "start": 21.1,
+   "end": 21.46,
+   "p": 0.91
+  },
+  {
+   "text": "va",
+   "start": 21.46,
+   "end": 21.56,
+   "p": 1.0
+  },
+  {
+   "text": "voir",
+   "start": 21.56,
+   "end": 21.7,
+   "p": 1.0
+  },
+  {
+   "text": "s'il",
+   "start": 21.7,
+   "end": 21.84,
+   "p": 0.76
+  },
+  {
+   "text": "y",
+   "start": 21.84,
+   "end": 21.9,
+   "p": 0.7
+  },
+  {
+   "text": "a",
+   "start": 21.9,
+   "end": 21.9,
+   "p": 0.96
+  },
+  {
+   "text": "de",
+   "start": 21.9,
+   "end": 21.96,
+   "p": 0.99
+  },
+  {
+   "text": "la",
+   "start": 21.96,
+   "end": 22.02,
+   "p": 0.98
+  },
+  {
+   "text": "disponibilité",
+   "start": 22.02,
+   "end": 22.92,
+   "p": 1.0
+  },
+  {
+   "text": "etc",
+   "start": 22.92,
+   "end": 23.28,
+   "p": 0.86
+  },
+  {
+   "text": "il",
+   "start": 23.28,
+   "end": 24.06,
+   "p": 0.79
+  },
+  {
+   "text": "est",
+   "start": 24.06,
+   "end": 24.2,
+   "p": 0.95
+  },
+  {
+   "text": "même",
+   "start": 24.2,
+   "end": 24.36,
+   "p": 0.97
+  },
+  {
+   "text": "connecté",
+   "start": 24.36,
+   "end": 24.78,
+   "p": 0.99
+  },
+  {
+   "text": "à",
+   "start": 24.78,
+   "end": 24.86,
+   "p": 0.99
+  },
+  {
+   "text": "la",
+   "start": 24.86,
+   "end": 24.94,
+   "p": 0.98
+  },
+  {
+   "text": "météo",
+   "start": 24.94,
+   "end": 25.36,
+   "p": 0.89
+  },
+  {
+   "text": "voilà",
+   "start": 25.36,
+   "end": 25.74,
+   "p": 0.82
+  },
+  {
+   "text": "pour",
+   "start": 25.74,
+   "end": 26.22,
+   "p": 0.71
+  },
+  {
+   "text": "faire",
+   "start": 26.22,
+   "end": 26.46,
+   "p": 0.99
+  },
+  {
+   "text": "des",
+   "start": 26.46,
+   "end": 26.62,
+   "p": 0.96
+  },
+  {
+   "text": "petites",
+   "start": 26.62,
+   "end": 26.82,
+   "p": 0.85
+  },
+  {
+   "text": "prévisions",
+   "start": 26.82,
+   "end": 27.34,
+   "p": 0.98
+  }
+ ]
+}

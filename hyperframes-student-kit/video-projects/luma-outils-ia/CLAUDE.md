@@ -1,0 +1,16 @@
+# luma-outils-ia — consignes
+
+Réel LUMA « les 3 outils IA que j'ai mis dans mon entreprise », vertical 1080 × 1920 (cinq rushes verticaux natifs
+`raw-media/IMG_0380/0382/0386/0388/0391.MOV`). Règles : `../luma-film/CLAUDE.md`, `../luma-film/LUMA_Bibliotheque_Marque.md`,
+`../luma-film/LUMA_References_Video.md`, puis `DESIGN.md`, `ITERATIONS.md`, `VERIFY.md`. Analyse : `../../raw-media/OUTILS-IA.ANALYSE.md`.
+
+- Sources de vérité : `build.mjs` (structure, style, pistes SFX), `motion.js` (animations, inliné), `assets/plan.json`
+  (scènes, événements, sous-titres avec mots « sel »). `node build.mjs` régénère `index.html`.
+- Composition `luma-outils-ia`, 97.2 s (séquence 94.4 s + outro). Caméra FULL / FACE_LEFT / FACE_RIGHT / PUSH.
+- `assets/transcript.json` et `assets/edit-decisions.json` : `sourceStart/sourceEnd = index du rush × 1000 + temps dans
+  le rush` (plages uniques pour le validateur) ; `qa/keeps.json` garde la table des rushes.
+- Captures `assets/shots/` : noms et montants floutés à la source ; ne jamais réutiliser les originaux non floutés.
+- Voix `assets/voice.m4a` (+9 dB) ; témoin `assets/voice-source-cut.wav`.
+- Après chaque version : rendu numéroté dans `renders/`, `ITERATIONS.md` et `VERIFY.md` mis à jour.
+- Validation : `node ../../.claude/skills/short-form-edit/scripts/validate-plan.mjs .`, `npx hyperframes lint`,
+  rendu `npx hyperframes render . --output renders/vNNN_<objectif>.mp4 --quality high` (≈ 10 min pour 97 s).

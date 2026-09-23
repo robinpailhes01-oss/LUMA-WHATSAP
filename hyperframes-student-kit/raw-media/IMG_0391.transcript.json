@@ -1,0 +1,408 @@
+{
+ "source": "IMG_0391.MOV",
+ "model": "faster-whisper small",
+ "words": [
+  {
+   "text": "Donc",
+   "start": 0.48,
+   "end": 0.84,
+   "p": 0.51
+  },
+  {
+   "text": "si",
+   "start": 0.84,
+   "end": 1.12,
+   "p": 0.76
+  },
+  {
+   "text": "toi",
+   "start": 1.12,
+   "end": 1.34,
+   "p": 0.92
+  },
+  {
+   "text": "aussi",
+   "start": 1.34,
+   "end": 1.5,
+   "p": 0.98
+  },
+  {
+   "text": "tu",
+   "start": 1.5,
+   "end": 1.64,
+   "p": 0.94
+  },
+  {
+   "text": "as",
+   "start": 1.64,
+   "end": 1.7,
+   "p": 0.94
+  },
+  {
+   "text": "une",
+   "start": 1.7,
+   "end": 1.8,
+   "p": 0.8
+  },
+  {
+   "text": "PME",
+   "start": 1.8,
+   "end": 2.28,
+   "p": 0.68
+  },
+  {
+   "text": "et",
+   "start": 2.28,
+   "end": 2.56,
+   "p": 0.88
+  },
+  {
+   "text": "tu",
+   "start": 2.56,
+   "end": 2.84,
+   "p": 0.99
+  },
+  {
+   "text": "aimerais",
+   "start": 2.84,
+   "end": 3.12,
+   "p": 0.9
+  },
+  {
+   "text": "implémenter",
+   "start": 3.12,
+   "end": 3.64,
+   "p": 0.89
+  },
+  {
+   "text": "l'IA",
+   "start": 3.64,
+   "end": 3.92,
+   "p": 0.58
+  },
+  {
+   "text": "dans",
+   "start": 3.92,
+   "end": 4.24,
+   "p": 0.96
+  },
+  {
+   "text": "ton",
+   "start": 4.24,
+   "end": 4.34,
+   "p": 0.98
+  },
+  {
+   "text": "entreprise",
+   "start": 4.34,
+   "end": 4.9,
+   "p": 1.0
+  },
+  {
+   "text": "mais",
+   "start": 4.9,
+   "end": 5.02,
+   "p": 0.78
+  },
+  {
+   "text": "tu",
+   "start": 5.02,
+   "end": 5.16,
+   "p": 0.99
+  },
+  {
+   "text": "ne",
+   "start": 5.16,
+   "end": 5.26,
+   "p": 0.97
+  },
+  {
+   "text": "sais",
+   "start": 5.26,
+   "end": 5.4,
+   "p": 0.98
+  },
+  {
+   "text": "pas",
+   "start": 5.4,
+   "end": 5.58,
+   "p": 1.0
+  },
+  {
+   "text": "du",
+   "start": 5.58,
+   "end": 5.74,
+   "p": 0.98
+  },
+  {
+   "text": "tout",
+   "start": 5.74,
+   "end": 5.96,
+   "p": 0.99
+  },
+  {
+   "text": "comment",
+   "start": 5.96,
+   "end": 6.26,
+   "p": 0.99
+  },
+  {
+   "text": "et",
+   "start": 6.26,
+   "end": 6.74,
+   "p": 0.89
+  },
+  {
+   "text": "quoi",
+   "start": 6.74,
+   "end": 7.0,
+   "p": 0.95
+  },
+  {
+   "text": "faire",
+   "start": 7.0,
+   "end": 7.34,
+   "p": 1.0
+  },
+  {
+   "text": "tu",
+   "start": 7.34,
+   "end": 7.76,
+   "p": 0.46
+  },
+  {
+   "text": "as",
+   "start": 7.76,
+   "end": 7.84,
+   "p": 0.83
+  },
+  {
+   "text": "juste",
+   "start": 7.84,
+   "end": 8.02,
+   "p": 1.0
+  },
+  {
+   "text": "à",
+   "start": 8.02,
+   "end": 8.14,
+   "p": 0.77
+  },
+  {
+   "text": "commenter",
+   "start": 8.14,
+   "end": 8.56,
+   "p": 0.95
+  },
+  {
+   "text": "outil",
+   "start": 8.56,
+   "end": 8.98,
+   "p": 0.52
+  },
+  {
+   "text": "juste",
+   "start": 8.98,
+   "end": 9.14,
+   "p": 0.95
+  },
+  {
+   "text": "en",
+   "start": 9.14,
+   "end": 9.32,
+   "p": 1.0
+  },
+  {
+   "text": "dessous",
+   "start": 9.32,
+   "end": 9.74,
+   "p": 0.93
+  },
+  {
+   "text": "et",
+   "start": 9.74,
+   "end": 10.0,
+   "p": 0.94
+  },
+  {
+   "text": "on",
+   "start": 10.0,
+   "end": 10.18,
+   "p": 1.0
+  },
+  {
+   "text": "offre",
+   "start": 10.18,
+   "end": 10.44,
+   "p": 0.96
+  },
+  {
+   "text": "un",
+   "start": 10.44,
+   "end": 10.56,
+   "p": 0.99
+  },
+  {
+   "text": "audit",
+   "start": 10.56,
+   "end": 10.8,
+   "p": 0.76
+  },
+  {
+   "text": "qui",
+   "start": 10.8,
+   "end": 10.98,
+   "p": 0.97
+  },
+  {
+   "text": "est",
+   "start": 10.98,
+   "end": 11.08,
+   "p": 1.0
+  },
+  {
+   "text": "complètement",
+   "start": 11.08,
+   "end": 11.38,
+   "p": 0.99
+  },
+  {
+   "text": "gratuit",
+   "start": 11.38,
+   "end": 11.88,
+   "p": 0.98
+  },
+  {
+   "text": "c'est",
+   "start": 11.88,
+   "end": 12.28,
+   "p": 0.39
+  },
+  {
+   "text": "juste",
+   "start": 12.28,
+   "end": 12.44,
+   "p": 1.0
+  },
+  {
+   "text": "pour",
+   "start": 12.44,
+   "end": 12.62,
+   "p": 1.0
+  },
+  {
+   "text": "vous",
+   "start": 12.62,
+   "end": 12.76,
+   "p": 1.0
+  },
+  {
+   "text": "dire",
+   "start": 12.76,
+   "end": 12.96,
+   "p": 0.99
+  },
+  {
+   "text": "un",
+   "start": 12.96,
+   "end": 13.08,
+   "p": 0.98
+  },
+  {
+   "text": "petit",
+   "start": 13.08,
+   "end": 13.22,
+   "p": 0.99
+  },
+  {
+   "text": "peu",
+   "start": 13.22,
+   "end": 13.4,
+   "p": 0.99
+  },
+  {
+   "text": "ce",
+   "start": 13.4,
+   "end": 13.5,
+   "p": 1.0
+  },
+  {
+   "text": "qui",
+   "start": 13.5,
+   "end": 13.58,
+   "p": 0.74
+  },
+  {
+   "text": "est",
+   "start": 13.58,
+   "end": 13.68,
+   "p": 1.0
+  },
+  {
+   "text": "possible",
+   "start": 13.68,
+   "end": 13.88,
+   "p": 1.0
+  },
+  {
+   "text": "de",
+   "start": 13.88,
+   "end": 14.08,
+   "p": 0.99
+  },
+  {
+   "text": "faire",
+   "start": 14.08,
+   "end": 14.32,
+   "p": 1.0
+  },
+  {
+   "text": "et",
+   "start": 14.32,
+   "end": 14.9,
+   "p": 0.96
+  },
+  {
+   "text": "surtout",
+   "start": 14.9,
+   "end": 15.36,
+   "p": 0.75
+  },
+  {
+   "text": "ce",
+   "start": 15.36,
+   "end": 15.54,
+   "p": 0.95
+  },
+  {
+   "text": "que",
+   "start": 15.54,
+   "end": 15.64,
+   "p": 1.0
+  },
+  {
+   "text": "ça",
+   "start": 15.64,
+   "end": 15.8,
+   "p": 0.98
+  },
+  {
+   "text": "peut",
+   "start": 15.8,
+   "end": 15.92,
+   "p": 0.99
+  },
+  {
+   "text": "vous",
+   "start": 15.92,
+   "end": 16.06,
+   "p": 0.99
+  },
+  {
+   "text": "apporter",
+   "start": 16.06,
+   "end": 16.42,
+   "p": 0.97
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+[
+ {
+  "rush": "IMG_0380",
+  "sourceStart": 0.45,
+  "sourceEnd": 6.95,
+  "start": 0.0,
+  "end": 6.5
+ },
+ {
+  "rush": "IMG_0382",
+  "sourceStart": 0.25,
+  "sourceEnd": 22.7,
+  "start": 6.5,
+  "end": 28.95
+ },
+ {
+  "rush": "IMG_0386",
+  "sourceStart": 0.0,
+  "sourceEnd": 21.4,
+  "start": 28.95,
+  "end": 50.35
+ },
+ {
+  "rush": "IMG_0388",
+  "sourceStart": 0.0,
+  "sourceEnd": 27.6,
+  "start": 50.35,
+  "end": 77.95
+ },
+ {
+  "rush": "IMG_0391",
+  "sourceStart": 0.25,
+  "sourceEnd": 16.7,
+  "start": 77.95,
+  "end": 94.4
+ }
+]
