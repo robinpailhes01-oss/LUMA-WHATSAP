@@ -1,0 +1,27 @@
+{
+ "duration": 41.2,
+ "fps": 30,
+ "source": "assets/source.mov (IMG_0232.MOV, 52.11 s, HLG paysage)",
+ "footage": "assets/footage.mp4 (1920×1080, 1 segment, 30 i/s)",
+ "keeps": [
+  {
+   "sourceStart": 6.88,
+   "sourceEnd": 45.3133,
+   "start": 0,
+   "end": 38.4333
+  }
+ ],
+ "removals": [
+  {
+   "sourceStart": 0,
+   "sourceEnd": 6.88,
+   "reason": "Remarque de tournage (« je vais mettre des captures d'écran en dessous… à quoi ça ressemble ») : ouverture sur « J'ai fait mon propre tableau de bord »."
+  },
+  {
+   "sourceStart": 45.3133,
+   "sourceEnd": 52.11,
+   "reason": "« et puis voilà, et donc surtout l'agent WhatsApp… connecté à tous mes outils » : phrase incomplète (le rush s'arrête) ; fin sur « améliorer » (choix par défaut annoncé, Robin : Go)."
+  }
+ ],
+ "notes": "Aucun mot retiré à l'intérieur ; hésitations (« je pouvais pouvoir », « vraiment j'ai vraiment », « etc », « enfin voilà ») conservées faute de consigne."
+}

@@ -34,3 +34,4 @@ Limites :
 ## Films dérivés (22/09/2026)
 
 - `../luma-reel-agent/` — premier réel 9:16 réalisé avec la bibliothèque de marque (IMG_0267, v001 livré, non validé). Carnet : `../luma-reel-agent/ITERATIONS.md`.
+- `../luma-etude-de-cas/` — étude de cas « mon propre tableau de bord » (IMG_0232, paysage, captures réelles floutées, v001 livré, non validé). Carnet : `../luma-etude-de-cas/ITERATIONS.md`.
