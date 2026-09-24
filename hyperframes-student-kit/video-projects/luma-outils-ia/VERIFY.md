@@ -75,11 +75,20 @@ livrée, **non validée**.
 
 ## Son
 
-Mesures de signal uniquement ; aucune écoute perceptive dans cette session. Pas de musique.
+Mesures de signal uniquement ; aucune écoute perceptive dans cette session.
+
+### v003 — musique de fond (24/09/2026)
+- Rendu `--quality high` depuis le master CRF 16 : 2 916 images / 97.2 s ; master 211 Mo local (`renders/_v003-master.mp4`),
+  copie dépôt CRF 20 `renders/v003_musique_repo.mp4` (67 Mo), copie web CRF 27 `renders/v003_musique_web.mp4` (24.5 Mio) envoyée.
+- Image inchangée par rapport à v002 (même `plan.json`, `motion.js`, même séquence) ; seule la piste 12 est ajoutée.
+- Musique seule : −22.5 LUFS, pic −8.5 dBTP (`assets/music.m4a`, générée). Mixage final : **−18.8 LUFS intégré, pic −1.6 dBTP**
+  (v002 : ≈ −19 LUFS). Écran de fin sans voix : −22.3 LUFS (v002 : −40.6, SFX seuls) → la musique est bien présente et monte à la fin.
+  Pendant la parole, la musique est ≈ 9–10 dB sous la voix (volume 0.45 + −3.5 dB automatiques).
+- Non contrôlé : écoute humaine (équilibre voix/musique, goût du style). Réglages : `data-volume` (build.mjs), `--duck-db`, `--bpm`.
 
 ## Limites et points ouverts
 
 - Audit GEO et actions bimensuelles : cartes illustratives (aucune capture fournie).
 - Tuiles Gemini / Perplexity ajoutées à ChatGPT sur « mise en avant sur les IA » : interprétation.
 - Hésitations conservées ; durée 97 s.
-- Draft et master non commités (`renders/draft-1.mp4`, `renders/_v001-master-207mb.mp4`).
+- Draft et masters non commités (`renders/draft-1.mp4`, `renders/_v001-master-207mb.mp4`, `renders/_v002-master.mp4`, `renders/_v003-master.mp4`).
