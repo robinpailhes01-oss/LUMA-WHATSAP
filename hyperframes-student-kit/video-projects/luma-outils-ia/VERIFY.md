@@ -77,6 +77,13 @@ livrée, **non validée**.
 
 Mesures de signal uniquement ; aucune écoute perceptive dans cette session.
 
+### v004 — musique plus dynamique (24/09/2026)
+- Rendu `--quality high` depuis le master CRF 16 : 2 916 images / 97.2 s ; master 211 Mo local (`renders/_v004-master.mp4`),
+  copie dépôt CRF 20 `renders/v004_dynamique_repo.mp4`, copie web CRF 27 `renders/v004_dynamique_web.mp4` (24.5 Mio) envoyée.
+- Image inchangée (v002) ; piste 12 régénérée en style `dynamic`, volume 0.55. Musique seule : −20.9 LUFS, pic −3.9 dBTP.
+- Mixage final : **−18.0 LUFS intégré, pic −2.0 dBTP** ; écran de fin sans voix : −19.0 LUFS (v003 : −22.3). Spectrogramme : les 4
+  risers/impacts tombent sur les coupes 6.5 / 28.9 / 50.3 / 78.0 s. Non contrôlé : écoute humaine.
+
 ### v003 — musique de fond (24/09/2026)
 - Rendu `--quality high` depuis le master CRF 16 : 2 916 images / 97.2 s ; master 211 Mo local (`renders/_v003-master.mp4`),
   copie dépôt CRF 20 `renders/v003_musique_repo.mp4` (67 Mo), copie web CRF 27 `renders/v003_musique_web.mp4` (24.5 Mio) envoyée.
