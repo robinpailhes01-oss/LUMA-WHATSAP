@@ -1,0 +1,131 @@
+{
+ "duration": 126.5333,
+ "fps": 30,
+ "source": "11 rushes paysage 1920×1080 HLG (raw-media/site/)",
+ "footage": "assets/footage.mp4 (126.5333 s, 11 segments)",
+ "keeps": [
+  {
+   "sourceStart": 0.1333,
+   "sourceEnd": 9.8667,
+   "start": 0.0,
+   "end": 9.7333,
+   "rush": "IMG_0338"
+  },
+  {
+   "sourceStart": 1000.0,
+   "sourceEnd": 1005.0667,
+   "start": 9.7333,
+   "end": 14.8,
+   "rush": "IMG_0340"
+  },
+  {
+   "sourceStart": 2000.2667,
+   "sourceEnd": 2007.1,
+   "start": 14.8,
+   "end": 21.6333,
+   "rush": "IMG_0341"
+  },
+  {
+   "sourceStart": 3000.3,
+   "sourceEnd": 3005.7,
+   "start": 21.6333,
+   "end": 27.0333,
+   "rush": "IMG_0342"
+  },
+  {
+   "sourceStart": 4000.3,
+   "sourceEnd": 4015.6,
+   "start": 27.0333,
+   "end": 42.3333,
+   "rush": "IMG_0348"
+  },
+  {
+   "sourceStart": 5000.1333,
+   "sourceEnd": 5019.8,
+   "start": 42.3333,
+   "end": 62.0,
+   "rush": "IMG_0351"
+  },
+  {
+   "sourceStart": 6000.0,
+   "sourceEnd": 6016.0667,
+   "start": 62.0,
+   "end": 78.0667,
+   "rush": "IMG_0352"
+  },
+  {
+   "sourceStart": 7000.0,
+   "sourceEnd": 7010.5,
+   "start": 78.0667,
+   "end": 88.5667,
+   "rush": "IMG_0356"
+  },
+  {
+   "sourceStart": 8000.0,
+   "sourceEnd": 8008.9,
+   "start": 88.5667,
+   "end": 97.4667,
+   "rush": "IMG_0357"
+  },
+  {
+   "sourceStart": 9001.1333,
+   "sourceEnd": 9008.8667,
+   "start": 97.4667,
+   "end": 105.2,
+   "rush": "IMG_0358"
+  },
+  {
+   "sourceStart": 10000.2667,
+   "sourceEnd": 10021.6,
+   "start": 105.2,
+   "end": 126.5333,
+   "rush": "IMG_0361"
+  }
+ ],
+ "removals": [
+  {
+   "reason": "amorce/fin de rush (aucun mot retiré)",
+   "rush": "IMG_0338"
+  },
+  {
+   "reason": "amorce/fin de rush (aucun mot retiré)",
+   "rush": "IMG_0340"
+  },
+  {
+   "reason": "amorce/fin de rush (aucun mot retiré)",
+   "rush": "IMG_0341"
+  },
+  {
+   "reason": "amorce/fin de rush (aucun mot retiré)",
+   "rush": "IMG_0342"
+  },
+  {
+   "reason": "amorce/fin de rush (aucun mot retiré)",
+   "rush": "IMG_0348"
+  },
+  {
+   "reason": "amorce/fin de rush (aucun mot retiré)",
+   "rush": "IMG_0351"
+  },
+  {
+   "reason": "amorce/fin de rush (aucun mot retiré)",
+   "rush": "IMG_0352"
+  },
+  {
+   "reason": "amorce/fin de rush (aucun mot retiré)",
+   "rush": "IMG_0356"
+  },
+  {
+   "reason": "amorce/fin de rush (aucun mot retiré)",
+   "rush": "IMG_0357"
+  },
+  {
+   "reason": "amorce/fin de rush (aucun mot retiré)",
+   "rush": "IMG_0358"
+  },
+  {
+   "reason": "amorce/fin de rush (aucun mot retiré)",
+   "rush": "IMG_0361"
+  }
+ ]
+}

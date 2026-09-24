@@ -1,0 +1,90 @@
+[
+ {
+  "rush": "IMG_0338",
+  "index": 0,
+  "sourceStart": 0.1333,
+  "sourceEnd": 9.8667,
+  "start": 0.0,
+  "end": 9.7333
+ },
+ {
+  "rush": "IMG_0340",
+  "index": 1,
+  "sourceStart": 0.0,
+  "sourceEnd": 5.0667,
+  "start": 9.7333,
+  "end": 14.8
+ },
+ {
+  "rush": "IMG_0341",
+  "index": 2,
+  "sourceStart": 0.2667,
+  "sourceEnd": 7.1,
+  "start": 14.8,
+  "end": 21.6333
+ },
+ {
+  "rush": "IMG_0342",
+  "index": 3,
+  "sourceStart": 0.3,
+  "sourceEnd": 5.7,
+  "start": 21.6333,
+  "end": 27.0333
+ },
+ {
+  "rush": "IMG_0348",
+  "index": 4,
+  "sourceStart": 0.3,
+  "sourceEnd": 15.6,
+  "start": 27.0333,
+  "end": 42.3333
+ },
+ {
+  "rush": "IMG_0351",
+  "index": 5,
+  "sourceStart": 0.1333,
+  "sourceEnd": 19.8,
+  "start": 42.3333,
+  "end": 62.0
+ },
+ {
+  "rush": "IMG_0352",
+  "index": 6,
+  "sourceStart": 0.0,
+  "sourceEnd": 16.0667,
+  "start": 62.0,
+  "end": 78.0667
+ },
+ {
+  "rush": "IMG_0356",
+  "index": 7,
+  "sourceStart": 0.0,
+  "sourceEnd": 10.5,
+  "start": 78.0667,
+  "end": 88.5667
+ },
+ {
+  "rush": "IMG_0357",
+  "index": 8,
+  "sourceStart": 0.0,
+  "sourceEnd": 8.9,
+  "start": 88.5667,
+  "end": 97.4667
+ },
+ {
+  "rush": "IMG_0358",
+  "index": 9,
+  "sourceStart": 1.1333,
+  "sourceEnd": 8.8667,
+  "start": 97.4667,
+  "end": 105.2
+ },
+ {
+  "rush": "IMG_0361",
+  "index": 10,
+  "sourceStart": 0.2667,
+  "sourceEnd": 21.6,
+  "start": 105.2,
+  "end": 126.5333
+ }
+]

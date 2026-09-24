@@ -1,0 +1,3518 @@
+{
+ "source": "11 rushes IMG_0338…0361 concaténés (assets/footage.mp4), temps du montage",
+ "model": "faster-whisper small par rush, recalé ; corrections : es/iront/la concurrence/il est connecté/à l'IA",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.347,
+   "end": 0.747,
+   "sourceStart": 0.48,
+   "sourceEnd": 0.88,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "tu",
+   "start": 0.747,
+   "end": 0.847,
+   "sourceStart": 0.88,
+   "sourceEnd": 0.98,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "regardes",
+   "start": 0.847,
+   "end": 1.147,
+   "sourceStart": 0.98,
+   "sourceEnd": 1.28,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "cette",
+   "start": 1.147,
+   "end": 1.247,
+   "sourceStart": 1.28,
+   "sourceEnd": 1.38,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "vidéo",
+   "start": 1.247,
+   "end": 1.587,
+   "sourceStart": 1.38,
+   "sourceEnd": 1.72,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "c'est",
+   "start": 1.587,
+   "end": 1.867,
+   "sourceStart": 1.72,
+   "sourceEnd": 2.0,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "que",
+   "start": 1.867,
+   "end": 2.007,
+   "sourceStart": 2.0,
+   "sourceEnd": 2.14,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "toi",
+   "start": 2.007,
+   "end": 2.367,
+   "sourceStart": 2.14,
+   "sourceEnd": 2.5,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "aussi",
+   "start": 2.367,
+   "end": 2.567,
+   "sourceStart": 2.5,
+   "sourceEnd": 2.7,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "tu",
+   "start": 2.567,
+   "end": 2.707,
+   "sourceStart": 2.7,
+   "sourceEnd": 2.84,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "dois",
+   "start": 2.707,
+   "end": 2.827,
+   "sourceStart": 2.84,
+   "sourceEnd": 2.96,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "être",
+   "start": 2.827,
+   "end": 2.907,
+   "sourceStart": 2.96,
+   "sourceEnd": 3.04,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "chef",
+   "start": 2.907,
+   "end": 3.047,
+   "sourceStart": 3.04,
+   "sourceEnd": 3.18,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "d'entreprise",
+   "start": 3.047,
+   "end": 3.627,
+   "sourceStart": 3.18,
+   "sourceEnd": 3.76,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "dans",
+   "start": 3.627,
+   "end": 3.767,
+   "sourceStart": 3.76,
+   "sourceEnd": 3.9,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "laquelle",
+   "start": 3.767,
+   "end": 4.007,
+   "sourceStart": 3.9,
+   "sourceEnd": 4.14,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "tu",
+   "start": 4.007,
+   "end": 4.167,
+   "sourceStart": 4.14,
+   "sourceEnd": 4.3,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "dois",
+   "start": 4.167,
+   "end": 4.287,
+   "sourceStart": 4.3,
+   "sourceEnd": 4.42,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "avoir",
+   "start": 4.287,
+   "end": 4.447,
+   "sourceStart": 4.42,
+   "sourceEnd": 4.58,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "beaucoup",
+   "start": 4.447,
+   "end": 4.767,
+   "sourceStart": 4.58,
+   "sourceEnd": 4.9,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "de",
+   "start": 4.767,
+   "end": 4.907,
+   "sourceStart": 4.9,
+   "sourceEnd": 5.04,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "demandes",
+   "start": 4.907,
+   "end": 5.227,
+   "sourceStart": 5.04,
+   "sourceEnd": 5.36,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "clients",
+   "start": 5.227,
+   "end": 5.447,
+   "sourceStart": 5.36,
+   "sourceEnd": 5.58,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "tous",
+   "start": 5.447,
+   "end": 5.687,
+   "sourceStart": 5.58,
+   "sourceEnd": 5.82,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "les",
+   "start": 5.687,
+   "end": 5.847,
+   "sourceStart": 5.82,
+   "sourceEnd": 5.98,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "jours",
+   "start": 5.847,
+   "end": 6.047,
+   "sourceStart": 5.98,
+   "sourceEnd": 6.18,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "et",
+   "start": 6.047,
+   "end": 6.207,
+   "sourceStart": 6.18,
+   "sourceEnd": 6.34,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "surtout",
+   "start": 6.207,
+   "end": 6.607,
+   "sourceStart": 6.34,
+   "sourceEnd": 6.74,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "tu",
+   "start": 6.607,
+   "end": 6.887,
+   "sourceStart": 6.74,
+   "sourceEnd": 7.02,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "es",
+   "start": 6.887,
+   "end": 6.987,
+   "sourceStart": 7.02,
+   "sourceEnd": 7.12,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "interrompu",
+   "start": 6.987,
+   "end": 7.587,
+   "sourceStart": 7.12,
+   "sourceEnd": 7.72,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "à",
+   "start": 7.587,
+   "end": 7.987,
+   "sourceStart": 7.72,
+   "sourceEnd": 8.12,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "n'importe",
+   "start": 7.987,
+   "end": 8.267,
+   "sourceStart": 8.12,
+   "sourceEnd": 8.4,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "quel",
+   "start": 8.267,
+   "end": 8.467,
+   "sourceStart": 8.4,
+   "sourceEnd": 8.6,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "moment",
+   "start": 8.467,
+   "end": 8.707,
+   "sourceStart": 8.6,
+   "sourceEnd": 8.84,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "de",
+   "start": 8.707,
+   "end": 8.907,
+   "sourceStart": 8.84,
+   "sourceEnd": 9.04,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "la",
+   "start": 8.907,
+   "end": 9.067,
+   "sourceStart": 9.04,
+   "sourceEnd": 9.2,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "journée.",
+   "start": 9.067,
+   "end": 9.287,
+   "sourceStart": 9.2,
+   "sourceEnd": 9.42,
+   "rush": "IMG_0338"
+  },
+  {
+   "text": "Et",
+   "start": 9.733,
+   "end": 10.493,
+   "sourceStart": 1000.0,
+   "sourceEnd": 1000.76,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "le",
+   "start": 10.493,
+   "end": 10.593,
+   "sourceStart": 1000.76,
+   "sourceEnd": 1000.86,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "problème",
+   "start": 10.593,
+   "end": 10.913,
+   "sourceStart": 1000.86,
+   "sourceEnd": 1001.18,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "n'est",
+   "start": 10.913,
+   "end": 11.133,
+   "sourceStart": 1001.18,
+   "sourceEnd": 1001.4,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "pas",
+   "start": 11.133,
+   "end": 11.273,
+   "sourceStart": 1001.4,
+   "sourceEnd": 1001.54,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "forcément",
+   "start": 11.273,
+   "end": 11.513,
+   "sourceStart": 1001.54,
+   "sourceEnd": 1001.78,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "un",
+   "start": 11.513,
+   "end": 11.813,
+   "sourceStart": 1001.78,
+   "sourceEnd": 1002.08,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "manque",
+   "start": 11.813,
+   "end": 11.973,
+   "sourceStart": 1002.08,
+   "sourceEnd": 1002.24,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "de",
+   "start": 11.973,
+   "end": 12.113,
+   "sourceStart": 1002.24,
+   "sourceEnd": 1002.38,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "clients",
+   "start": 12.113,
+   "end": 12.393,
+   "sourceStart": 1002.38,
+   "sourceEnd": 1002.66,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "mais",
+   "start": 12.393,
+   "end": 12.533,
+   "sourceStart": 1002.66,
+   "sourceEnd": 1002.8,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "surtout",
+   "start": 12.533,
+   "end": 12.733,
+   "sourceStart": 1002.8,
+   "sourceEnd": 1003.0,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "de",
+   "start": 12.733,
+   "end": 12.993,
+   "sourceStart": 1003.0,
+   "sourceEnd": 1003.26,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "temps",
+   "start": 12.993,
+   "end": 13.273,
+   "sourceStart": 1003.26,
+   "sourceEnd": 1003.54,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "et",
+   "start": 13.273,
+   "end": 13.453,
+   "sourceStart": 1003.54,
+   "sourceEnd": 1003.72,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "de",
+   "start": 13.453,
+   "end": 13.573,
+   "sourceStart": 1003.72,
+   "sourceEnd": 1003.84,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "disponibilité.",
+   "start": 13.573,
+   "end": 14.353,
+   "sourceStart": 1003.84,
+   "sourceEnd": 1004.62,
+   "rush": "IMG_0340"
+  },
+  {
+   "text": "Et",
+   "start": 15.133,
+   "end": 15.493,
+   "sourceStart": 2000.6,
+   "sourceEnd": 2000.96,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "aujourd'hui,",
+   "start": 15.493,
+   "end": 15.993,
+   "sourceStart": 2000.96,
+   "sourceEnd": 2001.46,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "malheureusement,",
+   "start": 16.133,
+   "end": 16.573,
+   "sourceStart": 2001.6,
+   "sourceEnd": 2002.04,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "vous",
+   "start": 16.653,
+   "end": 16.713,
+   "sourceStart": 2002.12,
+   "sourceEnd": 2002.18,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "savez",
+   "start": 16.713,
+   "end": 16.913,
+   "sourceStart": 2002.18,
+   "sourceEnd": 2002.38,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "très",
+   "start": 16.913,
+   "end": 17.133,
+   "sourceStart": 2002.38,
+   "sourceEnd": 2002.6,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "bien",
+   "start": 17.133,
+   "end": 17.353,
+   "sourceStart": 2002.6,
+   "sourceEnd": 2002.82,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "que",
+   "start": 17.353,
+   "end": 17.553,
+   "sourceStart": 2002.82,
+   "sourceEnd": 2003.02,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "la",
+   "start": 17.553,
+   "end": 17.893,
+   "sourceStart": 2003.02,
+   "sourceEnd": 2003.36,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "rapidité",
+   "start": 17.893,
+   "end": 18.393,
+   "sourceStart": 2003.36,
+   "sourceEnd": 2003.86,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "à",
+   "start": 18.393,
+   "end": 18.493,
+   "sourceStart": 2003.86,
+   "sourceEnd": 2003.96,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "laquelle",
+   "start": 18.493,
+   "end": 18.713,
+   "sourceStart": 2003.96,
+   "sourceEnd": 2004.18,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "vous",
+   "start": 18.713,
+   "end": 18.893,
+   "sourceStart": 2004.18,
+   "sourceEnd": 2004.36,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "répondez",
+   "start": 18.893,
+   "end": 19.353,
+   "sourceStart": 2004.36,
+   "sourceEnd": 2004.82,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "à",
+   "start": 19.353,
+   "end": 19.413,
+   "sourceStart": 2004.82,
+   "sourceEnd": 2004.88,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "vos",
+   "start": 19.413,
+   "end": 19.533,
+   "sourceStart": 2004.88,
+   "sourceEnd": 2005.0,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "clients",
+   "start": 19.533,
+   "end": 19.793,
+   "sourceStart": 2005.0,
+   "sourceEnd": 2005.26,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "est",
+   "start": 19.793,
+   "end": 19.973,
+   "sourceStart": 2005.26,
+   "sourceEnd": 2005.44,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "l'une",
+   "start": 19.973,
+   "end": 20.113,
+   "sourceStart": 2005.44,
+   "sourceEnd": 2005.58,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "des",
+   "start": 20.113,
+   "end": 20.253,
+   "sourceStart": 2005.58,
+   "sourceEnd": 2005.72,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "choses",
+   "start": 20.253,
+   "end": 20.413,
+   "sourceStart": 2005.72,
+   "sourceEnd": 2005.88,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "les",
+   "start": 20.413,
+   "end": 20.553,
+   "sourceStart": 2005.88,
+   "sourceEnd": 2006.02,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "plus",
+   "start": 20.553,
+   "end": 20.733,
+   "sourceStart": 2006.02,
+   "sourceEnd": 2006.2,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "importantes.",
+   "start": 20.733,
+   "end": 21.233,
+   "sourceStart": 2006.2,
+   "sourceEnd": 2006.7,
+   "rush": "IMG_0341"
+  },
+  {
+   "text": "sinon",
+   "start": 21.953,
+   "end": 22.313,
+   "sourceStart": 3000.62,
+   "sourceEnd": 3000.98,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "vous",
+   "start": 22.313,
+   "end": 22.493,
+   "sourceStart": 3000.98,
+   "sourceEnd": 3001.16,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "pouvez",
+   "start": 22.493,
+   "end": 22.753,
+   "sourceStart": 3001.16,
+   "sourceEnd": 3001.42,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "potentiellement",
+   "start": 22.753,
+   "end": 23.373,
+   "sourceStart": 3001.42,
+   "sourceEnd": 3002.04,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "perdre",
+   "start": 23.373,
+   "end": 23.553,
+   "sourceStart": 3002.04,
+   "sourceEnd": 3002.22,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "des",
+   "start": 23.553,
+   "end": 23.733,
+   "sourceStart": 3002.22,
+   "sourceEnd": 3002.4,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "prospects",
+   "start": 23.733,
+   "end": 24.073,
+   "sourceStart": 3002.4,
+   "sourceEnd": 3002.74,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "qui",
+   "start": 24.073,
+   "end": 24.273,
+   "sourceStart": 3002.74,
+   "sourceEnd": 3002.94,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "iront",
+   "start": 24.273,
+   "end": 24.653,
+   "sourceStart": 3002.94,
+   "sourceEnd": 3003.32,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "chez",
+   "start": 24.653,
+   "end": 24.893,
+   "sourceStart": 3003.32,
+   "sourceEnd": 3003.56,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "la",
+   "start": 24.893,
+   "end": 25.013,
+   "sourceStart": 3003.56,
+   "sourceEnd": 3003.68,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "concurrence,",
+   "start": 25.013,
+   "end": 25.613,
+   "sourceStart": 3003.68,
+   "sourceEnd": 3004.28,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "sans",
+   "start": 25.613,
+   "end": 25.733,
+   "sourceStart": 3004.28,
+   "sourceEnd": 3004.4,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "même",
+   "start": 25.733,
+   "end": 25.853,
+   "sourceStart": 3004.4,
+   "sourceEnd": 3004.52,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "que",
+   "start": 25.853,
+   "end": 25.993,
+   "sourceStart": 3004.52,
+   "sourceEnd": 3004.66,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "vous",
+   "start": 25.993,
+   "end": 26.133,
+   "sourceStart": 3004.66,
+   "sourceEnd": 3004.8,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "la",
+   "start": 26.133,
+   "end": 26.233,
+   "sourceStart": 3004.8,
+   "sourceEnd": 3004.9,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "sachiez.",
+   "start": 26.233,
+   "end": 26.593,
+   "sourceStart": 3004.9,
+   "sourceEnd": 3005.26,
+   "rush": "IMG_0342"
+  },
+  {
+   "text": "Et",
+   "start": 27.353,
+   "end": 27.833,
+   "sourceStart": 4000.62,
+   "sourceEnd": 4001.1,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "moi",
+   "start": 27.833,
+   "end": 28.073,
+   "sourceStart": 4001.1,
+   "sourceEnd": 4001.34,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "aussi",
+   "start": 28.073,
+   "end": 28.313,
+   "sourceStart": 4001.34,
+   "sourceEnd": 4001.58,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "pendant",
+   "start": 28.313,
+   "end": 28.493,
+   "sourceStart": 4001.58,
+   "sourceEnd": 4001.76,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "trois",
+   "start": 28.493,
+   "end": 28.873,
+   "sourceStart": 4001.76,
+   "sourceEnd": 4002.14,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "ans,",
+   "start": 28.873,
+   "end": 29.053,
+   "sourceStart": 4002.14,
+   "sourceEnd": 4002.32,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "j'étais",
+   "start": 29.153,
+   "end": 29.293,
+   "sourceStart": 4002.42,
+   "sourceEnd": 4002.56,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "exactement",
+   "start": 29.293,
+   "end": 29.713,
+   "sourceStart": 4002.56,
+   "sourceEnd": 4002.98,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "dans",
+   "start": 29.713,
+   "end": 29.913,
+   "sourceStart": 4002.98,
+   "sourceEnd": 4003.18,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "la",
+   "start": 29.913,
+   "end": 30.053,
+   "sourceStart": 4003.18,
+   "sourceEnd": 4003.32,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "même",
+   "start": 30.053,
+   "end": 30.213,
+   "sourceStart": 4003.32,
+   "sourceEnd": 4003.48,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "situation",
+   "start": 30.213,
+   "end": 30.673,
+   "sourceStart": 4003.48,
+   "sourceEnd": 4003.94,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "pour",
+   "start": 30.673,
+   "end": 31.033,
+   "sourceStart": 4003.94,
+   "sourceEnd": 4004.3,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "ma",
+   "start": 31.033,
+   "end": 31.213,
+   "sourceStart": 4004.3,
+   "sourceEnd": 4004.48,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "société",
+   "start": 31.213,
+   "end": 31.573,
+   "sourceStart": 4004.48,
+   "sourceEnd": 4004.84,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "de",
+   "start": 31.573,
+   "end": 31.813,
+   "sourceStart": 4004.84,
+   "sourceEnd": 4005.08,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "location",
+   "start": 31.813,
+   "end": 32.073,
+   "sourceStart": 4005.08,
+   "sourceEnd": 4005.34,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "de",
+   "start": 32.073,
+   "end": 32.373,
+   "sourceStart": 4005.34,
+   "sourceEnd": 4005.64,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "yacht.",
+   "start": 32.373,
+   "end": 32.593,
+   "sourceStart": 4005.64,
+   "sourceEnd": 4005.86,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "Et",
+   "start": 33.133,
+   "end": 33.193,
+   "sourceStart": 4006.4,
+   "sourceEnd": 4006.46,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "sauf",
+   "start": 33.193,
+   "end": 33.373,
+   "sourceStart": 4006.46,
+   "sourceEnd": 4006.64,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "que",
+   "start": 33.373,
+   "end": 33.513,
+   "sourceStart": 4006.64,
+   "sourceEnd": 4006.78,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "malheureusement",
+   "start": 33.513,
+   "end": 34.133,
+   "sourceStart": 4006.78,
+   "sourceEnd": 4007.4,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "on",
+   "start": 34.133,
+   "end": 34.253,
+   "sourceStart": 4007.4,
+   "sourceEnd": 4007.52,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "n'a",
+   "start": 34.253,
+   "end": 34.313,
+   "sourceStart": 4007.52,
+   "sourceEnd": 4007.58,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "pas",
+   "start": 34.313,
+   "end": 34.453,
+   "sourceStart": 4007.58,
+   "sourceEnd": 4007.72,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "tous",
+   "start": 34.453,
+   "end": 34.653,
+   "sourceStart": 4007.72,
+   "sourceEnd": 4007.92,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "les",
+   "start": 34.653,
+   "end": 34.913,
+   "sourceStart": 4007.92,
+   "sourceEnd": 4008.18,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "moyens",
+   "start": 34.913,
+   "end": 35.113,
+   "sourceStart": 4008.18,
+   "sourceEnd": 4008.38,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "de",
+   "start": 35.113,
+   "end": 35.373,
+   "sourceStart": 4008.38,
+   "sourceEnd": 4008.64,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "pouvoir",
+   "start": 35.373,
+   "end": 35.633,
+   "sourceStart": 4008.64,
+   "sourceEnd": 4008.9,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "embaucher",
+   "start": 35.633,
+   "end": 36.093,
+   "sourceStart": 4008.9,
+   "sourceEnd": 4009.36,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "une",
+   "start": 36.093,
+   "end": 36.253,
+   "sourceStart": 4009.36,
+   "sourceEnd": 4009.52,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "personne",
+   "start": 36.253,
+   "end": 36.553,
+   "sourceStart": 4009.52,
+   "sourceEnd": 4009.82,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "dédiée",
+   "start": 36.553,
+   "end": 37.053,
+   "sourceStart": 4009.82,
+   "sourceEnd": 4010.32,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "à",
+   "start": 37.053,
+   "end": 37.173,
+   "sourceStart": 4010.32,
+   "sourceEnd": 4010.44,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "ça,",
+   "start": 37.173,
+   "end": 37.373,
+   "sourceStart": 4010.44,
+   "sourceEnd": 4010.64,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "ni",
+   "start": 37.813,
+   "end": 38.113,
+   "sourceStart": 4011.08,
+   "sourceEnd": 4011.38,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "de",
+   "start": 38.113,
+   "end": 38.373,
+   "sourceStart": 4011.38,
+   "sourceEnd": 4011.64,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "vouloir",
+   "start": 38.373,
+   "end": 38.693,
+   "sourceStart": 4011.64,
+   "sourceEnd": 4011.96,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "mettre",
+   "start": 38.693,
+   "end": 38.853,
+   "sourceStart": 4011.96,
+   "sourceEnd": 4012.12,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "un",
+   "start": 38.853,
+   "end": 39.053,
+   "sourceStart": 4012.12,
+   "sourceEnd": 4012.32,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "chatbot",
+   "start": 39.053,
+   "end": 39.413,
+   "sourceStart": 4012.32,
+   "sourceEnd": 4012.68,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "qui",
+   "start": 39.413,
+   "end": 39.573,
+   "sourceStart": 4012.68,
+   "sourceEnd": 4012.84,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "va",
+   "start": 39.573,
+   "end": 39.693,
+   "sourceStart": 4012.84,
+   "sourceEnd": 4012.96,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "pouvoir",
+   "start": 39.693,
+   "end": 39.973,
+   "sourceStart": 4012.96,
+   "sourceEnd": 4013.24,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "perdre",
+   "start": 39.973,
+   "end": 40.313,
+   "sourceStart": 4013.24,
+   "sourceEnd": 4013.58,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "la",
+   "start": 40.313,
+   "end": 40.753,
+   "sourceStart": 4013.58,
+   "sourceEnd": 4014.02,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "qualité",
+   "start": 40.753,
+   "end": 41.013,
+   "sourceStart": 4014.02,
+   "sourceEnd": 4014.28,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "de",
+   "start": 41.013,
+   "end": 41.233,
+   "sourceStart": 4014.28,
+   "sourceEnd": 4014.5,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "la",
+   "start": 41.233,
+   "end": 41.353,
+   "sourceStart": 4014.5,
+   "sourceEnd": 4014.62,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "relation",
+   "start": 41.353,
+   "end": 41.673,
+   "sourceStart": 4014.62,
+   "sourceEnd": 4014.94,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "client.",
+   "start": 41.673,
+   "end": 41.933,
+   "sourceStart": 4014.94,
+   "sourceEnd": 4015.2,
+   "rush": "IMG_0348"
+  },
+  {
+   "text": "Et",
+   "start": 42.64,
+   "end": 43.0,
+   "sourceStart": 5000.44,
+   "sourceEnd": 5000.8,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "donc",
+   "start": 43.0,
+   "end": 43.14,
+   "sourceStart": 5000.8,
+   "sourceEnd": 5000.94,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "il",
+   "start": 43.14,
+   "end": 43.4,
+   "sourceStart": 5000.94,
+   "sourceEnd": 5001.2,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "y",
+   "start": 43.4,
+   "end": 43.48,
+   "sourceStart": 5001.2,
+   "sourceEnd": 5001.28,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "a",
+   "start": 43.48,
+   "end": 43.52,
+   "sourceStart": 5001.28,
+   "sourceEnd": 5001.32,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "deux",
+   "start": 43.52,
+   "end": 43.7,
+   "sourceStart": 5001.32,
+   "sourceEnd": 5001.5,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "ans,",
+   "start": 43.7,
+   "end": 43.86,
+   "sourceStart": 5001.5,
+   "sourceEnd": 5001.66,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "j'ai",
+   "start": 43.92,
+   "end": 44.02,
+   "sourceStart": 5001.72,
+   "sourceEnd": 5001.82,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "décidé",
+   "start": 44.02,
+   "end": 44.24,
+   "sourceStart": 5001.82,
+   "sourceEnd": 5002.04,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "de",
+   "start": 44.24,
+   "end": 44.5,
+   "sourceStart": 5002.04,
+   "sourceEnd": 5002.3,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "créer",
+   "start": 44.5,
+   "end": 44.72,
+   "sourceStart": 5002.3,
+   "sourceEnd": 5002.52,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "mon",
+   "start": 44.72,
+   "end": 44.9,
+   "sourceStart": 5002.52,
+   "sourceEnd": 5002.7,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "propre",
+   "start": 44.9,
+   "end": 45.26,
+   "sourceStart": 5002.7,
+   "sourceEnd": 5003.06,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "agent",
+   "start": 45.26,
+   "end": 45.6,
+   "sourceStart": 5003.06,
+   "sourceEnd": 5003.4,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "WhatsApp",
+   "start": 45.6,
+   "end": 46.1,
+   "sourceStart": 5003.4,
+   "sourceEnd": 5003.9,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "qui",
+   "start": 46.1,
+   "end": 46.3,
+   "sourceStart": 5003.9,
+   "sourceEnd": 5004.1,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "est",
+   "start": 46.3,
+   "end": 46.44,
+   "sourceStart": 5004.1,
+   "sourceEnd": 5004.24,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "complètement",
+   "start": 46.44,
+   "end": 46.8,
+   "sourceStart": 5004.24,
+   "sourceEnd": 5004.6,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "autonome.",
+   "start": 46.8,
+   "end": 47.48,
+   "sourceStart": 5004.6,
+   "sourceEnd": 5005.28,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "Il",
+   "start": 47.64,
+   "end": 47.68,
+   "sourceStart": 5005.44,
+   "sourceEnd": 5005.48,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "va",
+   "start": 47.68,
+   "end": 47.78,
+   "sourceStart": 5005.48,
+   "sourceEnd": 5005.58,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "parler",
+   "start": 47.78,
+   "end": 48.06,
+   "sourceStart": 5005.58,
+   "sourceEnd": 5005.86,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "comme",
+   "start": 48.06,
+   "end": 48.34,
+   "sourceStart": 5005.86,
+   "sourceEnd": 5006.14,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "moi",
+   "start": 48.34,
+   "end": 48.6,
+   "sourceStart": 5006.14,
+   "sourceEnd": 5006.4,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "à",
+   "start": 48.6,
+   "end": 48.78,
+   "sourceStart": 5006.4,
+   "sourceEnd": 5006.58,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "ma",
+   "start": 48.78,
+   "end": 48.88,
+   "sourceStart": 5006.58,
+   "sourceEnd": 5006.68,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "façon",
+   "start": 48.88,
+   "end": 49.18,
+   "sourceStart": 5006.68,
+   "sourceEnd": 5006.98,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "de",
+   "start": 49.18,
+   "end": 49.3,
+   "sourceStart": 5006.98,
+   "sourceEnd": 5007.1,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "parler,",
+   "start": 49.3,
+   "end": 49.54,
+   "sourceStart": 5007.1,
+   "sourceEnd": 5007.34,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "il",
+   "start": 50.1,
+   "end": 50.18,
+   "sourceStart": 5007.9,
+   "sourceEnd": 5007.98,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "connaît",
+   "start": 50.18,
+   "end": 50.52,
+   "sourceStart": 5007.98,
+   "sourceEnd": 5008.32,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "toutes",
+   "start": 50.52,
+   "end": 50.68,
+   "sourceStart": 5008.32,
+   "sourceEnd": 5008.48,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "les",
+   "start": 50.68,
+   "end": 50.88,
+   "sourceStart": 5008.48,
+   "sourceEnd": 5008.68,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "règles",
+   "start": 50.88,
+   "end": 51.06,
+   "sourceStart": 5008.68,
+   "sourceEnd": 5008.86,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "de",
+   "start": 51.06,
+   "end": 51.18,
+   "sourceStart": 5008.86,
+   "sourceEnd": 5008.98,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "mon",
+   "start": 51.18,
+   "end": 51.28,
+   "sourceStart": 5008.98,
+   "sourceEnd": 5009.08,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "entreprise",
+   "start": 51.28,
+   "end": 51.84,
+   "sourceStart": 5009.08,
+   "sourceEnd": 5009.64,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "et",
+   "start": 51.84,
+   "end": 51.94,
+   "sourceStart": 5009.64,
+   "sourceEnd": 5009.74,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "surtout",
+   "start": 51.94,
+   "end": 52.22,
+   "sourceStart": 5009.74,
+   "sourceEnd": 5010.02,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "aussi",
+   "start": 52.22,
+   "end": 52.58,
+   "sourceStart": 5010.02,
+   "sourceEnd": 5010.38,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "il est",
+   "start": 52.58,
+   "end": 52.72,
+   "sourceStart": 5010.38,
+   "sourceEnd": 5010.52,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "connecté",
+   "start": 52.72,
+   "end": 53.18,
+   "sourceStart": 5010.52,
+   "sourceEnd": 5010.98,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "à",
+   "start": 53.18,
+   "end": 53.28,
+   "sourceStart": 5010.98,
+   "sourceEnd": 5011.08,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "mes",
+   "start": 53.28,
+   "end": 54.04,
+   "sourceStart": 5011.08,
+   "sourceEnd": 5011.84,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "outils,",
+   "start": 54.04,
+   "end": 54.32,
+   "sourceStart": 5011.84,
+   "sourceEnd": 5012.12,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "c'est",
+   "start": 54.5,
+   "end": 54.86,
+   "sourceStart": 5012.3,
+   "sourceEnd": 5012.66,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "ce",
+   "start": 54.86,
+   "end": 54.96,
+   "sourceStart": 5012.66,
+   "sourceEnd": 5012.76,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "qu'il",
+   "start": 54.96,
+   "end": 55.06,
+   "sourceStart": 5012.76,
+   "sourceEnd": 5012.86,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "va",
+   "start": 55.06,
+   "end": 55.2,
+   "sourceStart": 5012.86,
+   "sourceEnd": 5013.0,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "faire,",
+   "start": 55.2,
+   "end": 55.42,
+   "sourceStart": 5013.0,
+   "sourceEnd": 5013.22,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "qui",
+   "start": 55.56,
+   "end": 55.58,
+   "sourceStart": 5013.36,
+   "sourceEnd": 5013.38,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "va",
+   "start": 55.58,
+   "end": 55.78,
+   "sourceStart": 5013.38,
+   "sourceEnd": 5013.58,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "être",
+   "start": 55.78,
+   "end": 56.04,
+   "sourceStart": 5013.58,
+   "sourceEnd": 5013.84,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "totalement",
+   "start": 56.04,
+   "end": 56.84,
+   "sourceStart": 5013.84,
+   "sourceEnd": 5014.64,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "autonome.",
+   "start": 56.84,
+   "end": 57.54,
+   "sourceStart": 5014.64,
+   "sourceEnd": 5015.34,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "Il",
+   "start": 57.58,
+   "end": 57.62,
+   "sourceStart": 5015.38,
+   "sourceEnd": 5015.42,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "va",
+   "start": 57.62,
+   "end": 57.7,
+   "sourceStart": 5015.42,
+   "sourceEnd": 5015.5,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "être",
+   "start": 57.7,
+   "end": 57.8,
+   "sourceStart": 5015.5,
+   "sourceEnd": 5015.6,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "connecté",
+   "start": 57.8,
+   "end": 58.24,
+   "sourceStart": 5015.6,
+   "sourceEnd": 5016.04,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "que",
+   "start": 58.24,
+   "end": 58.38,
+   "sourceStart": 5016.04,
+   "sourceEnd": 5016.18,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "ce",
+   "start": 58.38,
+   "end": 58.5,
+   "sourceStart": 5016.18,
+   "sourceEnd": 5016.3,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "soit",
+   "start": 58.5,
+   "end": 58.64,
+   "sourceStart": 5016.3,
+   "sourceEnd": 5016.44,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "à",
+   "start": 58.64,
+   "end": 58.76,
+   "sourceStart": 5016.44,
+   "sourceEnd": 5016.56,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "mon",
+   "start": 58.76,
+   "end": 58.82,
+   "sourceStart": 5016.56,
+   "sourceEnd": 5016.62,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "calendrier,",
+   "start": 58.82,
+   "end": 59.38,
+   "sourceStart": 5016.62,
+   "sourceEnd": 5017.18,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "à",
+   "start": 59.92,
+   "end": 59.94,
+   "sourceStart": 5017.72,
+   "sourceEnd": 5017.74,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "mon",
+   "start": 59.94,
+   "end": 60.08,
+   "sourceStart": 5017.74,
+   "sourceEnd": 5017.88,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "CRM",
+   "start": 60.08,
+   "end": 60.6,
+   "sourceStart": 5017.88,
+   "sourceEnd": 5018.4,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "et",
+   "start": 60.6,
+   "end": 60.76,
+   "sourceStart": 5018.4,
+   "sourceEnd": 5018.56,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "même",
+   "start": 60.76,
+   "end": 61.0,
+   "sourceStart": 5018.56,
+   "sourceEnd": 5018.8,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "à",
+   "start": 61.0,
+   "end": 61.1,
+   "sourceStart": 5018.8,
+   "sourceEnd": 5018.9,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "la",
+   "start": 61.1,
+   "end": 61.22,
+   "sourceStart": 5018.9,
+   "sourceEnd": 5019.02,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "météo.",
+   "start": 61.22,
+   "end": 61.56,
+   "sourceStart": 5019.02,
+   "sourceEnd": 5019.36,
+   "rush": "IMG_0351"
+  },
+  {
+   "text": "et",
+   "start": 62.0,
+   "end": 62.64,
+   "sourceStart": 6000.0,
+   "sourceEnd": 6000.64,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "je",
+   "start": 62.64,
+   "end": 62.88,
+   "sourceStart": 6000.64,
+   "sourceEnd": 6000.88,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "sais",
+   "start": 62.88,
+   "end": 63.02,
+   "sourceStart": 6000.88,
+   "sourceEnd": 6001.02,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "que",
+   "start": 63.02,
+   "end": 63.16,
+   "sourceStart": 6001.02,
+   "sourceEnd": 6001.16,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "beaucoup",
+   "start": 63.16,
+   "end": 63.44,
+   "sourceStart": 6001.16,
+   "sourceEnd": 6001.44,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "de",
+   "start": 63.44,
+   "end": 63.58,
+   "sourceStart": 6001.44,
+   "sourceEnd": 6001.58,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "chefs",
+   "start": 63.58,
+   "end": 63.78,
+   "sourceStart": 6001.58,
+   "sourceEnd": 6001.78,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "d'entreprise",
+   "start": 63.78,
+   "end": 64.44,
+   "sourceStart": 6001.78,
+   "sourceEnd": 6002.44,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "ont",
+   "start": 64.44,
+   "end": 65.06,
+   "sourceStart": 6002.44,
+   "sourceEnd": 6003.06,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "un",
+   "start": 65.06,
+   "end": 65.18,
+   "sourceStart": 6003.06,
+   "sourceEnd": 6003.18,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "petit",
+   "start": 65.18,
+   "end": 65.32,
+   "sourceStart": 6003.18,
+   "sourceEnd": 6003.32,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "peu",
+   "start": 65.32,
+   "end": 65.48,
+   "sourceStart": 6003.32,
+   "sourceEnd": 6003.48,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "peur",
+   "start": 65.48,
+   "end": 65.68,
+   "sourceStart": 6003.48,
+   "sourceEnd": 6003.68,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "de",
+   "start": 65.68,
+   "end": 65.88,
+   "sourceStart": 6003.68,
+   "sourceEnd": 6003.88,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "déléguer",
+   "start": 65.88,
+   "end": 66.48,
+   "sourceStart": 6003.88,
+   "sourceEnd": 6004.48,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "leur",
+   "start": 66.48,
+   "end": 66.82,
+   "sourceStart": 6004.48,
+   "sourceEnd": 6004.82,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "relation",
+   "start": 66.82,
+   "end": 67.22,
+   "sourceStart": 6004.82,
+   "sourceEnd": 6005.22,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "client",
+   "start": 67.22,
+   "end": 67.6,
+   "sourceStart": 6005.22,
+   "sourceEnd": 6005.6,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "à l'IA",
+   "start": 67.6,
+   "end": 68.2,
+   "sourceStart": 6005.6,
+   "sourceEnd": 6006.2,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "par",
+   "start": 68.2,
+   "end": 68.42,
+   "sourceStart": 6006.2,
+   "sourceEnd": 6006.42,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "peur",
+   "start": 68.42,
+   "end": 68.86,
+   "sourceStart": 6006.42,
+   "sourceEnd": 6006.86,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "de",
+   "start": 69.38,
+   "end": 69.82,
+   "sourceStart": 6007.38,
+   "sourceEnd": 6007.82,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "perdre",
+   "start": 69.82,
+   "end": 70.02,
+   "sourceStart": 6007.82,
+   "sourceEnd": 6008.02,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "cette",
+   "start": 70.02,
+   "end": 70.18,
+   "sourceStart": 6008.02,
+   "sourceEnd": 6008.18,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "relation",
+   "start": 70.18,
+   "end": 70.58,
+   "sourceStart": 6008.18,
+   "sourceEnd": 6008.58,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "client",
+   "start": 70.58,
+   "end": 70.92,
+   "sourceStart": 6008.58,
+   "sourceEnd": 6008.92,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "là",
+   "start": 70.92,
+   "end": 71.14,
+   "sourceStart": 6008.92,
+   "sourceEnd": 6009.14,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "mais",
+   "start": 71.14,
+   "end": 71.28,
+   "sourceStart": 6009.14,
+   "sourceEnd": 6009.28,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "juste",
+   "start": 71.28,
+   "end": 71.46,
+   "sourceStart": 6009.28,
+   "sourceEnd": 6009.46,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "en",
+   "start": 71.46,
+   "end": 71.62,
+   "sourceStart": 6009.46,
+   "sourceEnd": 6009.62,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "dessous",
+   "start": 71.62,
+   "end": 71.92,
+   "sourceStart": 6009.62,
+   "sourceEnd": 6009.92,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "je",
+   "start": 71.92,
+   "end": 72.04,
+   "sourceStart": 6009.92,
+   "sourceEnd": 6010.04,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "vous",
+   "start": 72.04,
+   "end": 72.2,
+   "sourceStart": 6010.04,
+   "sourceEnd": 6010.2,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "ai",
+   "start": 72.2,
+   "end": 72.36,
+   "sourceStart": 6010.2,
+   "sourceEnd": 6010.36,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "mis",
+   "start": 72.36,
+   "end": 72.48,
+   "sourceStart": 6010.36,
+   "sourceEnd": 6010.48,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "quelques",
+   "start": 72.48,
+   "end": 72.7,
+   "sourceStart": 6010.48,
+   "sourceEnd": 6010.7,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "captures",
+   "start": 72.7,
+   "end": 73.0,
+   "sourceStart": 6010.7,
+   "sourceEnd": 6011.0,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "d'écran",
+   "start": 73.0,
+   "end": 73.48,
+   "sourceStart": 6011.0,
+   "sourceEnd": 6011.48,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "pour",
+   "start": 73.48,
+   "end": 73.94,
+   "sourceStart": 6011.48,
+   "sourceEnd": 6011.94,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "vous",
+   "start": 73.94,
+   "end": 74.08,
+   "sourceStart": 6011.94,
+   "sourceEnd": 6012.08,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "montrer",
+   "start": 74.08,
+   "end": 74.4,
+   "sourceStart": 6012.08,
+   "sourceEnd": 6012.4,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "un",
+   "start": 74.4,
+   "end": 74.54,
+   "sourceStart": 6012.4,
+   "sourceEnd": 6012.54,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "petit",
+   "start": 74.54,
+   "end": 74.74,
+   "sourceStart": 6012.54,
+   "sourceEnd": 6012.74,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "peu",
+   "start": 74.74,
+   "end": 74.96,
+   "sourceStart": 6012.74,
+   "sourceEnd": 6012.96,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "comment",
+   "start": 74.96,
+   "end": 75.6,
+   "sourceStart": 6012.96,
+   "sourceEnd": 6013.6,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "mon",
+   "start": 75.6,
+   "end": 75.8,
+   "sourceStart": 6013.6,
+   "sourceEnd": 6013.8,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "agent",
+   "start": 75.8,
+   "end": 76.0,
+   "sourceStart": 6013.8,
+   "sourceEnd": 6014.0,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "whatsapp",
+   "start": 76.0,
+   "end": 76.48,
+   "sourceStart": 6014.0,
+   "sourceEnd": 6014.48,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "va",
+   "start": 76.48,
+   "end": 76.92,
+   "sourceStart": 6014.48,
+   "sourceEnd": 6014.92,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "parler",
+   "start": 76.92,
+   "end": 77.14,
+   "sourceStart": 6014.92,
+   "sourceEnd": 6015.14,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "à",
+   "start": 77.14,
+   "end": 77.26,
+   "sourceStart": 6015.14,
+   "sourceEnd": 6015.26,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "mes",
+   "start": 77.26,
+   "end": 77.36,
+   "sourceStart": 6015.26,
+   "sourceEnd": 6015.36,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "clients",
+   "start": 77.36,
+   "end": 77.66,
+   "sourceStart": 6015.36,
+   "sourceEnd": 6015.66,
+   "rush": "IMG_0352"
+  },
+  {
+   "text": "Et",
+   "start": 78.067,
+   "end": 78.727,
+   "sourceStart": 7000.0,
+   "sourceEnd": 7000.66,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "en",
+   "start": 78.727,
+   "end": 78.807,
+   "sourceStart": 7000.66,
+   "sourceEnd": 7000.74,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "fait,",
+   "start": 78.807,
+   "end": 78.927,
+   "sourceStart": 7000.74,
+   "sourceEnd": 7000.86,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "au-delà",
+   "start": 79.027,
+   "end": 79.347,
+   "sourceStart": 7000.96,
+   "sourceEnd": 7001.28,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "d'avoir",
+   "start": 79.347,
+   "end": 79.627,
+   "sourceStart": 7001.28,
+   "sourceEnd": 7001.56,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "gagné",
+   "start": 79.627,
+   "end": 80.387,
+   "sourceStart": 7001.56,
+   "sourceEnd": 7002.32,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "énormément",
+   "start": 80.387,
+   "end": 80.687,
+   "sourceStart": 7002.32,
+   "sourceEnd": 7002.62,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "de",
+   "start": 80.687,
+   "end": 81.067,
+   "sourceStart": 7002.62,
+   "sourceEnd": 7003.0,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "temps",
+   "start": 81.067,
+   "end": 81.267,
+   "sourceStart": 7003.0,
+   "sourceEnd": 7003.2,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "et",
+   "start": 81.267,
+   "end": 81.407,
+   "sourceStart": 7003.2,
+   "sourceEnd": 7003.34,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "surtout",
+   "start": 81.407,
+   "end": 81.567,
+   "sourceStart": 7003.34,
+   "sourceEnd": 7003.5,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "que",
+   "start": 81.567,
+   "end": 81.787,
+   "sourceStart": 7003.5,
+   "sourceEnd": 7003.72,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "mes",
+   "start": 81.787,
+   "end": 81.907,
+   "sourceStart": 7003.72,
+   "sourceEnd": 7003.84,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "clients",
+   "start": 81.907,
+   "end": 82.247,
+   "sourceStart": 7003.84,
+   "sourceEnd": 7004.18,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "ont",
+   "start": 82.247,
+   "end": 82.527,
+   "sourceStart": 7004.18,
+   "sourceEnd": 7004.46,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "des",
+   "start": 82.527,
+   "end": 82.647,
+   "sourceStart": 7004.46,
+   "sourceEnd": 7004.58,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "réponses",
+   "start": 82.647,
+   "end": 83.147,
+   "sourceStart": 7004.58,
+   "sourceEnd": 7005.08,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "très",
+   "start": 83.147,
+   "end": 83.487,
+   "sourceStart": 7005.08,
+   "sourceEnd": 7005.42,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "rapides",
+   "start": 83.487,
+   "end": 83.827,
+   "sourceStart": 7005.42,
+   "sourceEnd": 7005.76,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "à",
+   "start": 83.827,
+   "end": 83.927,
+   "sourceStart": 7005.76,
+   "sourceEnd": 7005.86,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "leur",
+   "start": 83.927,
+   "end": 84.047,
+   "sourceStart": 7005.86,
+   "sourceEnd": 7005.98,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "question",
+   "start": 84.047,
+   "end": 84.367,
+   "sourceStart": 7005.98,
+   "sourceEnd": 7006.3,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "donc",
+   "start": 84.367,
+   "end": 85.047,
+   "sourceStart": 7006.3,
+   "sourceEnd": 7006.98,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "potentiellement",
+   "start": 85.047,
+   "end": 85.707,
+   "sourceStart": 7006.98,
+   "sourceEnd": 7007.64,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "plus",
+   "start": 85.707,
+   "end": 85.927,
+   "sourceStart": 7007.64,
+   "sourceEnd": 7007.86,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "de",
+   "start": 85.927,
+   "end": 86.107,
+   "sourceStart": 7007.86,
+   "sourceEnd": 7008.04,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "clients",
+   "start": 86.107,
+   "end": 86.387,
+   "sourceStart": 7008.04,
+   "sourceEnd": 7008.32,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "puisqu'ils",
+   "start": 86.387,
+   "end": 86.767,
+   "sourceStart": 7008.32,
+   "sourceEnd": 7008.7,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "n'auront",
+   "start": 86.767,
+   "end": 86.967,
+   "sourceStart": 7008.7,
+   "sourceEnd": 7008.9,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "pas",
+   "start": 86.967,
+   "end": 87.087,
+   "sourceStart": 7008.9,
+   "sourceEnd": 7009.02,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "le",
+   "start": 87.087,
+   "end": 87.207,
+   "sourceStart": 7009.02,
+   "sourceEnd": 7009.14,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "temps",
+   "start": 87.207,
+   "end": 87.427,
+   "sourceStart": 7009.14,
+   "sourceEnd": 7009.36,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "d'aller",
+   "start": 87.427,
+   "end": 87.707,
+   "sourceStart": 7009.36,
+   "sourceEnd": 7009.64,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "voir",
+   "start": 87.707,
+   "end": 87.887,
+   "sourceStart": 7009.64,
+   "sourceEnd": 7009.82,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "ailleurs.",
+   "start": 87.887,
+   "end": 88.187,
+   "sourceStart": 7009.82,
+   "sourceEnd": 7010.12,
+   "rush": "IMG_0356"
+  },
+  {
+   "text": "et",
+   "start": 88.567,
+   "end": 89.407,
+   "sourceStart": 8000.0,
+   "sourceEnd": 8000.84,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "bien",
+   "start": 89.407,
+   "end": 89.507,
+   "sourceStart": 8000.84,
+   "sourceEnd": 8000.94,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "c'est",
+   "start": 89.507,
+   "end": 89.687,
+   "sourceStart": 8000.94,
+   "sourceEnd": 8001.12,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "vraiment",
+   "start": 89.687,
+   "end": 89.927,
+   "sourceStart": 8001.12,
+   "sourceEnd": 8001.36,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "cette",
+   "start": 89.927,
+   "end": 90.147,
+   "sourceStart": 8001.36,
+   "sourceEnd": 8001.58,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "charge",
+   "start": 90.147,
+   "end": 90.487,
+   "sourceStart": 8001.58,
+   "sourceEnd": 8001.92,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "mentale",
+   "start": 90.487,
+   "end": 90.987,
+   "sourceStart": 8001.92,
+   "sourceEnd": 8002.42,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "en",
+   "start": 90.987,
+   "end": 91.167,
+   "sourceStart": 8002.42,
+   "sourceEnd": 8002.6,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "moins",
+   "start": 91.167,
+   "end": 91.427,
+   "sourceStart": 8002.6,
+   "sourceEnd": 8002.86,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "que",
+   "start": 91.427,
+   "end": 91.727,
+   "sourceStart": 8002.86,
+   "sourceEnd": 8003.16,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "j'ai",
+   "start": 91.727,
+   "end": 91.927,
+   "sourceStart": 8003.16,
+   "sourceEnd": 8003.36,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "gagné",
+   "start": 91.927,
+   "end": 92.347,
+   "sourceStart": 8003.36,
+   "sourceEnd": 8003.78,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "et",
+   "start": 92.347,
+   "end": 92.547,
+   "sourceStart": 8003.78,
+   "sourceEnd": 8003.98,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "donc",
+   "start": 92.547,
+   "end": 92.727,
+   "sourceStart": 8003.98,
+   "sourceEnd": 8004.16,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "ça",
+   "start": 92.727,
+   "end": 93.227,
+   "sourceStart": 8004.16,
+   "sourceEnd": 8004.66,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "m'a",
+   "start": 93.227,
+   "end": 93.387,
+   "sourceStart": 8004.66,
+   "sourceEnd": 8004.82,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "permis",
+   "start": 93.387,
+   "end": 93.647,
+   "sourceStart": 8004.82,
+   "sourceEnd": 8005.08,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "en",
+   "start": 93.647,
+   "end": 93.767,
+   "sourceStart": 8005.08,
+   "sourceEnd": 8005.2,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "fait",
+   "start": 93.767,
+   "end": 93.867,
+   "sourceStart": 8005.2,
+   "sourceEnd": 8005.3,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "de",
+   "start": 93.867,
+   "end": 93.967,
+   "sourceStart": 8005.3,
+   "sourceEnd": 8005.4,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "me",
+   "start": 93.967,
+   "end": 94.047,
+   "sourceStart": 8005.4,
+   "sourceEnd": 8005.48,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "concentrer",
+   "start": 94.047,
+   "end": 94.527,
+   "sourceStart": 8005.48,
+   "sourceEnd": 8005.96,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "vraiment",
+   "start": 94.527,
+   "end": 94.787,
+   "sourceStart": 8005.96,
+   "sourceEnd": 8006.22,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "sur",
+   "start": 94.787,
+   "end": 95.007,
+   "sourceStart": 8006.22,
+   "sourceEnd": 8006.44,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "l'expérience",
+   "start": 95.007,
+   "end": 95.407,
+   "sourceStart": 8006.44,
+   "sourceEnd": 8006.84,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "client",
+   "start": 95.407,
+   "end": 95.747,
+   "sourceStart": 8006.84,
+   "sourceEnd": 8007.18,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "et",
+   "start": 95.747,
+   "end": 95.987,
+   "sourceStart": 8007.18,
+   "sourceEnd": 8007.42,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "la",
+   "start": 95.987,
+   "end": 96.127,
+   "sourceStart": 8007.42,
+   "sourceEnd": 8007.56,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "satisfaction",
+   "start": 96.127,
+   "end": 96.507,
+   "sourceStart": 8007.56,
+   "sourceEnd": 8007.94,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "client",
+   "start": 96.507,
+   "end": 97.067,
+   "sourceStart": 8007.94,
+   "sourceEnd": 8008.5,
+   "rush": "IMG_0357"
+  },
+  {
+   "text": "Et",
+   "start": 97.793,
+   "end": 98.233,
+   "sourceStart": 9001.46,
+   "sourceEnd": 9001.9,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "donc",
+   "start": 98.233,
+   "end": 98.413,
+   "sourceStart": 9001.9,
+   "sourceEnd": 9002.08,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "là,",
+   "start": 98.413,
+   "end": 98.633,
+   "sourceStart": 9002.08,
+   "sourceEnd": 9002.3,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "ça",
+   "start": 98.773,
+   "end": 98.833,
+   "sourceStart": 9002.44,
+   "sourceEnd": 9002.5,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "va",
+   "start": 98.833,
+   "end": 98.973,
+   "sourceStart": 9002.5,
+   "sourceEnd": 9002.64,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "bientôt",
+   "start": 98.973,
+   "end": 99.233,
+   "sourceStart": 9002.64,
+   "sourceEnd": 9002.9,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "faire",
+   "start": 99.233,
+   "end": 99.433,
+   "sourceStart": 9002.9,
+   "sourceEnd": 9003.1,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "deux",
+   "start": 99.433,
+   "end": 99.673,
+   "sourceStart": 9003.1,
+   "sourceEnd": 9003.34,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "ans",
+   "start": 99.673,
+   "end": 99.873,
+   "sourceStart": 9003.34,
+   "sourceEnd": 9003.54,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "où",
+   "start": 99.873,
+   "end": 100.153,
+   "sourceStart": 9003.54,
+   "sourceEnd": 9003.82,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "je",
+   "start": 100.153,
+   "end": 100.393,
+   "sourceStart": 9003.82,
+   "sourceEnd": 9004.06,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "ne",
+   "start": 100.393,
+   "end": 100.513,
+   "sourceStart": 9004.06,
+   "sourceEnd": 9004.18,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "touche",
+   "start": 100.513,
+   "end": 100.793,
+   "sourceStart": 9004.18,
+   "sourceEnd": 9004.46,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "presque",
+   "start": 100.793,
+   "end": 101.033,
+   "sourceStart": 9004.46,
+   "sourceEnd": 9004.7,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "plus",
+   "start": 101.033,
+   "end": 101.353,
+   "sourceStart": 9004.7,
+   "sourceEnd": 9005.02,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "WhatsApp,",
+   "start": 101.353,
+   "end": 101.753,
+   "sourceStart": 9005.02,
+   "sourceEnd": 9005.42,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "à",
+   "start": 102.013,
+   "end": 102.093,
+   "sourceStart": 9005.68,
+   "sourceEnd": 9005.76,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "part",
+   "start": 102.093,
+   "end": 102.313,
+   "sourceStart": 9005.76,
+   "sourceEnd": 9005.98,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "pour",
+   "start": 102.313,
+   "end": 102.493,
+   "sourceStart": 9005.98,
+   "sourceEnd": 9006.16,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "les",
+   "start": 102.493,
+   "end": 102.613,
+   "sourceStart": 9006.16,
+   "sourceEnd": 9006.28,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "demandes",
+   "start": 102.613,
+   "end": 103.453,
+   "sourceStart": 9006.28,
+   "sourceEnd": 9007.12,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "assez",
+   "start": 103.453,
+   "end": 103.653,
+   "sourceStart": 9007.12,
+   "sourceEnd": 9007.32,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "spéciales",
+   "start": 103.653,
+   "end": 104.113,
+   "sourceStart": 9007.32,
+   "sourceEnd": 9007.78,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "et",
+   "start": 104.113,
+   "end": 104.213,
+   "sourceStart": 9007.78,
+   "sourceEnd": 9007.88,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "urgentes.",
+   "start": 104.213,
+   "end": 104.733,
+   "sourceStart": 9007.88,
+   "sourceEnd": 9008.4,
+   "rush": "IMG_0358"
+  },
+  {
+   "text": "Donc",
+   "start": 105.513,
+   "end": 105.953,
+   "sourceStart": 10000.58,
+   "sourceEnd": 10001.02,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "si",
+   "start": 105.953,
+   "end": 106.193,
+   "sourceStart": 10001.02,
+   "sourceEnd": 10001.26,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "toi",
+   "start": 106.193,
+   "end": 106.333,
+   "sourceStart": 10001.26,
+   "sourceEnd": 10001.4,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "aussi",
+   "start": 106.333,
+   "end": 106.493,
+   "sourceStart": 10001.4,
+   "sourceEnd": 10001.56,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "dans",
+   "start": 106.493,
+   "end": 106.633,
+   "sourceStart": 10001.56,
+   "sourceEnd": 10001.7,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "ton",
+   "start": 106.633,
+   "end": 106.773,
+   "sourceStart": 10001.7,
+   "sourceEnd": 10001.84,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "entreprise,",
+   "start": 106.773,
+   "end": 107.373,
+   "sourceStart": 10001.84,
+   "sourceEnd": 10002.44,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "tu",
+   "start": 107.673,
+   "end": 107.693,
+   "sourceStart": 10002.74,
+   "sourceEnd": 10002.76,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "es",
+   "start": 107.693,
+   "end": 107.813,
+   "sourceStart": 10002.76,
+   "sourceEnd": 10002.88,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "épuisé",
+   "start": 107.813,
+   "end": 108.293,
+   "sourceStart": 10002.88,
+   "sourceEnd": 10003.36,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "à",
+   "start": 108.293,
+   "end": 108.533,
+   "sourceStart": 10003.36,
+   "sourceEnd": 10003.6,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "répondre",
+   "start": 108.533,
+   "end": 108.793,
+   "sourceStart": 10003.6,
+   "sourceEnd": 10003.86,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "à",
+   "start": 108.793,
+   "end": 108.993,
+   "sourceStart": 10003.86,
+   "sourceEnd": 10004.06,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "absolument",
+   "start": 108.993,
+   "end": 109.213,
+   "sourceStart": 10004.06,
+   "sourceEnd": 10004.28,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "toutes",
+   "start": 109.213,
+   "end": 109.513,
+   "sourceStart": 10004.28,
+   "sourceEnd": 10004.58,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "les",
+   "start": 109.513,
+   "end": 109.713,
+   "sourceStart": 10004.58,
+   "sourceEnd": 10004.78,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "demandes",
+   "start": 109.713,
+   "end": 110.533,
+   "sourceStart": 10004.78,
+   "sourceEnd": 10005.6,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "et",
+   "start": 110.533,
+   "end": 110.693,
+   "sourceStart": 10005.6,
+   "sourceEnd": 10005.76,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "que",
+   "start": 110.693,
+   "end": 110.973,
+   "sourceStart": 10005.76,
+   "sourceEnd": 10006.04,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "tu",
+   "start": 110.973,
+   "end": 111.073,
+   "sourceStart": 10006.04,
+   "sourceEnd": 10006.14,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "as",
+   "start": 111.073,
+   "end": 111.173,
+   "sourceStart": 10006.14,
+   "sourceEnd": 10006.24,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "déjà",
+   "start": 111.173,
+   "end": 111.353,
+   "sourceStart": 10006.24,
+   "sourceEnd": 10006.42,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "pensé",
+   "start": 111.353,
+   "end": 111.873,
+   "sourceStart": 10006.42,
+   "sourceEnd": 10006.94,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "à",
+   "start": 111.873,
+   "end": 112.293,
+   "sourceStart": 10006.94,
+   "sourceEnd": 10007.36,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "déléguer",
+   "start": 112.293,
+   "end": 112.753,
+   "sourceStart": 10007.36,
+   "sourceEnd": 10007.82,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "ça",
+   "start": 112.753,
+   "end": 112.973,
+   "sourceStart": 10007.82,
+   "sourceEnd": 10008.04,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "sans",
+   "start": 112.973,
+   "end": 113.473,
+   "sourceStart": 10008.04,
+   "sourceEnd": 10008.54,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "que",
+   "start": 113.473,
+   "end": 113.593,
+   "sourceStart": 10008.54,
+   "sourceEnd": 10008.66,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "ça",
+   "start": 113.593,
+   "end": 113.733,
+   "sourceStart": 10008.66,
+   "sourceEnd": 10008.8,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "te",
+   "start": 113.733,
+   "end": 113.893,
+   "sourceStart": 10008.8,
+   "sourceEnd": 10008.96,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "coûte",
+   "start": 113.893,
+   "end": 114.073,
+   "sourceStart": 10008.96,
+   "sourceEnd": 10009.14,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "une",
+   "start": 114.073,
+   "end": 114.213,
+   "sourceStart": 10009.14,
+   "sourceEnd": 10009.28,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "fortune,",
+   "start": 114.213,
+   "end": 114.553,
+   "sourceStart": 10009.28,
+   "sourceEnd": 10009.62,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "on",
+   "start": 115.213,
+   "end": 115.233,
+   "sourceStart": 10010.28,
+   "sourceEnd": 10010.3,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "a",
+   "start": 115.233,
+   "end": 115.473,
+   "sourceStart": 10010.3,
+   "sourceEnd": 10010.54,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "créé",
+   "start": 115.473,
+   "end": 115.873,
+   "sourceStart": 10010.54,
+   "sourceEnd": 10010.94,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "un",
+   "start": 115.873,
+   "end": 115.993,
+   "sourceStart": 10010.94,
+   "sourceEnd": 10011.06,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "petit",
+   "start": 115.993,
+   "end": 116.153,
+   "sourceStart": 10011.06,
+   "sourceEnd": 10011.22,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "audit",
+   "start": 116.153,
+   "end": 116.413,
+   "sourceStart": 10011.22,
+   "sourceEnd": 10011.48,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "qui",
+   "start": 116.413,
+   "end": 116.653,
+   "sourceStart": 10011.48,
+   "sourceEnd": 10011.72,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "est",
+   "start": 116.653,
+   "end": 116.733,
+   "sourceStart": 10011.72,
+   "sourceEnd": 10011.8,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "juste",
+   "start": 116.733,
+   "end": 116.853,
+   "sourceStart": 10011.8,
+   "sourceEnd": 10011.92,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "en",
+   "start": 116.853,
+   "end": 116.993,
+   "sourceStart": 10011.92,
+   "sourceEnd": 10012.06,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "dessous,",
+   "start": 116.993,
+   "end": 117.313,
+   "sourceStart": 10012.06,
+   "sourceEnd": 10012.38,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "qui",
+   "start": 117.433,
+   "end": 117.473,
+   "sourceStart": 10012.5,
+   "sourceEnd": 10012.54,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "est",
+   "start": 117.473,
+   "end": 117.633,
+   "sourceStart": 10012.54,
+   "sourceEnd": 10012.7,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "complètement",
+   "start": 117.633,
+   "end": 117.913,
+   "sourceStart": 10012.7,
+   "sourceEnd": 10012.98,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "gratuit",
+   "start": 117.913,
+   "end": 118.333,
+   "sourceStart": 10012.98,
+   "sourceEnd": 10013.4,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "et",
+   "start": 118.333,
+   "end": 119.053,
+   "sourceStart": 10013.4,
+   "sourceEnd": 10014.12,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "ça",
+   "start": 119.053,
+   "end": 119.313,
+   "sourceStart": 10014.12,
+   "sourceEnd": 10014.38,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "va",
+   "start": 119.313,
+   "end": 119.433,
+   "sourceStart": 10014.38,
+   "sourceEnd": 10014.5,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "nous",
+   "start": 119.433,
+   "end": 119.533,
+   "sourceStart": 10014.5,
+   "sourceEnd": 10014.6,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "permettre",
+   "start": 119.533,
+   "end": 119.853,
+   "sourceStart": 10014.6,
+   "sourceEnd": 10014.92,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "de",
+   "start": 119.853,
+   "end": 120.033,
+   "sourceStart": 10014.92,
+   "sourceEnd": 10015.1,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "vous",
+   "start": 120.033,
+   "end": 120.133,
+   "sourceStart": 10015.1,
+   "sourceEnd": 10015.2,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "montrer",
+   "start": 120.133,
+   "end": 120.413,
+   "sourceStart": 10015.2,
+   "sourceEnd": 10015.48,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "un",
+   "start": 120.413,
+   "end": 120.593,
+   "sourceStart": 10015.48,
+   "sourceEnd": 10015.66,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "petit",
+   "start": 120.593,
+   "end": 120.753,
+   "sourceStart": 10015.66,
+   "sourceEnd": 10015.82,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "peu",
+   "start": 120.753,
+   "end": 120.953,
+   "sourceStart": 10015.82,
+   "sourceEnd": 10016.02,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "ce",
+   "start": 120.953,
+   "end": 121.193,
+   "sourceStart": 10016.02,
+   "sourceEnd": 10016.26,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "qui",
+   "start": 121.193,
+   "end": 121.353,
+   "sourceStart": 10016.26,
+   "sourceEnd": 10016.42,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "est",
+   "start": 121.353,
+   "end": 121.453,
+   "sourceStart": 10016.42,
+   "sourceEnd": 10016.52,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "possible",
+   "start": 121.453,
+   "end": 121.713,
+   "sourceStart": 10016.52,
+   "sourceEnd": 10016.78,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "de",
+   "start": 121.713,
+   "end": 121.913,
+   "sourceStart": 10016.78,
+   "sourceEnd": 10016.98,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "faire",
+   "start": 121.913,
+   "end": 122.193,
+   "sourceStart": 10016.98,
+   "sourceEnd": 10017.26,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "et",
+   "start": 122.193,
+   "end": 122.973,
+   "sourceStart": 10017.26,
+   "sourceEnd": 10018.04,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "comment",
+   "start": 122.973,
+   "end": 123.593,
+   "sourceStart": 10018.04,
+   "sourceEnd": 10018.66,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "ça",
+   "start": 123.593,
+   "end": 123.833,
+   "sourceStart": 10018.66,
+   "sourceEnd": 10018.9,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "pourrait",
+   "start": 123.833,
+   "end": 124.033,
+   "sourceStart": 10018.9,
+   "sourceEnd": 10019.1,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "fonctionner",
+   "start": 124.033,
+   "end": 124.613,
+   "sourceStart": 10019.1,
+   "sourceEnd": 10019.68,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "sur",
+   "start": 124.613,
+   "end": 124.833,
+   "sourceStart": 10019.68,
+   "sourceEnd": 10019.9,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "votre",
+   "start": 124.833,
+   "end": 125.433,
+   "sourceStart": 10019.9,
+   "sourceEnd": 10020.5,
+   "rush": "IMG_0361"
+  },
+  {
+   "text": "entreprise.",
+   "start": 125.433,
+   "end": 125.953,
+   "sourceStart": 10020.5,
+   "sourceEnd": 10021.02,
+   "rush": "IMG_0361"
+  }
+ ]
+}
