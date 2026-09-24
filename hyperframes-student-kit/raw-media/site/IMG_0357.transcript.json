@@ -1,0 +1,186 @@
+{
+ "source": "IMG_0357.MOV",
+ "model": "faster-whisper small",
+ "words": [
+  {
+   "text": "et",
+   "start": 0.0,
+   "end": 0.84,
+   "p": 0.26
+  },
+  {
+   "text": "bien",
+   "start": 0.84,
+   "end": 0.94,
+   "p": 0.94
+  },
+  {
+   "text": "c'est",
+   "start": 0.94,
+   "end": 1.12,
+   "p": 0.92
+  },
+  {
+   "text": "vraiment",
+   "start": 1.12,
+   "end": 1.36,
+   "p": 1.0
+  },
+  {
+   "text": "cette",
+   "start": 1.36,
+   "end": 1.58,
+   "p": 0.99
+  },
+  {
+   "text": "charge",
+   "start": 1.58,
+   "end": 1.92,
+   "p": 1.0
+  },
+  {
+   "text": "mentale",
+   "start": 1.92,
+   "end": 2.42,
+   "p": 0.97
+  },
+  {
+   "text": "en",
+   "start": 2.42,
+   "end": 2.6,
+   "p": 0.97
+  },
+  {
+   "text": "moins",
+   "start": 2.6,
+   "end": 2.86,
+   "p": 0.99
+  },
+  {
+   "text": "que",
+   "start": 2.86,
+   "end": 3.16,
+   "p": 0.99
+  },
+  {
+   "text": "j'ai",
+   "start": 3.16,
+   "end": 3.36,
+   "p": 0.98
+  },
+  {
+   "text": "gagné",
+   "start": 3.36,
+   "end": 3.78,
+   "p": 0.93
+  },
+  {
+   "text": "et",
+   "start": 3.78,
+   "end": 3.98,
+   "p": 0.77
+  },
+  {
+   "text": "donc",
+   "start": 3.98,
+   "end": 4.16,
+   "p": 0.98
+  },
+  {
+   "text": "ça",
+   "start": 4.16,
+   "end": 4.66,
+   "p": 0.99
+  },
+  {
+   "text": "m'a",
+   "start": 4.66,
+   "end": 4.82,
+   "p": 0.99
+  },
+  {
+   "text": "permis",
+   "start": 4.82,
+   "end": 5.08,
+   "p": 1.0
+  },
+  {
+   "text": "en",
+   "start": 5.08,
+   "end": 5.2,
+   "p": 0.65
+  },
+  {
+   "text": "fait",
+   "start": 5.2,
+   "end": 5.3,
+   "p": 0.99
+  },
+  {
+   "text": "de",
+   "start": 5.3,
+   "end": 5.4,
+   "p": 0.99
+  },
+  {
+   "text": "me",
+   "start": 5.4,
+   "end": 5.48,
+   "p": 1.0
+  },
+  {
+   "text": "concentrer",
+   "start": 5.48,
+   "end": 5.96,
+   "p": 0.99
+  },
+  {
+   "text": "vraiment",
+   "start": 5.96,
+   "end": 6.22,
+   "p": 1.0
+  },
+  {
+   "text": "sur",
+   "start": 6.22,
+   "end": 6.44,
+   "p": 1.0
+  },
+  {
+   "text": "l'expérience",
+   "start": 6.44,
+   "end": 6.84,
+   "p": 1.0
+  },
+  {
+   "text": "client",
+   "start": 6.84,
+   "end": 7.18,
+   "p": 0.95
+  },
+  {
+   "text": "et",
+   "start": 7.18,
+   "end": 7.42,
+   "p": 0.98
+  },
+  {
+   "text": "la",
+   "start": 7.42,
+   "end": 7.56,
+   "p": 1.0
+  },
+  {
+   "text": "satisfaction",
+   "start": 7.56,
+   "end": 7.94,
+   "p": 0.99
+  },
+  {
+   "text": "client",
+   "start": 7.94,
+   "end": 8.5,
+   "p": 0.98
+  }
+ ]
+}

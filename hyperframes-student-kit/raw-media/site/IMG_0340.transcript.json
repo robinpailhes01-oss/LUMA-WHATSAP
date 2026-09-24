@@ -1,0 +1,108 @@
+{
+ "source": "IMG_0340.MOV",
+ "model": "faster-whisper small",
+ "words": [
+  {
+   "text": "Et",
+   "start": 0.0,
+   "end": 0.76,
+   "p": 0.67
+  },
+  {
+   "text": "le",
+   "start": 0.76,
+   "end": 0.86,
+   "p": 0.99
+  },
+  {
+   "text": "problème",
+   "start": 0.86,
+   "end": 1.18,
+   "p": 1.0
+  },
+  {
+   "text": "n'est",
+   "start": 1.18,
+   "end": 1.4,
+   "p": 0.97
+  },
+  {
+   "text": "pas",
+   "start": 1.4,
+   "end": 1.54,
+   "p": 1.0
+  },
+  {
+   "text": "forcément",
+   "start": 1.54,
+   "end": 1.78,
+   "p": 0.98
+  },
+  {
+   "text": "un",
+   "start": 1.78,
+   "end": 2.08,
+   "p": 0.99
+  },
+  {
+   "text": "manque",
+   "start": 2.08,
+   "end": 2.24,
+   "p": 0.98
+  },
+  {
+   "text": "de",
+   "start": 2.24,
+   "end": 2.38,
+   "p": 1.0
+  },
+  {
+   "text": "client",
+   "start": 2.38,
+   "end": 2.66,
+   "p": 0.46
+  },
+  {
+   "text": "mais",
+   "start": 2.66,
+   "end": 2.8,
+   "p": 0.64
+  },
+  {
+   "text": "surtout",
+   "start": 2.8,
+   "end": 3.0,
+   "p": 0.98
+  },
+  {
+   "text": "de",
+   "start": 3.0,
+   "end": 3.26,
+   "p": 0.98
+  },
+  {
+   "text": "temps",
+   "start": 3.26,
+   "end": 3.54,
+   "p": 1.0
+  },
+  {
+   "text": "et",
+   "start": 3.54,
+   "end": 3.72,
+   "p": 0.99
+  },
+  {
+   "text": "de",
+   "start": 3.72,
+   "end": 3.84,
+   "p": 0.99
+  },
+  {
+   "text": "disponibilité.",
+   "start": 3.84,
+   "end": 4.62,
+   "p": 1.0
+  }
+ ]
+}

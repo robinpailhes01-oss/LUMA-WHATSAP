@@ -1,0 +1,234 @@
+{
+ "source": "IMG_0338.MOV",
+ "model": "faster-whisper small",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.48,
+   "end": 0.88,
+   "p": 0.65
+  },
+  {
+   "text": "tu",
+   "start": 0.88,
+   "end": 0.98,
+   "p": 0.99
+  },
+  {
+   "text": "regardes",
+   "start": 0.98,
+   "end": 1.28,
+   "p": 0.97
+  },
+  {
+   "text": "cette",
+   "start": 1.28,
+   "end": 1.38,
+   "p": 0.99
+  },
+  {
+   "text": "vidéo",
+   "start": 1.38,
+   "end": 1.72,
+   "p": 1.0
+  },
+  {
+   "text": "c'est",
+   "start": 1.72,
+   "end": 2.0,
+   "p": 0.38
+  },
+  {
+   "text": "que",
+   "start": 2.0,
+   "end": 2.14,
+   "p": 0.97
+  },
+  {
+   "text": "toi",
+   "start": 2.14,
+   "end": 2.5,
+   "p": 0.98
+  },
+  {
+   "text": "aussi",
+   "start": 2.5,
+   "end": 2.7,
+   "p": 0.99
+  },
+  {
+   "text": "tu",
+   "start": 2.7,
+   "end": 2.84,
+   "p": 0.82
+  },
+  {
+   "text": "dois",
+   "start": 2.84,
+   "end": 2.96,
+   "p": 0.96
+  },
+  {
+   "text": "être",
+   "start": 2.96,
+   "end": 3.04,
+   "p": 0.99
+  },
+  {
+   "text": "chef",
+   "start": 3.04,
+   "end": 3.18,
+   "p": 0.9
+  },
+  {
+   "text": "d'entreprise",
+   "start": 3.18,
+   "end": 3.76,
+   "p": 0.99
+  },
+  {
+   "text": "dans",
+   "start": 3.76,
+   "end": 3.9,
+   "p": 0.8
+  },
+  {
+   "text": "laquelle",
+   "start": 3.9,
+   "end": 4.14,
+   "p": 0.98
+  },
+  {
+   "text": "tu",
+   "start": 4.14,
+   "end": 4.3,
+   "p": 0.97
+  },
+  {
+   "text": "dois",
+   "start": 4.3,
+   "end": 4.42,
+   "p": 0.96
+  },
+  {
+   "text": "avoir",
+   "start": 4.42,
+   "end": 4.58,
+   "p": 0.99
+  },
+  {
+   "text": "beaucoup",
+   "start": 4.58,
+   "end": 4.9,
+   "p": 1.0
+  },
+  {
+   "text": "de",
+   "start": 4.9,
+   "end": 5.04,
+   "p": 1.0
+  },
+  {
+   "text": "demandes",
+   "start": 5.04,
+   "end": 5.36,
+   "p": 0.86
+  },
+  {
+   "text": "clients",
+   "start": 5.36,
+   "end": 5.58,
+   "p": 0.3
+  },
+  {
+   "text": "tous",
+   "start": 5.58,
+   "end": 5.82,
+   "p": 0.99
+  },
+  {
+   "text": "les",
+   "start": 5.82,
+   "end": 5.98,
+   "p": 1.0
+  },
+  {
+   "text": "jours",
+   "start": 5.98,
+   "end": 6.18,
+   "p": 1.0
+  },
+  {
+   "text": "et",
+   "start": 6.18,
+   "end": 6.34,
+   "p": 0.89
+  },
+  {
+   "text": "surtout",
+   "start": 6.34,
+   "end": 6.74,
+   "p": 0.99
+  },
+  {
+   "text": "tu",
+   "start": 6.74,
+   "end": 7.02,
+   "p": 0.96
+  },
+  {
+   "text": "as",
+   "start": 7.02,
+   "end": 7.12,
+   "p": 0.52
+  },
+  {
+   "text": "interrompu",
+   "start": 7.12,
+   "end": 7.72,
+   "p": 0.96
+  },
+  {
+   "text": "à",
+   "start": 7.72,
+   "end": 8.12,
+   "p": 0.9
+  },
+  {
+   "text": "n'importe",
+   "start": 8.12,
+   "end": 8.4,
+   "p": 1.0
+  },
+  {
+   "text": "quel",
+   "start": 8.4,
+   "end": 8.6,
+   "p": 1.0
+  },
+  {
+   "text": "moment",
+   "start": 8.6,
+   "end": 8.84,
+   "p": 1.0
+  },
+  {
+   "text": "de",
+   "start": 8.84,
+   "end": 9.04,
+   "p": 0.88
+  },
+  {
+   "text": "la",
+   "start": 9.04,
+   "end": 9.2,
+   "p": 1.0
+  },
+  {
+   "text": "journée.",
+   "start": 9.2,
+   "end": 9.42,
+   "p": 1.0
+  }
+ ]
+}

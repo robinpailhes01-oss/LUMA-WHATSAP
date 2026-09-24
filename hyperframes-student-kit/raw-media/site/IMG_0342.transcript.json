@@ -1,0 +1,114 @@
+{
+ "source": "IMG_0342.MOV",
+ "model": "faster-whisper small",
+ "words": [
+  {
+   "text": "sinon",
+   "start": 0.62,
+   "end": 0.98,
+   "p": 0.57
+  },
+  {
+   "text": "vous",
+   "start": 0.98,
+   "end": 1.16,
+   "p": 0.95
+  },
+  {
+   "text": "pouvez",
+   "start": 1.16,
+   "end": 1.42,
+   "p": 1.0
+  },
+  {
+   "text": "potentiellement",
+   "start": 1.42,
+   "end": 2.04,
+   "p": 0.97
+  },
+  {
+   "text": "perdre",
+   "start": 2.04,
+   "end": 2.22,
+   "p": 0.77
+  },
+  {
+   "text": "des",
+   "start": 2.22,
+   "end": 2.4,
+   "p": 0.91
+  },
+  {
+   "text": "prospects",
+   "start": 2.4,
+   "end": 2.74,
+   "p": 0.97
+  },
+  {
+   "text": "qui",
+   "start": 2.74,
+   "end": 2.94,
+   "p": 0.76
+  },
+  {
+   "text": "auront",
+   "start": 2.94,
+   "end": 3.32,
+   "p": 0.89
+  },
+  {
+   "text": "chez",
+   "start": 3.32,
+   "end": 3.56,
+   "p": 0.92
+  },
+  {
+   "text": "le",
+   "start": 3.56,
+   "end": 3.68,
+   "p": 0.97
+  },
+  {
+   "text": "concurrence,",
+   "start": 3.68,
+   "end": 4.28,
+   "p": 0.85
+  },
+  {
+   "text": "sans",
+   "start": 4.28,
+   "end": 4.4,
+   "p": 0.65
+  },
+  {
+   "text": "même",
+   "start": 4.4,
+   "end": 4.52,
+   "p": 0.98
+  },
+  {
+   "text": "que",
+   "start": 4.52,
+   "end": 4.66,
+   "p": 0.99
+  },
+  {
+   "text": "vous",
+   "start": 4.66,
+   "end": 4.8,
+   "p": 1.0
+  },
+  {
+   "text": "le",
+   "start": 4.8,
+   "end": 4.9,
+   "p": 0.99
+  },
+  {
+   "text": "sachiez.",
+   "start": 4.9,
+   "end": 5.26,
+   "p": 0.99
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "source": "IMG_0341.MOV",
+ "model": "faster-whisper small",
+ "words": [
+  {
+   "text": "Et",
+   "start": 0.6,
+   "end": 0.96,
+   "p": 0.65
+  },
+  {
+   "text": "aujourd'hui,",
+   "start": 0.96,
+   "end": 1.46,
+   "p": 0.95
+  },
+  {
+   "text": "malheureusement,",
+   "start": 1.6,
+   "end": 2.04,
+   "p": 0.99
+  },
+  {
+   "text": "vous",
+   "start": 2.12,
+   "end": 2.18,
+   "p": 1.0
+  },
+  {
+   "text": "savez",
+   "start": 2.18,
+   "end": 2.38,
+   "p": 1.0
+  },
+  {
+   "text": "très",
+   "start": 2.38,
+   "end": 2.6,
+   "p": 0.98
+  },
+  {
+   "text": "bien",
+   "start": 2.6,
+   "end": 2.82,
+   "p": 1.0
+  },
+  {
+   "text": "que",
+   "start": 2.82,
+   "end": 3.02,
+   "p": 0.97
+  },
+  {
+   "text": "la",
+   "start": 3.02,
+   "end": 3.36,
+   "p": 0.99
+  },
+  {
+   "text": "rapidité",
+   "start": 3.36,
+   "end": 3.86,
+   "p": 0.99
+  },
+  {
+   "text": "à",
+   "start": 3.86,
+   "end": 3.96,
+   "p": 0.98
+  },
+  {
+   "text": "laquelle",
+   "start": 3.96,
+   "end": 4.18,
+   "p": 1.0
+  },
+  {
+   "text": "vous",
+   "start": 4.18,
+   "end": 4.36,
+   "p": 1.0
+  },
+  {
+   "text": "répondez",
+   "start": 4.36,
+   "end": 4.82,
+   "p": 0.98
+  },
+  {
+   "text": "à",
+   "start": 4.82,
+   "end": 4.88,
+   "p": 0.99
+  },
+  {
+   "text": "vos",
+   "start": 4.88,
+   "end": 5.0,
+   "p": 1.0
+  },
+  {
+   "text": "clients",
+   "start": 5.0,
+   "end": 5.26,
+   "p": 1.0
+  },
+  {
+   "text": "est",
+   "start": 5.26,
+   "end": 5.44,
+   "p": 0.94
+  },
+  {
+   "text": "l'une",
+   "start": 5.44,
+   "end": 5.58,
+   "p": 0.98
+  },
+  {
+   "text": "des",
+   "start": 5.58,
+   "end": 5.72,
+   "p": 1.0
+  },
+  {
+   "text": "choses",
+   "start": 5.72,
+   "end": 5.88,
+   "p": 0.99
+  },
+  {
+   "text": "les",
+   "start": 5.88,
+   "end": 6.02,
+   "p": 0.93
+  },
+  {
+   "text": "plus",
+   "start": 6.02,
+   "end": 6.2,
+   "p": 1.0
+  },
+  {
+   "text": "importantes.",
+   "start": 6.2,
+   "end": 6.7,
+   "p": 0.95
+  }
+ ]
+}

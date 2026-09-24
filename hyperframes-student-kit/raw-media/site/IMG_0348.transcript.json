@@ -1,0 +1,324 @@
+{
+ "source": "IMG_0348.MOV",
+ "model": "faster-whisper small",
+ "words": [
+  {
+   "text": "Et",
+   "start": 0.62,
+   "end": 1.1,
+   "p": 0.38
+  },
+  {
+   "text": "moi",
+   "start": 1.1,
+   "end": 1.34,
+   "p": 0.99
+  },
+  {
+   "text": "aussi",
+   "start": 1.34,
+   "end": 1.58,
+   "p": 0.98
+  },
+  {
+   "text": "pendant",
+   "start": 1.58,
+   "end": 1.76,
+   "p": 0.79
+  },
+  {
+   "text": "trois",
+   "start": 1.76,
+   "end": 2.14,
+   "p": 0.63
+  },
+  {
+   "text": "ans,",
+   "start": 2.14,
+   "end": 2.32,
+   "p": 1.0
+  },
+  {
+   "text": "j'étais",
+   "start": 2.42,
+   "end": 2.56,
+   "p": 0.95
+  },
+  {
+   "text": "exactement",
+   "start": 2.56,
+   "end": 2.98,
+   "p": 0.96
+  },
+  {
+   "text": "dans",
+   "start": 2.98,
+   "end": 3.18,
+   "p": 1.0
+  },
+  {
+   "text": "la",
+   "start": 3.18,
+   "end": 3.32,
+   "p": 1.0
+  },
+  {
+   "text": "même",
+   "start": 3.32,
+   "end": 3.48,
+   "p": 0.99
+  },
+  {
+   "text": "situation",
+   "start": 3.48,
+   "end": 3.94,
+   "p": 1.0
+  },
+  {
+   "text": "pour",
+   "start": 3.94,
+   "end": 4.3,
+   "p": 0.98
+  },
+  {
+   "text": "ma",
+   "start": 4.3,
+   "end": 4.48,
+   "p": 0.98
+  },
+  {
+   "text": "société",
+   "start": 4.48,
+   "end": 4.84,
+   "p": 0.98
+  },
+  {
+   "text": "de",
+   "start": 4.84,
+   "end": 5.08,
+   "p": 0.99
+  },
+  {
+   "text": "location",
+   "start": 5.08,
+   "end": 5.34,
+   "p": 0.98
+  },
+  {
+   "text": "de",
+   "start": 5.34,
+   "end": 5.64,
+   "p": 0.97
+  },
+  {
+   "text": "yacht.",
+   "start": 5.64,
+   "end": 5.86,
+   "p": 0.48
+  },
+  {
+   "text": "Et",
+   "start": 6.4,
+   "end": 6.46,
+   "p": 0.61
+  },
+  {
+   "text": "sauf",
+   "start": 6.46,
+   "end": 6.64,
+   "p": 0.94
+  },
+  {
+   "text": "que",
+   "start": 6.64,
+   "end": 6.78,
+   "p": 0.97
+  },
+  {
+   "text": "malheureusement",
+   "start": 6.78,
+   "end": 7.4,
+   "p": 0.95
+  },
+  {
+   "text": "on",
+   "start": 7.4,
+   "end": 7.52,
+   "p": 0.52
+  },
+  {
+   "text": "n'a",
+   "start": 7.52,
+   "end": 7.58,
+   "p": 0.83
+  },
+  {
+   "text": "pas",
+   "start": 7.58,
+   "end": 7.72,
+   "p": 1.0
+  },
+  {
+   "text": "tous",
+   "start": 7.72,
+   "end": 7.92,
+   "p": 1.0
+  },
+  {
+   "text": "les",
+   "start": 7.92,
+   "end": 8.18,
+   "p": 0.99
+  },
+  {
+   "text": "moyens",
+   "start": 8.18,
+   "end": 8.38,
+   "p": 1.0
+  },
+  {
+   "text": "de",
+   "start": 8.38,
+   "end": 8.64,
+   "p": 0.99
+  },
+  {
+   "text": "pouvoir",
+   "start": 8.64,
+   "end": 8.9,
+   "p": 0.99
+  },
+  {
+   "text": "embaucher",
+   "start": 8.9,
+   "end": 9.36,
+   "p": 0.95
+  },
+  {
+   "text": "une",
+   "start": 9.36,
+   "end": 9.52,
+   "p": 0.98
+  },
+  {
+   "text": "personne",
+   "start": 9.52,
+   "end": 9.82,
+   "p": 1.0
+  },
+  {
+   "text": "dédiée",
+   "start": 9.82,
+   "end": 10.32,
+   "p": 0.95
+  },
+  {
+   "text": "à",
+   "start": 10.32,
+   "end": 10.44,
+   "p": 0.97
+  },
+  {
+   "text": "ça,",
+   "start": 10.44,
+   "end": 10.64,
+   "p": 0.92
+  },
+  {
+   "text": "ni",
+   "start": 11.08,
+   "end": 11.38,
+   "p": 0.98
+  },
+  {
+   "text": "de",
+   "start": 11.38,
+   "end": 11.64,
+   "p": 0.99
+  },
+  {
+   "text": "vouloir",
+   "start": 11.64,
+   "end": 11.96,
+   "p": 0.99
+  },
+  {
+   "text": "mettre",
+   "start": 11.96,
+   "end": 12.12,
+   "p": 1.0
+  },
+  {
+   "text": "un",
+   "start": 12.12,
+   "end": 12.32,
+   "p": 0.96
+  },
+  {
+   "text": "chatbot",
+   "start": 12.32,
+   "end": 12.68,
+   "p": 0.63
+  },
+  {
+   "text": "qui",
+   "start": 12.68,
+   "end": 12.84,
+   "p": 0.98
+  },
+  {
+   "text": "va",
+   "start": 12.84,
+   "end": 12.96,
+   "p": 0.99
+  },
+  {
+   "text": "pouvoir",
+   "start": 12.96,
+   "end": 13.24,
+   "p": 1.0
+  },
+  {
+   "text": "perdre",
+   "start": 13.24,
+   "end": 13.58,
+   "p": 0.99
+  },
+  {
+   "text": "la",
+   "start": 13.58,
+   "end": 14.02,
+   "p": 0.99
+  },
+  {
+   "text": "qualité",
+   "start": 14.02,
+   "end": 14.28,
+   "p": 1.0
+  },
+  {
+   "text": "de",
+   "start": 14.28,
+   "end": 14.5,
+   "p": 1.0
+  },
+  {
+   "text": "la",
+   "start": 14.5,
+   "end": 14.62,
+   "p": 0.99
+  },
+  {
+   "text": "relation",
+   "start": 14.62,
+   "end": 14.94,
+   "p": 0.99
+  },
+  {
+   "text": "client.",
+   "start": 14.94,
+   "end": 15.2,
+   "p": 0.98
+  }
+ ]
+}

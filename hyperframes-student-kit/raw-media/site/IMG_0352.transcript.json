@@ -1,0 +1,324 @@
+{
+ "source": "IMG_0352.MOV",
+ "model": "faster-whisper small",
+ "words": [
+  {
+   "text": "et",
+   "start": 0.0,
+   "end": 0.64,
+   "p": 0.24
+  },
+  {
+   "text": "je",
+   "start": 0.64,
+   "end": 0.88,
+   "p": 0.99
+  },
+  {
+   "text": "sais",
+   "start": 0.88,
+   "end": 1.02,
+   "p": 1.0
+  },
+  {
+   "text": "que",
+   "start": 1.02,
+   "end": 1.16,
+   "p": 0.99
+  },
+  {
+   "text": "beaucoup",
+   "start": 1.16,
+   "end": 1.44,
+   "p": 1.0
+  },
+  {
+   "text": "de",
+   "start": 1.44,
+   "end": 1.58,
+   "p": 0.99
+  },
+  {
+   "text": "chefs",
+   "start": 1.58,
+   "end": 1.78,
+   "p": 0.91
+  },
+  {
+   "text": "d'entreprise",
+   "start": 1.78,
+   "end": 2.44,
+   "p": 0.9
+  },
+  {
+   "text": "ont",
+   "start": 2.44,
+   "end": 3.06,
+   "p": 0.97
+  },
+  {
+   "text": "un",
+   "start": 3.06,
+   "end": 3.18,
+   "p": 0.99
+  },
+  {
+   "text": "petit",
+   "start": 3.18,
+   "end": 3.32,
+   "p": 0.97
+  },
+  {
+   "text": "peu",
+   "start": 3.32,
+   "end": 3.48,
+   "p": 1.0
+  },
+  {
+   "text": "peur",
+   "start": 3.48,
+   "end": 3.68,
+   "p": 0.99
+  },
+  {
+   "text": "de",
+   "start": 3.68,
+   "end": 3.88,
+   "p": 1.0
+  },
+  {
+   "text": "déléguer",
+   "start": 3.88,
+   "end": 4.48,
+   "p": 0.96
+  },
+  {
+   "text": "leur",
+   "start": 4.48,
+   "end": 4.82,
+   "p": 0.64
+  },
+  {
+   "text": "relation",
+   "start": 4.82,
+   "end": 5.22,
+   "p": 0.98
+  },
+  {
+   "text": "client",
+   "start": 5.22,
+   "end": 5.6,
+   "p": 0.97
+  },
+  {
+   "text": "alia",
+   "start": 5.6,
+   "end": 6.2,
+   "p": 0.53
+  },
+  {
+   "text": "par",
+   "start": 6.2,
+   "end": 6.42,
+   "p": 0.77
+  },
+  {
+   "text": "peur",
+   "start": 6.42,
+   "end": 6.86,
+   "p": 0.95
+  },
+  {
+   "text": "de",
+   "start": 7.38,
+   "end": 7.82,
+   "p": 0.94
+  },
+  {
+   "text": "perdre",
+   "start": 7.82,
+   "end": 8.02,
+   "p": 0.98
+  },
+  {
+   "text": "cette",
+   "start": 8.02,
+   "end": 8.18,
+   "p": 1.0
+  },
+  {
+   "text": "relation",
+   "start": 8.18,
+   "end": 8.58,
+   "p": 1.0
+  },
+  {
+   "text": "client",
+   "start": 8.58,
+   "end": 8.92,
+   "p": 0.99
+  },
+  {
+   "text": "là",
+   "start": 8.92,
+   "end": 9.14,
+   "p": 0.59
+  },
+  {
+   "text": "mais",
+   "start": 9.14,
+   "end": 9.28,
+   "p": 0.64
+  },
+  {
+   "text": "juste",
+   "start": 9.28,
+   "end": 9.46,
+   "p": 0.99
+  },
+  {
+   "text": "en",
+   "start": 9.46,
+   "end": 9.62,
+   "p": 1.0
+  },
+  {
+   "text": "dessous",
+   "start": 9.62,
+   "end": 9.92,
+   "p": 0.99
+  },
+  {
+   "text": "je",
+   "start": 9.92,
+   "end": 10.04,
+   "p": 0.95
+  },
+  {
+   "text": "vous",
+   "start": 10.04,
+   "end": 10.2,
+   "p": 1.0
+  },
+  {
+   "text": "ai",
+   "start": 10.2,
+   "end": 10.36,
+   "p": 0.99
+  },
+  {
+   "text": "mis",
+   "start": 10.36,
+   "end": 10.48,
+   "p": 0.99
+  },
+  {
+   "text": "quelques",
+   "start": 10.48,
+   "end": 10.7,
+   "p": 0.98
+  },
+  {
+   "text": "captures",
+   "start": 10.7,
+   "end": 11.0,
+   "p": 0.82
+  },
+  {
+   "text": "d'écran",
+   "start": 11.0,
+   "end": 11.48,
+   "p": 0.96
+  },
+  {
+   "text": "pour",
+   "start": 11.48,
+   "end": 11.94,
+   "p": 0.97
+  },
+  {
+   "text": "vous",
+   "start": 11.94,
+   "end": 12.08,
+   "p": 1.0
+  },
+  {
+   "text": "montrer",
+   "start": 12.08,
+   "end": 12.4,
+   "p": 0.99
+  },
+  {
+   "text": "un",
+   "start": 12.4,
+   "end": 12.54,
+   "p": 0.99
+  },
+  {
+   "text": "petit",
+   "start": 12.54,
+   "end": 12.74,
+   "p": 0.98
+  },
+  {
+   "text": "peu",
+   "start": 12.74,
+   "end": 12.96,
+   "p": 1.0
+  },
+  {
+   "text": "comment",
+   "start": 12.96,
+   "end": 13.6,
+   "p": 0.99
+  },
+  {
+   "text": "mon",
+   "start": 13.6,
+   "end": 13.8,
+   "p": 0.99
+  },
+  {
+   "text": "agent",
+   "start": 13.8,
+   "end": 14.0,
+   "p": 0.99
+  },
+  {
+   "text": "whatsapp",
+   "start": 14.0,
+   "end": 14.48,
+   "p": 0.81
+  },
+  {
+   "text": "va",
+   "start": 14.48,
+   "end": 14.92,
+   "p": 0.99
+  },
+  {
+   "text": "parler",
+   "start": 14.92,
+   "end": 15.14,
+   "p": 1.0
+  },
+  {
+   "text": "à",
+   "start": 15.14,
+   "end": 15.26,
+   "p": 0.99
+  },
+  {
+   "text": "mes",
+   "start": 15.26,
+   "end": 15.36,
+   "p": 1.0
+  },
+  {
+   "text": "clients",
+   "start": 15.36,
+   "end": 15.66,
+   "p": 0.99
+  }
+ ]
+}
