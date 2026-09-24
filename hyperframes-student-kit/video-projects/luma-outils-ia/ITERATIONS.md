@@ -28,15 +28,15 @@ Réel LUMA « les 3 outils IA que j'ai mis dans mon entreprise » (5 rushes vert
 ## v002 — retours (23/09/2026)
 
 - Rendu : `renders/v002_retours.mp4` — 97.2 s, 1080 × 1920, 30 i/s, sha256 `d37973fb…`.
-- Statut : **livré, en attente du retour de Robin**.
+- Statut : **validé par Robin (24/09/2026)** : « j'aime énormément ce style ». Style de référence → skill `luma-montage`.
 
 | # | Demande de Robin | Mise en œuvre | Statut |
 |---|---|---|---|
-| 1 | Supprimer le logo en haut | Logo retiré du film (reste à l'écran de fin) | mise en œuvre |
-| 2 | Changer la police des sous-titres (capture « directement dans Claude. ») | Inter 800 italique blanc, ombre portée, mot actif et mots clés en bleu clair `#8FBBFF`, plus de pilule | mise en œuvre — à valider (Inter italique synthétique, pas la police exacte du Reel tiers) |
-| 3 | Ne jamais couper la tête par un graphique | Visage mesuré sur la séquence ; cadrages recalculés ; « 3 h / jour » et carte commentaire déplacés ; contrôle sur 98 images | mise en œuvre |
-| 4 | GEO : plus épuré et classe, trop de carrés sur fond de couleur | Titres et « ≈ 20 % » en texte sur la vidéo, cartes Audit / Actions en verre clair, voile dégradé discret en haut | mise en œuvre — à valider |
-| 5 | « là encore tu as coupé la tête » (CTA) | Carte commentaire descendue sur le buste, « juste en dessous » à gauche du visage | mise en œuvre |
+| 1 | Supprimer le logo en haut | Logo retiré du film (reste à l'écran de fin) | validé |
+| 2 | Changer la police des sous-titres (capture « directement dans Claude. ») | Inter 800 italique blanc, ombre portée, mot actif et mots clés en bleu clair `#8FBBFF`, plus de pilule | validé |
+| 3 | Ne jamais couper la tête par un graphique | Visage mesuré sur la séquence ; cadrages recalculés ; « 3 h / jour » et carte commentaire déplacés ; contrôle sur 98 images | validé |
+| 4 | GEO : plus épuré et classe, trop de carrés sur fond de couleur | Titres et « ≈ 20 % » en texte sur la vidéo, cartes Audit / Actions en verre clair, voile dégradé discret en haut | validé |
+| 5 | « là encore tu as coupé la tête » (CTA) | Carte commentaire descendue sur le buste, « juste en dessous » à gauche du visage | validé |
 
 Règles durables consignées dans `../luma-film/LUMA_Bibliotheque_Marque.md` §9.
 
@@ -44,7 +44,7 @@ Règles durables consignées dans `../luma-film/LUMA_Bibliotheque_Marque.md` §9
 
 | # | Demande (temps) | Résultat souhaité | Mise en œuvre | Statut |
 |---|---|---|---|---|
-| 1 | | | | demandée |
+| 1 | Conversation WhatsApp en page plein écran (Robin, 24/09 : « on le fera pour la prochaine fois ») | visage disparaît, capture plein cadre, retour au visage (STYLE-04) | | notée pour le prochain montage, pas demandée sur ce film |
 
 ### Fiche de retour
 

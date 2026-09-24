@@ -20,6 +20,7 @@ For one stage, load the matching local skill:
 
 | Need | Skill |
 | --- | --- |
+| LUMA films and reels for Robin (validated style, real captures) | `luma-montage` |
 | Reels, Shorts, and short advertisements | `short-form-edit` |
 | Existing May Shorts example maintenance | `short-form-video` |
 | New motion-graphics video from a brief | `make-a-video` |

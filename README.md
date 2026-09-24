@@ -52,3 +52,5 @@ sont dans le même dossier. Toute session de montage LUMA doit le lire en premie
 (4 planches dans `references/LUMA_Bibliotheque_0*.png`) : palette, typographies, éléments, gabarits 9:16,
 principes d'animation. Elle s'applique à tout nouveau montage.
 Premier montage réalisé avec elle : `hyperframes-student-kit/video-projects/luma-reel-agent/` (réel 9:16).
+Le style validé par Robin (24/09/2026, `luma-outils-ia` v002) est codifié dans le skill
+`hyperframes-student-kit/.claude/skills/luma-montage/SKILL.md` : à charger pour tout nouveau montage LUMA.

@@ -1,6 +1,6 @@
 # LUMA — Bibliothèque de marque pour les montages vidéo
 
-Version 1.2 · 23 septembre 2026 · fournie par Robin (4 planches PNG), transcrite pour être appliquée par Claude Code.
+Version 1.3 · 24 septembre 2026 · fournie par Robin (4 planches PNG), transcrite pour être appliquée par Claude Code.
 Statut : **règle de marque pour tous les futurs montages**. Consigne de Robin : « tout ce que tu peux prendre en compte
 pour les futurs montages afin que cela colle parfaitement à notre image de marque ».
 
@@ -182,7 +182,9 @@ Les films livrés ne sont **pas** modifiés sans demande. Toute nouvelle version
 
 ## 9. Retours de Robin sur les montages (règles durables, 23/09/2026)
 
-Retours donnés sur `luma-outils-ia` v001, à appliquer à tous les montages suivants (ils priment sur les gabarits ci-dessus) :
+Retours donnés sur `luma-outils-ia` v001, à appliquer à tous les montages suivants (ils priment sur les gabarits ci-dessus).
+**Le style résultant (`luma-outils-ia` v002) est validé par Robin le 24/09/2026 (« j'aime énormément ce style ») : c'est la
+référence de réalisation, codifiée dans le skill `.claude/skills/luma-montage/SKILL.md`.**
 
 1. **Pas de logo permanent en haut** du film. Le logo n'apparaît qu'à l'écran de fin.
 2. **Sous-titres** : gras italique blanc (Inter 800 italique, ≈ 54 px en 9:16), ombre portée sombre, **mot clé / mot actif
@@ -192,9 +194,11 @@ Retours donnés sur `luma-outils-ia` v001, à appliquer à tous les montages sui
    une superposition n'est acceptable que si elle est réellement translucide et volontaire. Mesurer la position réelle du
    visage sur la séquence (grille) avant de placer les zones ; sur les rushes verticaux de septembre 2026 le visage occupe
    y 700–1230 / x 440–800 à l'échelle 1.
-4. **Épuré et classe** : éviter l'empilement de rectangles sur fond de couleur. Titres en Barlow posés directement sur la
+4. **Épuré et classe** (validé) : plus de gros carrés de couleur. Titres en Barlow posés directement sur la
    vidéo avec une ombre, chiffres clés en texte dégradé sans cartouche, cartes réservées aux vrais objets d'interface
    (téléphone, commentaire) et, au besoin, un verre clair très léger.
+5. **Prochaine étape (Robin, 24/09/2026)** : au prochain montage, passer ponctuellement une capture (ex. la conversation
+   WhatsApp) en **page plein écran** avec retour au visage, selon STYLE-04 (`LUMA_References_Video.md` §14). Pas systématique.
 
 ## Historique
 
@@ -203,3 +207,4 @@ Retours donnés sur `luma-outils-ia` v001, à appliquer à tous les montages sui
 | 1.0 | 22/09/2026 | Transcription des 4 planches fournies par Robin ; écarts avec les v001 listés. |
 | 1.1 | 22/09/2026 | Polices Barlow Condensed (700, 800) et Caveat (400–700) déposées dans `assets/fonts/` avec `fonts.css` et spécimen de contrôle. |
 | 1.2 | 23/09/2026 | §9 : retours durables de Robin (pas de logo permanent, sous-titres gras italique à mot clé bleu clair, jamais sur la tête, moins de cartouches). |
+| 1.3 | 24/09/2026 | Style v002 validé par Robin → skill `luma-montage` ; §9.5 page plein écran ponctuelle pour le prochain montage. |
