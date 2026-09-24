@@ -40,16 +40,25 @@ Réel LUMA « les 3 outils IA que j'ai mis dans mon entreprise » (5 rushes vert
 
 Règles durables consignées dans `../luma-film/LUMA_Bibliotheque_Marque.md` §9.
 
-## v003 — à définir
+## v003 — musique de fond (24/09/2026)
+
+- Demande de Robin (avec `v002_retours_web.mp4` joint) : « Peux-tu ajouter une légère musique de fond ? Pour essayer de rendre ça un peu dynamique ».
+- Rendu : `renders/v003_musique.mp4` — image et montage identiques à v002 ; seule la piste 12 `assets/music.m4a` est ajoutée.
+- Musique générée localement (`.claude/skills/luma-montage/scripts/make-music.py`, aucune licence tierce ni service payant) :
+  nappe synthé La mineur (Am–F–C–G), arpège pluck, basse, grosse caisse douce + charley en croches à 104 BPM (pulsation à partir
+  de la mesure 5), −3.5 dB automatiques pendant la parole (enveloppe de la voix ; la voix n'est pas traitée), percussions retirées
+  et nappe montée sur l'écran de fin. Niveau ≈ 9–10 dB sous la voix (`data-volume` 0.45). Mixage final mesuré dans `VERIFY.md`.
+- Statut : livré, **en attente de l'écoute de Robin** (niveau, style, tempo ajustables : `--bpm`, `--duck-db`, `data-volume`).
 
 | # | Demande (temps) | Résultat souhaité | Mise en œuvre | Statut |
 |---|---|---|---|---|
-| 1 | Conversation WhatsApp en page plein écran (Robin, 24/09 : « on le fera pour la prochaine fois ») | visage disparaît, capture plein cadre, retour au visage (STYLE-04) | | notée pour le prochain montage, pas demandée sur ce film |
+| 1 | Conversation WhatsApp en page plein écran (Robin, 24/09 : « on le fera pour la prochaine fois ») | visage disparaît, capture plein cadre, retour au visage (STYLE-04) | appliqué sur le film site (`../luma-site/`), pas sur ce réel | notée |
+| 2 | Musique de fond légère, plus dynamique | musique discrète sous la voix | v003 : `assets/music.m4a`, piste 12, volume 0.45 | livré, à écouter |
 
 ### Fiche de retour
 
 ```
-Version regardée : v002
+Version regardée : v003
 Ce que je veux garder :
 À changer à [00:00–00:00] :
 Résultat souhaité :

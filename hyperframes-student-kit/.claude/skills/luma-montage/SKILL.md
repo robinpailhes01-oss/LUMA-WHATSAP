@@ -58,7 +58,11 @@ Structure : `build.mjs` (CSS, DOM, attribution automatique des pistes SFX) + `mo
   Simple Icons (`assets/icons/`), puces avec les nombres visibles dans les captures uniquement.
 - Durées (bibliothèque §6) : titre 0.5, soulignement 0.35, mot actif 0.15, tuiles 0.45 `back.out`, écran 0.55–0.6, données 0.45–0.8,
   outro 0.8 ; un mouvement principal à la fois. Caméra : `power2.inOut` 0.7 s, échelle 1.0–1.3, origine 0 0.
-- SFX synthétisés `assets/sfx/{pop,tick,whoosh,swell}.m4a`, volumes 0.10–0.15, pistes auto 6/9/10 (pop/tick), 7/11 (whoosh), 8 (swell). Pas de musique.
+- SFX synthétisés `assets/sfx/{pop,tick,whoosh,swell}.m4a`, volumes 0.10–0.15, pistes auto 6/9/10 (pop/tick), 7/11 (whoosh), 8 (swell).
+- **Musique de fond légère** (demandée par Robin le 24/09/2026 pour rendre le réel plus dynamique) : générée localement par
+  `scripts/make-music.py` (nappe synthé La mineur, arpège, basse, pulsation discrète à 104 BPM ; atténuation automatique −3.5 dB
+  pendant la parole calculée sur la voix, percussions retirées et nappe montée à l'outro ; −23 LUFS). Piste 12, `data-volume` 0.45
+  → ≈ 9–10 dB sous la voix. Aucune musique tierce (licence), aucun service payant. Adapter `--duration`/`--outro` au film.
 
 ## 4. Vérifier puis livrer
 
