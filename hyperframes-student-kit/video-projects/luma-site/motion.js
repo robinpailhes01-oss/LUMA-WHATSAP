@@ -9,9 +9,9 @@
 
   // camera (1920×1080 natif, origine 0 0). Visage mesuré sur grille : x 660–1080, y 60–740 (échelle 1). Rien n'est posé sur la tête.
   var FULL = { x: 0, y: 0, scale: 1 };                // visage x 660–1080 ; colonne droite x 1180–1880 libre
-  var FACE_LEFT = { x: -384, y: -20, scale: 1.2 };    // visage x 408–912, y 52–868 ; colonne droite x 960–1880 libre
-  var FACE_RIGHT = { x: 0, y: -20, scale: 1.2 };      // visage x 792–1296, y 52–868 ; colonne gauche x 40–740 libre
-  var PUSH = { x: -96, y: -10, scale: 1.1 };          // visage x 630–1092, y 56–804 ; colonne droite x 1150–1880 libre
+  var FACE_LEFT = { x: -288, y: 0, scale: 1.15 };     // visage x 471–954, y 69–851 ; colonne droite x 990–1880 libre
+  var FACE_RIGHT = { x: 0, y: 0, scale: 1.15 };       // visage x 759–1242, y 69–851 ; colonne gauche x 40–740 libre
+  var PUSH = { x: -96, y: 0, scale: 1.1 };            // visage x 630–1092, y 66–814 ; colonne droite x 1150–1880 libre
   var CAM = { duration: 0.7, ease: "power2.inOut" };
 
   // ---- initial states ----

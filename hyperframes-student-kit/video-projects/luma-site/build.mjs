@@ -68,7 +68,7 @@ html, body { width: ${W}px; height: ${H}px; overflow: hidden; background: ${B.ni
 .rc { left: 1180px; } .rl { left: 990px; } .lc { left: 60px; }
 
 /* s01 */
-#kick { top: 110px; } #hook { top: 146px; font-size: 112px; } #hookSub { top: 262px; }
+#kick { top: 110px; } #hook { top: 146px; font-size: 92px; } #hookSub { top: 244px; }
 .notif { position: absolute; left: 1180px; width: 660px; z-index: 5; border-radius: 22px; ${whiteCard} padding: 14px 18px; display: flex; align-items: center; gap: 14px; color: ${B.ink}; }
 .notif .ic { width: 52px; height: 52px; border-radius: 14px; background: ${B.wa}; display: flex; align-items: center; justify-content: center; flex: 0 0 52px; }
 .notif .b { font-weight: 700; font-size: 23px; line-height: 1.15; } .notif .m { font-weight: 400; font-size: 21px; color: ${B.muted}; margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -82,23 +82,23 @@ html, body { width: ${W}px; height: ${H}px; overflow: hidden; background: ${B.ni
 .row .ic.v { background: ${B.violet}; } .row .ic.n { background: rgba(11,15,45,0.85); }
 .row .txt { display: flex; flex-direction: column; } .row .s { font-weight: 500; font-size: 22px; opacity: 0.85; margin-top: 2px; }
 .row .x { margin-left: auto; width: 44px; height: 44px; border-radius: 50%; background: rgba(11,15,45,0.85); border: 1px solid rgba(255,255,255,0.25); display: inline-flex; align-items: center; justify-content: center; flex: 0 0 44px; }
-#manque { left: 990px; top: 340px; width: 520px; }
+#manque { left: 990px; top: 350px; width: 520px; }
 #manque .strike { position: absolute; left: 88px; top: 50%; width: 400px; height: 5px; background: #fff; border-radius: 3px; transform-origin: 0 50%; }
 .pill { position: absolute; z-index: 6; display: inline-flex; align-items: center; gap: 10px; padding: 12px 24px; border-radius: 999px; font-weight: 600; font-size: 27px; color: #fff; white-space: nowrap; box-shadow: 0 12px 28px rgba(11,15,45,0.35); background: ${B.blue}; }
 .pill.v { background: ${B.violet}; }
 .pill.n { background: rgba(11,15,45,0.92); border: 1px solid rgba(255,255,255,0.16); }
-#pTemps { left: 990px; top: 450px; } #pDispo { left: 1176px; top: 450px; }
-#rapid { position: absolute; left: 990px; top: 340px; width: 700px; z-index: 5; border-radius: 26px; padding: 20px 26px 24px; ${glass} }
+#pTemps { left: 990px; top: 460px; } #pDispo { left: 1176px; top: 460px; }
+#rapid { position: absolute; left: 990px; top: 350px; width: 700px; z-index: 5; border-radius: 26px; padding: 20px 26px 24px; ${glass} }
 #rapid .k { font-weight: 600; font-size: 20px; letter-spacing: 0.14em; color: #fff; text-transform: uppercase; ${sshadow} }
 #rapid .bar { position: relative; height: 12px; border-radius: 999px; background: rgba(255,255,255,0.16); margin-top: 14px; overflow: hidden; }
 #rapid .bar i { position: absolute; left: 0; top: 0; bottom: 0; width: 100%; border-radius: 999px; background: linear-gradient(90deg, ${B.blue}, ${B.violet}); transform-origin: 0 50%; }
 #rapid .n1 { ${barlow} font-size: 130px; ${gradText} margin-top: 8px; }
 #rapid .s { font-weight: 500; font-size: 26px; color: #fff; ${sshadow} margin-top: 2px; }
-#flow { position: absolute; left: 990px; top: 350px; z-index: 5; display: flex; align-items: center; gap: 18px; }
+#flow { position: absolute; left: 990px; top: 360px; z-index: 5; display: flex; align-items: center; gap: 18px; }
 #flow .pill { position: static; }
 #flow svg { width: 90px; height: 40px; }
-.hand { position: absolute; z-index: 7; font-family: "Caveat", cursive; font-weight: 600; color: ${B.blue}; text-shadow: 0 2px 10px rgba(11,15,45,0.35), 0 0 2px rgba(11,15,45,0.55); white-space: nowrap; }
-#savoir { left: 1000px; top: 450px; font-size: 54px; color: #fff; }
+.hand { position: absolute; z-index: 7; font-family: "Caveat", cursive; font-weight: 600; color: #fff; text-shadow: 0 3px 4px rgba(11,15,45,0.85), 0 0 18px rgba(11,15,45,0.55), 0 0 2px rgba(11,15,45,0.9); white-space: nowrap; }
+#savoir { left: 1000px; top: 460px; font-size: 54px; }
 
 /* s03 */
 #kick3 { top: 100px; } #ans3 { top: 130px; } #ans3sub { top: 300px; }
@@ -148,14 +148,14 @@ html, body { width: ${W}px; height: ${H}px; overflow: hidden; background: ${B.ni
 /* s08 */
 #kick8 { top: 100px; } #t8 { top: 134px; }
 #deleg { left: 990px; top: 300px; } #fortune { left: 1176px; top: 300px; }
-#auditCard { position: absolute; left: 990px; top: 290px; width: 880px; z-index: 5; border-radius: 34px; background: rgba(11,15,45,0.55); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); border: 1px solid rgba(255,255,255,0.28); box-shadow: 0 16px 40px rgba(11,15,45,0.25); padding: 26px 36px 28px; }
-#auditCard .k { font-weight: 600; font-size: 22px; letter-spacing: 0.16em; color: ${B.blue}; text-transform: uppercase; }
+#auditCard { position: absolute; left: 990px; top: 290px; width: 880px; z-index: 5; border-radius: 34px; ${glass} padding: 26px 36px 28px; }
+#auditCard .k { font-weight: 600; font-size: 22px; letter-spacing: 0.16em; color: #fff; text-transform: uppercase; opacity: 0.9; ${sshadow} }
 #auditCard .rw { display: flex; align-items: center; gap: 24px; }
-#auditCard .t { ${barlow} font-size: 110px; ${gradText} }
+#auditCard .t { ${barlow} font-size: 110px; color: #fff; ${tshadow} } #auditCard .t .g { color: #8FBBFF; }
 #auditCard .badge { display: inline-flex; align-items: center; justify-content: center; padding: 8px 20px; border-radius: 999px; background: ${B.wa}; color: #fff; font-weight: 700; font-size: 32px; }
-#auditCard .chk { display: flex; align-items: center; gap: 14px; margin-top: 10px; font-weight: 500; font-size: 28px; color: #fff; }
+#auditCard .chk { display: flex; align-items: center; gap: 14px; margin-top: 10px; font-weight: 500; font-size: 28px; color: #fff; ${sshadow} }
 #auditCard .chk .c { width: 36px; height: 36px; border-radius: 50%; background: ${B.blue}; display: inline-flex; align-items: center; justify-content: center; flex: 0 0 36px; }
-#auditCard .chks { margin-top: 12px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.12); }
+#auditCard .chks { margin-top: 12px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.3); }
 #dessous2 { left: 1010px; top: 640px; font-size: 54px; }
 #dessous2 svg { position: absolute; left: 330px; top: -6px; width: 70px; height: 90px; }
 
@@ -208,7 +208,7 @@ const body = `
 
   <!-- s02 problème -->
   <div class="kick rl" id="kick2">Le problème</div>
-  <div class="title rl" id="t2">Pas un manque de <span class="g">clients</span></div>
+  <div class="title rl" id="t2">Pas un manque<br/>de <span class="g">clients</span></div>
   <div class="row" id="manque"><span class="ic n">${users(30)}</span><span>Un manque de clients</span><i class="strike" id="strikeLine"></i></div>
   <div class="pill" id="pTemps">Le temps</div>
   <div class="pill v" id="pDispo">La disponibilité</div>
@@ -265,7 +265,7 @@ const body = `
   <div class="title rl" id="t8">Épuisé de <span class="g">répondre</span> ?</div>
   <div class="pill" id="deleg">Déléguer</div>
   <div class="pill v" id="fortune">sans que ça coûte une fortune</div>
-  <div id="auditCard"><div class="k">Offert</div><div class="rw"><span class="t">Audit gratuit</span><span class="badge" id="gratuit">0 €</span></div>
+  <div id="auditCard"><div class="k">Offert</div><div class="rw"><span class="t">Audit <span class="g">gratuit</span></span><span class="badge" id="gratuit">0 €</span></div>
     <div class="chks"><div class="chk" id="possible"><span class="c">${check(20)}</span>Ce qui est possible de faire</div><div class="chk" id="comment"><span class="c">${check(20)}</span>Comment ça fonctionnerait sur votre entreprise</div></div></div>
   <div class="hand" id="dessous2">juste en dessous<svg viewBox="0 0 70 90"><path id="dessousArrow" d="M35 6 C30 30, 36 55, 35 78" fill="none" stroke="${B.blue}" stroke-width="5" stroke-linecap="round" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/><path id="dessousHead" d="M18 62 L35 80 L52 62" fill="none" stroke="${B.blue}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" pathLength="100" style="stroke-dasharray:100; stroke-dashoffset:100;"/></svg></div>
 
