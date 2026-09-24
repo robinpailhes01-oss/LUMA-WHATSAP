@@ -40,7 +40,16 @@ Réel LUMA « les 3 outils IA que j'ai mis dans mon entreprise » (5 rushes vert
 
 Règles durables consignées dans `../luma-film/LUMA_Bibliotheque_Marque.md` §9.
 
-## v003 — musique de fond (24/09/2026)
+## v004 — musique plus dynamique (24/09/2026)
+
+- Rendu : `renders/v004_dynamique.mp4` — image identique à v002/v003 ; piste 12 régénérée en style `dynamic` :
+  122 BPM, C–G–Am–F, grosse caisse + clap sur 2 et 4, basse en contretemps pompée par la grosse caisse, charley en doubles croches,
+  arpège pluck avec écho, riser d'une mesure + impact (cymbale + coup grave) à chaque coupe de section (6.5 / 28.9 / 50.3 / 78.0 s),
+  percussions retirées et nappe montée sur l'écran de fin. −21 LUFS, −3 dB pendant la parole, `data-volume` 0.55 (≈ 7–8 dB sous la voix).
+- Commande : `python3 ../../.claude/skills/luma-montage/scripts/make-music.py --duration 97.2 --voice assets/voice.m4a --outro 94.4 --out assets/music.m4a --style dynamic --cuts 6.5333,28.9333,50.3333,78.0`
+- Statut : livré, **en attente de l'écoute de Robin**.
+
+## v003 — musique de fond douce (24/09/2026) — remplacé par v004
 
 - Demande de Robin (avec `v002_retours_web.mp4` joint) : « Peux-tu ajouter une légère musique de fond ? Pour essayer de rendre ça un peu dynamique ».
 - Rendu : `renders/v003_musique.mp4` — image et montage identiques à v002 ; seule la piste 12 `assets/music.m4a` est ajoutée.
@@ -48,17 +57,18 @@ Règles durables consignées dans `../luma-film/LUMA_Bibliotheque_Marque.md` §9
   nappe synthé La mineur (Am–F–C–G), arpège pluck, basse, grosse caisse douce + charley en croches à 104 BPM (pulsation à partir
   de la mesure 5), −3.5 dB automatiques pendant la parole (enveloppe de la voix ; la voix n'est pas traitée), percussions retirées
   et nappe montée sur l'écran de fin. Niveau ≈ 9–10 dB sous la voix (`data-volume` 0.45). Mixage final mesuré dans `VERIFY.md`.
-- Statut : livré, **en attente de l'écoute de Robin** (niveau, style, tempo ajustables : `--bpm`, `--duck-db`, `data-volume`).
+- Retour de Robin : « Tu peux faire quelque chose de plus dynamique ? » → **remplacé par v004**.
 
 | # | Demande (temps) | Résultat souhaité | Mise en œuvre | Statut |
 |---|---|---|---|---|
 | 1 | Conversation WhatsApp en page plein écran (Robin, 24/09 : « on le fera pour la prochaine fois ») | visage disparaît, capture plein cadre, retour au visage (STYLE-04) | appliqué sur le film site (`../luma-site/`), pas sur ce réel | notée |
-| 2 | Musique de fond légère, plus dynamique | musique discrète sous la voix | v003 : `assets/music.m4a`, piste 12, volume 0.45 | livré, à écouter |
+| 2 | Musique de fond légère, plus dynamique | musique discrète sous la voix | v003 : style `soft`, volume 0.45 | pas assez dynamique |
+| 3 | « Quelque chose de plus dynamique » | musique qui porte le rythme sans couvrir la voix | v004 : style `dynamic` (122 BPM, kick/clap, basse pompée, risers + impacts aux 4 coupes), volume 0.55 | livré, à écouter |
 
 ### Fiche de retour
 
 ```
-Version regardée : v003
+Version regardée : v004
 Ce que je veux garder :
 À changer à [00:00–00:00] :
 Résultat souhaité :

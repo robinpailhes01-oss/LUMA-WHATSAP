@@ -12,8 +12,8 @@ Réel LUMA « les 3 outils IA que j'ai mis dans mon entreprise », vertical 1080
 - `assets/transcript.json` et `assets/edit-decisions.json` : `sourceStart/sourceEnd = index du rush × 1000 + temps dans
   le rush` (plages uniques pour le validateur) ; `qa/keeps.json` garde la table des rushes.
 - Captures `assets/shots/` : noms et montants floutés à la source ; ne jamais réutiliser les originaux non floutés.
-- Voix `assets/voice.m4a` (+9 dB) ; témoin `assets/voice-source-cut.wav`. Musique v003 `assets/music.m4a` (piste 12, volume 0.45),
-  régénérable : `python3 ../../.claude/skills/luma-montage/scripts/make-music.py --duration 97.2 --voice assets/voice.m4a --outro 94.4 --out assets/music.m4a`.
+- Voix `assets/voice.m4a` (+9 dB) ; témoin `assets/voice-source-cut.wav`. Musique v004 `assets/music.m4a` (piste 12, volume 0.55, style `dynamic`),
+  régénérable : `python3 ../../.claude/skills/luma-montage/scripts/make-music.py --duration 97.2 --voice assets/voice.m4a --outro 94.4 --out assets/music.m4a --style dynamic --cuts 6.5333,28.9333,50.3333,78.0` (v003 : `--style soft`).
 - Le rendu haute qualité se fait avec le master CRF 16 copié sur `assets/footage.mp4` ; remettre la copie CRF 21 (`assets/_footage-crf21-commit.mp4`) avant de commiter.
 - Après chaque version : rendu numéroté dans `renders/`, `ITERATIONS.md` et `VERIFY.md` mis à jour.
 - Validation : `node ../../.claude/skills/short-form-edit/scripts/validate-plan.mjs .`, `npx hyperframes lint`,
